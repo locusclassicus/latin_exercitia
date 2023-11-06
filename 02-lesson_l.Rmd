@@ -1,6 +1,6 @@
-# 2
+# 2 Familia Romana
 
-![**1**. Qui sunt in imagine?](https://drive.google.com/uc?id=13WjUZv7MttgR6nZ5afjlAEbeT7YXP5aI){ width='50%' }
+![**1. Qui sunt in imagine?**](https://drive.google.com/uc?id=13WjUZv7MttgR6nZ5afjlAEbeT7YXP5aI){ width='50%' }
 
 ```{r}
 check_question(answer = c("dominus dominaque", "pueri puellaque", "vir feminaque"),
@@ -14,7 +14,7 @@ check_question(answer = c("dominus dominaque", "pueri puellaque", "vir feminaque
 ```
 </br>
 
-**2**. Cuius filius est Marcus? Filius Iuli_. Iulia, cuius filia? Filia Aemili_. Gallia, cuius provincia? Provincia imperi_ Romani.
+**2. Cuius filius est Marcus? Filius Iuli_. Iulia, cuius filia? Filia Aemili_. Gallia, cuius provincia? Provincia imperi_ Romani.**
 
 ```{r}
 check_question(answer = "-i,-ae,-i",
@@ -28,7 +28,7 @@ check_question(answer = "-i,-ae,-i",
 ```
 </br>
 
-**3**. _Dic aliter:_ In familia Iulii multi servi et pauci liberi sunt.
+**3. _Dic aliter:_ In familia Iulii multi servi et pauci liberi sunt.**
 
 ```{r}
 check_question(answer = "magnus numerus servorum et parvus numerus liberorum",
@@ -44,7 +44,7 @@ check_question(answer = "magnus numerus servorum et parvus numerus liberorum",
 ```
 </br>
 
-**4**. In libro tuo numerus capitul_ est magnus, numerus pagin_ est maximus, sed numerus titul_ est unus: LINGVA LATINA.
+**4. In libro tuo numerus capitul_ est magnus, numerus pagin_ est maximus, sed numerus titul_ est unus: LINGVA LATINA.**
 
 ```{r}
 check_question(answer = "-orum,-arum,-orum",
@@ -58,7 +58,7 @@ check_question(answer = "-orum,-arum,-orum",
 ```
 </br>
 
-![**5**. Qui sunt in imagine?](https://drive.google.com/uc?id=1UFkf0eeBzDj13r2-JvO9fR6KMk-OEW9A){ width='40%' }
+![**5. Qui sunt in imagine?**](https://drive.google.com/uc?id=1UFkf0eeBzDj13r2-JvO9fR6KMk-OEW9A){ width='40%' }
  
 ```{r}
 check_question(answer = c("servi ancillaeque", "viri feminaeque"),
@@ -72,7 +72,7 @@ check_question(answer = c("servi ancillaeque", "viri feminaeque"),
 ```
 </br>
 
-**6**. _Elige:_ _ est Iulius? Pater. _ est Aemilia? Mater. _ sunt Medus Davusque? Servi. _ sunt servi in familia? Centum.
+**6. _ est Iulius? Pater. _ est Aemilia? Mater. _ sunt Medus Davusque? Servi. _ sunt servi in familia? Centum.**
 
 ```{r}
 check_question(answer = c("Quis", "Quae", "Qui", "Quot"), 
@@ -83,7 +83,7 @@ check_question(answer = c("Quis", "Quae", "Qui", "Quot"),
 ```
 </br>
 
-**7**. _Elige:_ Qui sunt Medus et Davus? _ servi. Delia et Syra? _ ancillae. Sparta, Delphi, Athenae? _ oppdia Graeca.
+**7. Qui sunt Medus et Davus? _ servi. Delia et Syra? _ ancillae. Sparta, Delphi, Athenae? _ oppdia Graeca.**
 
 ```{r}
 check_question(answer = "duo, duae, tria",
@@ -97,7 +97,7 @@ check_question(answer = "duo, duae, tria",
 ```
 </br>
 
-**8**. Cornelius: Suntne Medus et Davus _ servi? Iulius: Sunt. Et ceteri multi. In familia _ C servi sunt.
+**8. Cornelius: Suntne Medus et Davus _ servi? Iulius: Sunt. Et ceteri multi. In familia _ C servi sunt**.
 
 ```{r}
 check_question(answer = "tui, mea",
@@ -111,7 +111,7 @@ check_question(answer = "tui, mea",
 ```
 </br>
 
-**9**. _Elige:_ Quintus, Marcus Iuliaque sunt _ . In bibliotheca sunt duo _ Latini. Numerus _ est tres, numerus _ est duo.
+**9. Quintus, Marcus Iuliaque sunt _ . In bibliotheca sunt duo _ Latini. Numerus _ est tres, numerus _ est duo.**
 
 ```{r}
 check_question(answer = "liberi, libri, liberorum, librorum",
@@ -127,7 +127,7 @@ check_question(answer = "liberi, libri, liberorum, librorum",
 ```
 </br>
 
-**10**. ancillae
+**10. ancillae**
 
 ```{r}
 check_question(answer = c("genetivus singularis", "nominativus pluralis"),
