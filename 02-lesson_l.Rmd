@@ -9,7 +9,7 @@ check_question(answer = c("dominus dominaque", "pueri puellaque", "vir feminaque
                type = "checkbox",
                button_label = "Rectene dico?",
                right = "Probe 👌",
-               wrong = "Prave respondes 🫤",
+               wrong = "Cogitandum est 🤔",
                random_answer_order = TRUE)
 ```
 </br>
