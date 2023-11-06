@@ -1,0 +1,144 @@
+# 2
+
+![**1**. Qui sunt in imagine?](https://drive.google.com/uc?id=13WjUZv7MttgR6nZ5afjlAEbeT7YXP5aI){ width='50%' }
+
+```{r}
+check_question(answer = c("dominus dominaque", "pueri puellaque", "vir feminaque"),
+               options = c("servi ancillaeque", "dominus dominaque", 
+                           "pueri puellaque", "vir feminaque"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Probe 👌",
+               wrong = "Prave respondes 🫤",
+               random_answer_order = TRUE)
+```
+</br>
+
+**2**. Cuius filius est Marcus? Filius Iuli_. Iulia, cuius filia? Filia Aemili_. Gallia, cuius provincia? Provincia imperi_ Romani.
+
+```{r}
+check_question(answer = "-i,-ae,-i",
+               options = c("-i,-ae,-ae", "-ae,-i,-ae", 
+                           "-ae,-ae,-i", "-i,-ae,-i"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Optime 👍",
+               wrong = "Non ita 😔",
+               random_answer_order = TRUE)
+```
+</br>
+
+**3**. _Dic aliter:_ In familia Iulii multi servi et pauci liberi sunt.
+
+```{r}
+check_question(answer = "magnus numerus servorum et parvus numerus liberorum",
+               options = c("magnus numerus servorum et parvus numerus liberorum", 
+                           "multi numeri servorum et pauci numeri liberorum", 
+                           "multus numerus servorum et paucus numerus liberorum", 
+                           "magni servi et parvi liberi"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "Ita, ut dicis 👏",
+               wrong = "Non hercle vero! 😕",
+               random_answer_order = TRUE)
+```
+</br>
+
+**4**. In libro tuo numerus capitul_ est magnus, numerus pagin_ est maximus, sed numerus titul_ est unus: LINGVA LATINA.
+
+```{r}
+check_question(answer = "-orum,-arum,-orum",
+               options = c("-orum,-arum,-orum", "-orum,-orum,-arum", 
+                           "-arum,-orum,-arum", "-arum,-arum,-orum"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Recte sane 😊",
+               wrong = "Minime 😒",
+               random_answer_order = TRUE)
+```
+</br>
+
+![**5**. Qui sunt in imagine?](https://drive.google.com/uc?id=1UFkf0eeBzDj13r2-JvO9fR6KMk-OEW9A){ width='40%' }
+ 
+```{r}
+check_question(answer = c("servi ancillaeque", "viri feminaeque"),
+               options = c("servi ancillaeque", "domini dominaeque", 
+                           "filii filiaeque Iulii et Aemiliae", "viri feminaeque"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Bene est 🤩",
+               wrong = "Quid ais? 🤨",
+               random_answer_order = TRUE)
+```
+</br>
+
+**6**. _Elige:_ _ est Iulius? Pater. _ est Aemilia? Mater. _ sunt Medus Davusque? Servi. _ sunt servi in familia? Centum.
+
+```{r}
+check_question(answer = c("Quis", "Quae", "Qui", "Quot"), 
+               type = "in_order",
+               button_label = "Rectene dico?",
+               right = "Euge, probe meministi 🥳",
+               wrong = "Cogitandum est 🤔")
+```
+</br>
+
+**7**. _Elige:_ Qui sunt Medus et Davus? _ servi. Delia et Syra? _ ancillae. Sparta, Delphi, Athenae? _ oppdia Graeca.
+
+```{r}
+check_question(answer = "duo, duae, tria",
+               options = c("duo, duae, tria", "duo, duae, tres", 
+                           "duae, duo, tres", "tres, duae, duo"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Sic est 😎",
+               wrong = "Errasti 😥",
+               random_answer_order = TRUE)
+```
+</br>
+
+**8**. Cornelius: Suntne Medus et Davus _ servi? Iulius: Sunt. Et ceteri multi. In familia _ C servi sunt.
+
+```{r}
+check_question(answer = "tui, mea",
+               options = c("tui, mea", "mei, tua", 
+                           "tua, mei", "mea, tui"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Probe 💯",
+               wrong = "Non ita ❌",
+               random_answer_order = TRUE)
+```
+</br>
+
+**9**. _Elige:_ Quintus, Marcus Iuliaque sunt _ . In bibliotheca sunt duo _ Latini. Numerus _ est tres, numerus _ est duo.
+
+```{r}
+check_question(answer = "liberi, libri, liberorum, librorum",
+               options = c("liberi, libri, liberorum, librorum", 
+                           "liberi, libri, librorum, liberorum", 
+                           "libri, liberi, liberorum, librorum", 
+                           "libri, liberi, librorum, liberorum"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "Quam recte dixisti omnia! 🔥",
+               wrong = "Non hercle vero! 😟",
+               random_answer_order = TRUE)
+```
+</br>
+
+**10**. ancillae
+
+```{r}
+check_question(answer = c("genetivus singularis", "nominativus pluralis"),
+               options = c("genetivus singularis", "genetivus pluralis", 
+                           "nominativus singularis", "nominativus pluralis"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Recte fecisti officium tuum 😃",
+               wrong = "Minime 😞",
+               random_answer_order = TRUE)
+```
+</br>
+
+**Results**: `r insert_score()` out of 10

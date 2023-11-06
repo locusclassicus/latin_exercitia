@@ -1,0 +1,47 @@
+# Сapitulum 9
+
+</br>
+
+### **1.** Quid est in imagine?
+
+![](https://drive.google.com/uc?id=1eCMVTtVa3AsCX_uWJWS7gvpQ8Z3xUXHW){ width=55% }
+
+```{r}
+check_question(c("nulla nubes in caelo videtur","pastor umbram petit"), options=c("lupus ad pastorem accurrit","nulla nubes in caelo videtur","ovis nigra aquam bibit","pastor umbram petit"),type="checkbox", button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
+```
+
+</br>
+
+### **2.** Quid _abest_ in imagine?
+
+![](https://drive.google.com/uc?id=1NsSmYN5epAiXcxeTEau297JodyNrecwD){ width=30% }
+
+```{r}
+check_question("valles",options=c("umbra","collis","arbor","valles"),type="radio",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿️")
+```
+
+</br>
+
+### **3.** Pastor centum oves habet: unam ovem nigram et ___ oves albas. Duodecim oves in sole errant, ceterae ___ autem in arboris umbra iacent.
+
+```{r}
+check_question("undecentum, duodenonaginta",options=c("undecentum, duodenonaginta","undenonaginta, duodenonagina","undenonaginta, duodeoctoginta","undecentum, duodeoctogina"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
+```
+
+</br>
+
+### **4.** Pastor ___ arbor_ iacet. Itaque sol ___ pastor_ non lucet. 
+
+```{r}
+check_question("sub, -e, supra, -em",options=c("supra, -e, sub, -em","sub, -em, supra, -e","supra, -em, sub, -e","sub, -e, supra, -em"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
+```
+
+</br>
+
+### **5.** Canis ovem ___ , quae in silva errat, sed canis ab ove procul abest. Itaque ovis ___ a cane ___ neque ovis ___.
+
+```{r}
+check_question("quaerit, vestigia, reperiuntur, ipsa",options=c("quaerit, ipsa, reperitur, vestigia","quaerit, vestigia, reperiuntur, ipsa","reperit, vestigia, quaeruntur, ipsa","reperit, ipsa, quaeritur, vestigia"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
+```
+
+</br>

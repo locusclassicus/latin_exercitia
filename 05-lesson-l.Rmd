@@ -1,0 +1,90 @@
+# 5
+</br>
+
+**1.** _Quid est 1, 6, 5, 4?_
+
+![](https://drive.google.com/uc?id=1uDN5ASrFiKq2Y4qJ_rZWb_oiXtuAM37G){width="40%"}
+</br>
+
+```{r}
+check_question(answer="ostia, cubicula, peristylum",
+options = c("fenestra, peristylum, cubicula", "ostia, cubicula, peristylum", "cubicula, ostia, atrium", "peristylum, ostia, impluvium"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "**Optime!😏**",
+wrong = "**Minime😞**",
+random_answer_order = TRUE)
+```
+</br>
+
+**2.** Ecce cubiculum. __ magnum est. Ecce cubicula. __ parva sunt. Ecce servi. __ foedi sunt. Ecce ancillae. __ pulchrae sunt.
+
+```{r}
+check_question(answer="id, ea, ii, eae",
+options = c("id, eae, ii, ea", "is, ea, ei, eae", "id, ea, ii, eae", "id, ea, ei, ea"),
+button_label = "Rectene dico?🤔",
+right = "**Optime!😉**",
+wrong = "**Minime😢**",
+random_answer_order = TRUE)
+```
+</br>
+
+**3.** _Quid est in imagine?_
+
+![](https://drive.google.com/uc?id=1pH1rZgLV5AMVGa54lnaIXWED_xBB0mu1){width="30%"}
+</br>
+
+```{r}
+check_question(answer=c("Iulia rosas carpit","Rosae puellam delectant: ea laeta est"),
+options = c("Iulia rosas carpit", "Rosae puellam delectant: ea laeta est", "Puella rosas in horto agit", "Iulia rosas ex impluvio sumit"),
+type = "checkbox",
+button_label = "Rectene dico?🤔",
+right = "**Optime!😸**",
+wrong = "**Minime😿**",
+random_answer_order = TRUE)
+```
+</br>
+
+**4.** Ecce Iulia in horto. Puella ros__ et lili__ amat: ros__ et lili__ eam delectant.
+
+```{r}
+check_question(answer="-as, -a, -ae, -a",
+options = c("-ae, -a, -as, -a", "-as, -a, -ae, -a", "-ae, -a, -a, -as", "-as, -a, -a, -ae"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "**Optime!😏**",
+wrong = "**Minime😞**",
+random_answer_order = TRUE)
+```
+</br>
+
+**5.** _Quid est in imagine?_
+
+![](https://drive.google.com/uc?id=1vDqs_CRbT6WtL2QhfW7g2ks90TTMmllV){width=40%}
+</br>
+
+```{r}
+check_question(answer=c("Aemilia laeta rosas sumit","Pueri Iuliam rident"),
+options = c("Aemilia laeta rosas sumit", "Aemilia cum liberis suis in impluvio est", "Iulia rosas ab Aemilia carpit", "Pueri Iuliam rident"),
+type = "checkbox",
+button_label = "Rectene dico?🤔",
+right = "**Optime!😸**",
+wrong = "**Minime😿**",
+random_answer_order = TRUE)
+```
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

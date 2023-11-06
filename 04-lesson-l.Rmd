@@ -1,0 +1,142 @@
+
+# 4
+ 
+```{r}
+# install.packages("remotes")
+# remotes::install_github("agricolamz/checkdown")
+```
+
+```{r}
+library(checkdown)
+```
+
+### 1. Quid adest in imagine? 
+ 
+</br>
+ 
+![](https://drive.google.com/uc?id=1XWcriQw4THCvcznw25-a52Y4jjWV5L3r){ width="50%" }
+ 
+```{r}
+check_question(c("Mensa", "Sacculus", "Nummi"), options = c("Baculum", "Mensa", "Sacculus", "Nummi"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 2. Scribe verbis Latinis: 10 - 8 + 5 - 4 + 7 ≠ 9
+ 
+</br>
+  
+```{r}
+check_question(answer = c("decem", "-", "octo", "+", "quinque", "-", "quattuor", "+", "septem", "≠", "novem"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 3. _Elige verba_: Iulius bonum servum Davum  __ . Iulius __ : veni, __ ! Davus __ et venit.
+  
+</br>
+ 
+```{r}
+check_question("habet, imperat, serve, paret", options = c("habet, imperat, serve, paret", "paret, habet, serve, imperat", "habet, paret, servus, imperat", "habet, imperat, servus, paret"), right = "probe 👌 ", wrong = "non ita ☹️ ", button_label = "Rectene dico?", type = "select")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 4. Quid abest in imagine?
+ 
+</br>
+ 
+![](https://drive.google.com/uc?id=1AJuFrasLIDA8BDTIaUPKk7OiTH_sH9ue){ width="50%" }
+ 
+```{r}
+check_question("Mensa",
+               right = "optime 👍",
+               wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "Quid putas?")
+```
+  
+</br>
+</br>
+</br>
+  
+### 5. _Elige verba_: In mensa baculum Iulii et sacculus Davi sunt. __ [:Iulius] baculum __ et sacculum __ sumit. 
+  
+</br>
+ 
+```{r}
+check_question(answer = c("is", "suum", "eius"), right = "bene 🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "in_order")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 6. Quid est in imagine? 
+ 
+</br>
+ 
+![](https://drive.google.com/uc?id=1c2GEBSjJUTjFuHve8ZEIPcMXau-Tl44L){ width="50%" }
+    
+```{r}
+check_question("Davus in mensa sacculum ponit", options = c("Davus in mensa sacculum ponit", "Davus in mensa sacculum sumit", "Davus sacculum accusat et discedit", "Davus mensam sumit et sacculum ponit"), right = "optime 👍 ", wrong = "non hercle vero! 😕 ", button_label = "Rectene dico?", type = "radio")
+```
+  
+</br>
+</br>
+</br>
+ 
+### 7. Imperativi verborum _ponit_, _imperat_, _dormit_ sunt...
+  
+</br>
+ 
+```{r}
+check_question("pone, tacē, imperā, dormī", option = c("pone, tacē, imperē, dormē", "pone, taci, impere, dormī", "pone, tacē, imperā, dormī", "poni, tacē, imperā, dormī"), right = "sic est  🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 8. Synonymum verbi _bonus_ est...
+  
+</br>
+ 
+```{r}
+check_question("probus", right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "Quid putas?")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 9. Contraria verborum _discedere_ et _sumere_ sunt...
+  
+</br>
+ 
+```{r}
+check_question(c("accusare", "ponere"), options = c("venire", "accusare", "habere", "ponere", "parere"), right = "recte sane 🙂", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "checkbox")
+```
+ 
+</br>
+</br>
+</br>
+ 
+### 10. Quid est in imagine?
+ 
+</br>
+ 
+![](https://drive.google.com/uc?id=1V4Hs7x4xfFCOWJhUU-9fV4EZe6n4kuZT){ width="50%" }
+ 
+```{r}
+check_question(c("Iulius vocat Medum", "Aemelia ridet"), options = c("Iulius tacet", "Aemilia abest", "Iulius vocat Medum", "Aemelia ridet"), right = "ita, ut dicis 👏", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "checkbox")
+```
+  
+</br>
+</br>
+</br>
+ 

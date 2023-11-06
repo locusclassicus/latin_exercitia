@@ -1,0 +1,158 @@
+# 7 
+
+</br>
+
+### 1. Quid est in imagine?
+
+![](https://drive.google.com/uc?id=1H-ZuFOVdiW8e-h9qDzC3Ahl8BfqgwMso){height=300}
+
+```{r}
+check_question(c("Iulia rosam ante se venit", "oculi puellae pleni sunt lacrimarum"), options = c("Iulia rosam ante se venit", "Iulia rosam vertit", "oculi puellae pleni sunt lacrimarum", "puella rosam post se vertit"), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "optime 👍", wrong = "minime 😔")
+```
+
+</br>
+
+### 2. Iulius, qui ante __ ostium videt, ostario imperat: "Aper__ ostium!" Ostarius ostium aperit. Iulius, qui per ostium intrat, ostario imperat: "Claud__ ostium post me!" Ostarius paret, post __ ostium claudit.
+
+![](https://drive.google.com/uc?id=1hoDGhyz5pK9Mdh9bGlah2EtJhl0tLiZo){width=50%}
+
+</br>
+
+
+```{r}
+check_question(answer = "se, -i, -e, eum", 
+               options = c("se, -i, -e, eum", "eum, -e, -i, se", "eum, -i, -e, se", "se, -e, -i, eum"),
+               type = "select",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "probe 👌", 
+               wrong = "quid ais? 🤨")
+```
+
+</br>
+
+### 3. Iulius in atri__ intrat. Aemilia, quae Iulium in atri__ exspectat, laeta est. Post eum Leander in atri__ venit. In sacc__ eius mala insunt. 
+
+</br>
+
+```{r}
+check_question(answer = "-um, -o, -um, -o", 
+               options = c("-um, -o, -um, -o", "-o, -um, -um, -o", "-um, -o, -o, -um", "-o, -um, -o, -um"), 
+               type = "select",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "recte sane 🙂", 
+               wrong = "non hercle vero! 😕")
+```
+
+</br>
+
+### 4. Iulius: "O, Leander! __ apud me pone sacculum, non __ procul a me!" 
+
+</br>
+
+```{r}
+check_question(answer = "hic, illic", 
+               options = c("huc, illuc", "illuc, huc", "hic, illic", "illic, hic"), 
+               type = "select",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "quam recte dixisti omnia! 👍", 
+               wrong = "errasti 😔")
+```
+
+</br>
+
+### 5. Syra ex horto __it, ad ostium __it idque aperit; ancilla iam in cubiculo Iuliae __est. Syra ad Iuliam __venit, nam puellam amat.
+
+</br>
+
+```{r}
+check_question(answer = "ex-, ad-, in-, ad-", 
+               options = c("ad-, ex-, in-, in-", "ex-, ad-, ab-, in-", "ex-, ad-, in-, ad-", "ad-, ex-, ab-, ad-"), 
+               type = "select",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "recte respondes 👍", 
+               wrong = "minime 😔")
+```
+
+</br>
+
+### 6. Verba pone:
+**lulia**: "__ nasus meus foedus est, Syra?" </br> **Syra**: "Foedus? __ tam formosus est quam meus! __ formosus est nasus meus?" </br> **Iulia**: "Nasus tuus foedus est, Syra. Tene speculum eumque vide!"
+
+</br>
+
+```{r}
+check_question(answer = "num, immo, nonne", 
+              options = c("num, immo, nonne", "nonne, num, immo", "nonne, immo, nun", "num, nonne, immo"),
+              type = "radio",
+              button_label = "Rectene dico?",
+              right = "optime 👌", 
+              wrong = "cogitandum est 😔")
+```
+
+</br>
+
+### 7. Verba pone:
+**Iulius**: "Pueri, __ ad Iuliam eamque vocate! Tu, Marce, __ probus neque eam ride!" </br> **Delia**: "Terge oculos, lulia, nam pater tuus iam hic est, __ ad eum!"</br> **Aemilia**: "Laetae __, Syra et Delia, nam dominus mala et pira ancillis suis dat!"
+
+</br>
+
+```{r}
+check_question(answer = "ite, es, i, este", 
+               options = c("este, i, es, ite", "este, ite, es, i", "ite, este, i, es", "ite, es, i, este"),
+               type = "radio",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "euge, probe meministi 👌", 
+               wrong = "quid ais? 🤨")
+```
+
+</br>
+
+### 8. __ lulius osculum dat? Puella, __ Iulius osculum dat, lulia est. Iulius __ [= Iuliae] osculum dat, non __ [= Marco et Quinto].
+
+</br>
+
+```{r}
+check_question(answer = "cui, cui, ei, iis", 
+               options = c("cui, cui, ei, iis", "cui, cuius, ei, eo", "cui, cui, eae, eo", "cui, cuius, eae, iis"), 
+               type = "radio",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "ita, ut dicis 👏", 
+               wrong = "non hercle vero! 😕")
+```
+
+</br>
+
+### 9. Iulius mala piraque servis suis dat: servi __ mala __ pira habent.
+
+</br>
+
+```{r}
+check_question(c("non solum... sed etiam...", "et... et..."), options = c("non solum... sed etiam...", "neque... neque...", "tam... quam...", "et... et..."), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "sic est  🤩", wrong = "minime 😔")
+```
+
+</br>
+
+### 10. Ecce femina. __ femina amico suo osculum non dat. __ osculum, quod eius amicus exspectat, non datur. Itaque __ amicus lacrimat; oculi eius pleni sunt lacrimarum.
+
+</br>
+
+```{r}
+check_question(answer= "haec, hoc, hic", 
+               options = c("haec, hic, hoc", "hic, hoc, haec", "hic, haec, hoc", "haec, hoc, hic"), 
+               type = "radio",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "sic est 👍", 
+               wrong = "non ita 😕")
+```
+</br>
+
+__Results: `r insert_score()` out of 10__
+
+</br>

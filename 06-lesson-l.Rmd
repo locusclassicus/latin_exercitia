@@ -1,0 +1,35 @@
+# 6
+
+![imago](https://drive.google.com/uc?id=1waBib2blNfUeuu7hVgKpnjiUooggDhRI)
+
+***1. Quid est in imagine?***
+```{r}
+
+ check_question(c("Saccus a Medo portatur", "Medus ad oppidum via ambulat"), right="recte dicis!", wrong="correge!", button_label = "rectene dico?",
+                options = c("Medus sacco vehitur", "Medus ad oppidum via ambulat", "Saccus a Medo portatur", "Medus ab oppido ad viam it"), type = "checkbox")
+```
+***2. Baculum servos verbera_. Domini a servis time_. Iulius lectica vehi_. Verba Medi a Lydia non audiu_.***
+```{r}
+check_question (answer = "-t, -ntur, -tur, -ntur", right ="Ita est!", wrong ="Non ita:(", button_label = "rectene dico?", options = c("-ntur, -t, -tur, -t", "-t, -tur, -ntur, -tur","-t, -ntur, -tur, -ntur", "-tur, -ntur, -t, -ntur"), type = "radio")
+```
+***3. Praepositiones cum <mark>accusativo</mark> sunt:***
+```{r}
+check_question(c("per, circum", "apud, inter", "post, ante", "ad, prope"), right="recte dicis!", wrong="minime:(", button_label = "rectene dico?", 
+               options = c("per, circum", "apud, inter", "post, ante", "ad, prope"), type = "checkbox")
+```       
+
+***4. Bonus servus malum servum non amat. Davus bonus servus est. Medus _ est servus malus, _ is pecuniam Iulii habet. _ Davus et Medus sunt_.***
+ 
+```{r}
+check_question(answer = c("autem", "nam", "itaque", "inimici"), right="Bene!", wrong="correge!", button_label = "rectene dico?", 
+              type = "in_order")
+```
+***5. Serus, qui a Delia amatur, ab Urso pulsatur =***
+```{r}
+check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), right="Optime!", wrong="non hercle vero!", button_label = "rectene dico?", options = c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrus, quem Delia amat, Ursum pulsat", "Syrus, qui Deliam amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), type = "checkbox")
+```
+**VALE!**
+
+![imago](https://drive.google.com/uc?id=1zIkZT-s939rTYOAW8rHiHsGdT1hT1aIP)
+
+                                        
