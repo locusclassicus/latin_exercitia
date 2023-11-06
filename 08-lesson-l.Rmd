@@ -189,4 +189,3 @@ check_question(answer=c("pes Quinti aeger est", "Quintus aeger est pede"),
 </br>
 </br>
 
-### Ваш результат: `r insert_score()` из 10

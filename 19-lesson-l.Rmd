@@ -199,5 +199,3 @@ check_question(answer=c("Romae plurimi homines et plurimae villae sunt in toto i
 ```
 </br>
 </br>
-
-### Ваш результат: `r insert_score()` из 10

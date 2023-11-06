@@ -1,107 +1,79 @@
-# 1
-### 1.Quid est in imagine?
+# 1 Imperium Romanum
+
 </br>
+**1.Quid est in imagine?**
 
 ![](https://drive.google.com/uc?id=14l1SlTj1v8jmeYL73lXgPsd-Hjk6C64Z){width="50%"}
 
 ```{r}
 library(checkdown)
-check_question(NULL, answer = "oppidum", options = c("oppidum", "insula", "fluvius","capitulum"), type = "radio",  right = "optime 👍",
-               wrong = "minime 😔", button_label = "Rectene dico?")
-```
-</br>
-
-### 2. *Imple.* Italia in Europa est. Graecia __ in Europa est. Hispania et Graecia __ in Europa, __ Syria est in Asia.
-
-</br>
-
-```{r}
-check_question(answer = "quoque, sunt, sed", placeholder = "sed, quoque, sunt",  right = "bene 😁",
-        wrong = "non ita ☹️ ", button_label = "Rectene dico?")
+check_question(NULL, answer = c("oppidum", "insula", "fluvius"), options = c("oppidum", "insula", "fluvius","capitulum"), type = "checkbox",  right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?")
 ```
 
 </br>
-
-
-### 3. *Imple.* Tiberis et Danuvus __ sunt. Corsica et Sardinia __ sunt. Roma et Brundisium __ sunt.
-
-</br>
+**2. Italia in Europa est. Graecia __ in Europa est. Hispania et Graecia __ in Europa, __ Syria est in Asia.**
 
 ```{r}
-check_question(answer = "fluvii, insulae, oppida", placeholder = " fluvius, insula, oppidum",  right = "recte sane 😁",
-        wrong = "minime ☹️ ", button_label = "Rectene dico?")
+check_question(answer = "quoque, sunt, sed", placeholder = "sed, quoque, sunt",  right = "bene 😁", wrong = "non ita ☹️ ", button_label = "Rectene dico?")
 ```
 
 </br>
-
-### 4. *Elige.* Nilus et Rhenus fluvii sunt. Nilus est in __ , Rhenus in __ est.
-</br> 
+**3. Tiberis et Danuvus __ sunt. Corsica et Sardinia __ sunt. Roma et Brundisium __ sunt.**
 
 ```{r}
-check_question("Aegypto, Germania", options = c("Germania, Aegypta", "Aegypta, Germania", "Aegypto, Germania", "Germania, Aegypto"), type = "radio", right = "probe 👌",
-        wrong = "non ita ☹️", button_label = "Rectene dico?")
+check_question(answer = "fluvii, insulae, oppida", placeholder = "fluvius, insula, oppidum",  right = "recte sane 😁", wrong = "minime ☹️ ", button_label = "Rectene dico?")
+```
+
+</br>
+**4. Nilus et Rhenus fluvii sunt. Nilus est in __ , Rhenus in __ est**.
+
+```{r}
+check_question("Aegypto, Germania", options = c("Germania, Aegypta", "Aegypta, Germania", "Aegypto, Germania", "Germania, Aegypto"), type = "radio", right = "probe 👌",  wrong = "non ita ☹️", button_label = "Rectene dico?")
 ```            
+
+
 </br> 
-   
-### 5. *Elige.* __ Creta oppidum est? Non est! __ est Creta? Insula. __ insula magna? Est insula magna. __ est? In Graecia.
-</br> 
+**5. __ Creta oppidum est? Non est! __ est Creta? Insula. __ insula magna? Est insula magna. __ est? In Graecia**.
 
 ```{r}
-check_question(answer = "num, quid, estne, ubi", placeholder = "ubi, num, quid, estne",  right = "ita, ut dicis 👏",
-        wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
+check_question(answer = c("num, quid, estne, ubi", "Num, Quid, Estne, Ubi"), placeholder = "ubi, num, quid, estne",  right = "ita, ut dicis 👏", wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
 ```
 
 </br>
-
-### 6. Quid est in imagine?
-
-</br>
+**6. Quid est in imagine?**
 
 ![](https://drive.google.com/uc?id=126a5HqT0_VU11YI6w3rkO40vPMNq013Y){width="50%"}
 
 </br>
-
 ```{r}
-check_question(NULL, answer = c ("literae Latinae", "literae Graecae","numeri Romani"), options = c("capitula Latina", "literae Latinae", "literae Graecae","numeri Romani"), type = "checkbox",  right = "optime 👍",
-               wrong = "minime 😔", button_label = "Rectene dico?")
+check_question(NULL, answer = c("literae Latinae", "literae Graecae","numeri Romani"), options = c("capitula Latina", "literae Latinae", "literae Graecae","numeri Romani"), type = "checkbox",  right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?")
 ```
-</br>
-
-### 7. Quomodo dices: III + I + II + VI ≠ M ?
 
 </br>
+**7. Quomodo dices: III + I + II + VI ≠ M ?**
 
 ```{r}
-check_question("tres + unus + duo + sex ≠ mille", options = c("tertius + primus + secundus + sextus ≠ centum ", "tertius + primus + secundus + sextus ≠ mille", "tres + unus + duo + sex ≠ mille", "tres + unus + duo + sex ≠ centum"), type = "radio", right = "probe 👌",
-        wrong = "non ita ☹️", button_label = "Rectene dico?")
+check_question("tres + unus + duo + sex ≠ mille", options = c("tertius + primus + secundus + sextus ≠ centum ", "tertius + primus + secundus + sextus ≠ mille", "tres + unus + duo + sex ≠ mille", "tres + unus + duo + sex ≠ centum"), type = "radio", right = "probe 👌", wrong = "non ita ☹️", button_label = "Rectene dico?")
 ```     
-</br>
-
-### 8. *Elige.* In vocabulo *ubi* sunt __ litterae et __ syllabae
 
 </br>
+**8. In vocabulo _ubi_ sunt __ litterae et __ syllabae**
 
 ```{r}
 check_question("tres, duae", options = c("duae, tres", "tres, duae", "sex, tres", "tertiae, secundae"), type = "select", right = "recte sane 🙂",wrong = "cogitandum est 🤔", button_label = "Rectene dico?")
 ```
-</br>
-
-### 9. *Elige.* In vocabulo *ubi* littera __ est *"i"*, littera __ est *"u"*, *"b"* est littera __
 
 </br>
+**9. In vocabulo _ubi_ littera __ est _"i"_, littera __ est _"u"_, _"b"_ est littera __ .**
 
 ```{r}
 check_question("tertia, prima, secunda", options = c("prima, secunda, tertia", "tertia, prima, secunda", "tres, unus, duo", "unus, duo, tres"), type = "select", right = "ita, ut dicis 👏",wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
 ```
-</br>
-
-### 10. *Elige.* In Africa sunt __ fluvii. Unus fluvius __ est, Nilus.
 
 </br>
-
+**10. In Africa sunt __ fluvii. Unus fluvius __ est, Nilus**.
 
 ```{r}
-check_question("pauci, magnus", options = c("pauci, multus", "pauci, magnus", "multi, paucus", "multi, parvus"), type = "radio", right = "optime 👍",
-        wrong = "quid ais? 🤨", button_label = "Rectene dico?")
+check_question("pauci, magnus", options = c("pauci, multus", "pauci, magnus", "multi, paucus", "multi, parvus"), type = "radio", right = "optime 👍", wrong = "quid ais? 🤨", button_label = "Rectene dico?")
 ```    
 </br>

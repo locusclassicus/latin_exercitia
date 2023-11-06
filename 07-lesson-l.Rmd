@@ -153,6 +153,4 @@ check_question(answer= "haec, hoc, hic",
 ```
 </br>
 
-__Results: `r insert_score()` out of 10__
-
 </br>

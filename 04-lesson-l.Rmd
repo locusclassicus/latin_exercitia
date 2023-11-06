@@ -1,14 +1,8 @@
 
 # 4
  
-```{r}
-# install.packages("remotes")
-# remotes::install_github("agricolamz/checkdown")
-```
 
-```{r}
-library(checkdown)
-```
+
 
 ### 1. Quid adest in imagine? 
  

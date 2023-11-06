@@ -141,4 +141,3 @@ check_question(answer = c("genetivus singularis", "nominativus pluralis"),
 ```
 </br>
 
-**Results**: `r insert_score()` out of 10
