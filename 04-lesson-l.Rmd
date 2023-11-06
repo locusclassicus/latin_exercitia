@@ -80,7 +80,7 @@ check_question("probus", right = "optime 👍 ", wrong = "cogitandum est 🤔", 
 **9. Contraria verborum _discedere_ et _sumere_ sunt...**
   
 ```{r}
-check_question(c("accusare", "ponere"), options = c("venire", "accusare", "habere", "ponere", "parere"), right = "recte sane 🙂", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "checkbox")
+check_question(c("venire", "ponere"), options = c("venire", "accusare", "habere", "ponere", "parere"), right = "recte sane 🙂", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "checkbox")
 ```
  
 
