@@ -1,8 +1,6 @@
-# Сapitulum 9
+# 9 Pastor et oves
 
-</br>
-
-### **1.** Quid est in imagine?
+**1. Quid est in imagine?**
 
 ![](https://drive.google.com/uc?id=1eCMVTtVa3AsCX_uWJWS7gvpQ8Z3xUXHW){ width=55% }
 
@@ -11,8 +9,7 @@ check_question(c("nulla nubes in caelo videtur","pastor umbram petit"), options=
 ```
 
 </br>
-
-### **2.** Quid _abest_ in imagine?
+**2. Quid _abest_ in imagine?**
 
 ![](https://drive.google.com/uc?id=1NsSmYN5epAiXcxeTEau297JodyNrecwD){ width=30% }
 
@@ -21,24 +18,21 @@ check_question("valles",options=c("umbra","collis","arbor","valles"),type="radio
 ```
 
 </br>
-
-### **3.** Pastor centum oves habet: unam ovem nigram et ___ oves albas. Duodecim oves in sole errant, ceterae ___ autem in arboris umbra iacent.
+**3. Pastor centum oves habet: unam ovem nigram et __ oves albas. Duodecim oves in sole errant, ceterae __ autem in arboris umbra iacent.**
 
 ```{r}
 check_question("undecentum, duodenonaginta",options=c("undecentum, duodenonaginta","undenonaginta, duodenonagina","undenonaginta, duodeoctoginta","undecentum, duodeoctogina"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
 ```
 
 </br>
-
-### **4.** Pastor ___ arbor_ iacet. Itaque sol ___ pastor_ non lucet. 
+**4. Pastor ___ arbor_ iacet. Itaque sol ___ pastor_ non lucet.**
 
 ```{r}
 check_question("sub, -e, supra, -em",options=c("supra, -e, sub, -em","sub, -em, supra, -e","supra, -em, sub, -e","sub, -e, supra, -em"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
 ```
 
 </br>
-
-### **5.** Canis ovem ___ , quae in silva errat, sed canis ab ove procul abest. Itaque ovis ___ a cane ___ neque ovis ___.
+**5. Canis ovem ___ , quae in silva errat, sed canis ab ove procul abest. Itaque ovis ___ a cane ___ neque ovis ___.**
 
 ```{r}
 check_question("quaerit, vestigia, reperiuntur, ipsa",options=c("quaerit, ipsa, reperitur, vestigia","quaerit, vestigia, reperiuntur, ipsa","reperit, vestigia, quaeruntur, ipsa","reperit, ipsa, quaeritur, vestigia"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
