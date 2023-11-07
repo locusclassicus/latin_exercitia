@@ -34,7 +34,7 @@ check_question(answer=c("super, supra, infra"),
 
 
 </br>
-**3. Quae viscera homini sano est?**
+**3. Quae viscera homini sano sunt?**
 
 
 ![](https://drive.google.com/uc?id=1wQ2qpcSfMi4ZdT4RzRHvHtxjV-nfAxWS){width="35%"}
