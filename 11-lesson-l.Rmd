@@ -10,8 +10,8 @@ check_question(answer=c("duo bracchia", "duo crura"),
                options = c("duo capita", "duo bracchia", "tria pectora", "duo crura"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Recte!!!**",
-               wrong = "**Prave ☹️**",
+               right = "Recte 🤩",
+               wrong = "Prave ☹️",
                random_answer_order = TRUE)
 ```
 
@@ -27,14 +27,14 @@ check_question(answer=c("super, supra, infra"),
                options = c("super, infra, supra", "supra, super, infra", "super, supra, infra", "supra, infra, super"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Recte dicis!**",
-               wrong = "**Prave dicis!**",
+               right = "Recte dicis! 🥳",
+               wrong = "Prave dicis 😔",
                random_answer_order = TRUE)
 ```
 
 
 </br>
-**3. Quae viscera homo sanus habet?**
+**3. Quae viscera homini sano est?**
 
 
 ![](https://drive.google.com/uc?id=1wQ2qpcSfMi4ZdT4RzRHvHtxjV-nfAxWS){width="35%"}
@@ -44,8 +44,8 @@ check_question(answer=c("unum iecur", "unus venter"),
                options = c("unus pulmo", "unus venter", "unum iecur", "duo corda"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Rectissime!**",
-               wrong = "**Prave respondes!**",
+               right = "Rectissime 😎",
+               wrong = "Prave respondes 😔",
                random_answer_order = TRUE)
 ```
 
@@ -59,8 +59,8 @@ check_question(answer=c("iubet, arcessit, revenit"),
                options = c("iubet, arcessit, revenit", "arcessit, revenit, iubet", "arcessit, iubet, revenit", "iubet, revenit, arcessit"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Bene 👌**",
-               wrong = "**Prave respondes!**",
+               right = "Bene 👌",
+               wrong = "Prave respondes 😕",
                random_answer_order = TRUE)
 ```
 
@@ -74,11 +74,11 @@ check_question(answer=c("iubet, arcessit, revenit"),
 
 ```{r}
 check_question(answer=c("Quintus linguam ostendit", "Manus medici prope aures Quinti sunt"),
-               options = c("Quintus linguam ostendit", "Medicus frontem Quinti tangit", "Manus medici prope aures Quinti sunt", "Medicus digitum ad labrum Quinti appoint"),
+               options = c("Quintus linguam ostendit", "Medicus frontem Quinti tangit", "Manus medici prope aures Quinti sunt", "Medicus digitum ad labrum Quinti apponit"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Ita! 👏**",
-               wrong = "**Minime... 🤨**",
+               right = "Ita! 👏",
+               wrong = "Minime... 🤨",
                random_answer_order = TRUE)
 ```
 
@@ -94,8 +94,8 @@ check_question(answer=c("Iulius bracchium Quinti tenet", "Medicus cultrum ad bra
                options = c("Aemilia poculum super bracchium Quinti tenet", "Puer quietus sub lecto iacet", "Iulius bracchium Quinti tenet", "Medicus cultrum ad bracchium Quinti appoint"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Ita, ut dicis 👏**",
-               wrong = "**Quid ais? 🤨**",
+               right = "Ita, ut dicis 👏",
+               wrong = "Quid ais? 🤨",
                random_answer_order = TRUE)
 ```
 
@@ -108,8 +108,8 @@ check_question(answer=c("de, nec, atque, modo"),
                options = c("de, nec, atque, modo", "de, atque, nec, modo", "de, modo, nec, atque", "modo, de, nec, atque"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Probe 👌**",
-               wrong = "**Non hercle vero! 😕**",
+               right = "Probe 👌",
+               wrong = "Non hercle vero! 😕",
                random_answer_order = TRUE)
 ```
 
@@ -123,8 +123,8 @@ check_question(answer=c("Lydia Medum advenire gaudet", "Lydia gaudet, quod Medus
                options = c("Lydia Medum advenire gaudet", "Medus advenit, quod Lydia gaudet", "Lydia gaudet, quod Medus advenit", "Medus Lydiam advenire gaudet"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Recte sane 🙂**",
-               wrong = "**Minime 😔**",
+               right = "Recte sane 🙂",
+               wrong = "Minime 😔",
                random_answer_order = TRUE)
 ```
 
@@ -137,8 +137,8 @@ check_question(answer=c("sentire", "iubere", "necesse esse", "putare"),
                options = c("sentire", "iubere", "necesse esse", "putare"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Optime 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
 
@@ -148,11 +148,11 @@ check_question(answer=c("sentire", "iubere", "necesse esse", "putare"),
 
 ```{r}
 check_question(answer=c("pes Quinti aeger est", "Quintus aeger est pede"),
-               options = c("pes Quinti aeger est", "Quintus aeger est pede", "pes Quinto (abl.) aeger est", "Quntus pes aeger est"),
+               options = c("pes Quinti aeger est", "Quintus aeger est pede", "pes Quinti aegrum est", "Quintus pes aeger est"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Recte respondes!**",
-               wrong = "**Cogitandum est 🤔**",
+               right = "Recte respondes 🙂",
+               wrong = "Cogitandum est 🤔",
                random_answer_order = TRUE)
 ```
 
