@@ -1,8 +1,7 @@
-# 11
-
-### 1. Corpus humanum atque sanum habet…
+# 11 Corpus humanum
 
 </br>
+**1. Corpus humanum atque sanum habet…**
 
 ![](https://drive.google.com/uc?id=1r3kWitD-bHRnBBCdaiVnw4cJYwyyQgho){width="50%"}
 
@@ -16,13 +15,10 @@ check_question(answer=c("duo bracchia", "duo crura"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 2. Ubi est caput humanum? Caput ＿ collum est. In capite sunt oculi, ＿ oculos est frons, ＿ oculos genae sunt.
 
 </br>
+**2. Ubi est caput humanum? Caput ＿ collum est. In capite sunt oculi, ＿ oculos est frons, ＿ oculos genae sunt.**
+
 
 ![](https://drive.google.com/uc?id=16k0pIXoILvuFno75ivmaft6nWjEaniM1){width="25%"}
 
@@ -36,13 +32,10 @@ check_question(answer=c("super, supra, infra"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 3. Quae viscera homo sanus habet?
 
 </br>
+**3. Quae viscera homo sanus habet?**
+
 
 ![](https://drive.google.com/uc?id=1wQ2qpcSfMi4ZdT4RzRHvHtxjV-nfAxWS){width="35%"}
 
@@ -56,13 +49,10 @@ check_question(answer=c("unum iecur", "unus venter"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 4. lulius Syrum ad oppidum ire _ . Syrus it, medicum _ cum eo ad villam _ .
 
 </br>
+**4. lulius Syrum ad oppidum ire __ . Syrus it, medicum __ cum eo ad villam __ .**
+
 
 ```{r}
 check_question(answer=c("iubet, arcessit, revenit"),
@@ -74,11 +64,9 @@ check_question(answer=c("iubet, arcessit, revenit"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
 
-
-### 5. Quid est in imagine?
+</br>
+**5. Quid est in imagine?**
 
 </br>
 
@@ -94,13 +82,10 @@ check_question(answer=c("Quintus linguam ostendit", "Manus medici prope aures Qu
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 6. Quid est in imagine?
 
 </br>
+**6. Quid est in imagine?**
+
 
 ![](https://drive.google.com/uc?id=1gRFSveoWhHGgGgtWM-yq5v-awFsi95tE){width="40%"}
 
@@ -115,12 +100,8 @@ check_question(answer=c("Iulius bracchium Quinti tenet", "Medicus cultrum ad bra
 ```
 
 </br>
-</br>
+**7. Quintus ＿ arbore cadit ＿ ambulare potest; pes ＿ caput dolet. Medicus arcessitur, iam non ＿ pede et capite, sed etiam bracchio puer aeger est!**
 
-
-### 7. Quintus ＿ arbore cadit ＿ ambulare potest; pes ＿ caput dolet. Medicus arcessitur, iam non ＿ pede et capite, sed etiam bracchio puer aeger est! 
-
-</br>
 
 ```{r}
 check_question(answer=c("de, nec, atque, modo"),
@@ -132,13 +113,10 @@ check_question(answer=c("de, nec, atque, modo"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 8. Medus advenit. Lydia gaudet. = _
 
 </br>
+**8. Medus advenit. Lydia gaudet. = **
+
 
 ```{r}
 check_question(answer=c("Lydia Medum advenire gaudet", "Lydia gaudet, quod Medus advenit"),
@@ -150,13 +128,9 @@ check_question(answer=c("Lydia Medum advenire gaudet", "Lydia gaudet, quod Medus
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 9. _Accusativus cum infinitivo_ ponitur apud verba…
 
 </br>
+**9. _Accusativus cum infinitivo_ ponitur apud verba…**
 
 ```{r}
 check_question(answer=c("sentire", "iubere", "necesse esse", "putare"),
@@ -168,13 +142,9 @@ check_question(answer=c("sentire", "iubere", "necesse esse", "putare"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
-
-
-### 10. Quintus: "Ei! Dolet pes!" = _
 
 </br>
+**10. Quintus: "Ei! Dolet pes!" = **
 
 ```{r}
 check_question(answer=c("pes Quinti aeger est", "Quintus aeger est pede"),
@@ -186,6 +156,4 @@ check_question(answer=c("pes Quinti aeger est", "Quintus aeger est pede"),
                random_answer_order = TRUE)
 ```
 
-</br>
-</br>
 
