@@ -1,49 +1,38 @@
-# 19
+# 19 Maritus et uxor
 
-```{r}
-library(checkdown)
-```
-
-
-### 1. Quid est verum?
+</br>
+**1. Quid est verum?**
 
 ```{r}
 check_question(answer=c("Iuno est dea matronarum", "Venus est dea pulchritudinis"),
                options = c("Iuno est dea matronarum", "Vulcanus est deus amoris", "Venus est dea pulchritudinis", "Cupido et Venus coniuges sunt"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Recte respondes 🙂**",
-               wrong = "**Prave respondes 😔**",
+               right = "Recte respondes 🙂",
+               wrong = "Prave respondes 😔",
                random_answer_order = TRUE)
 ```
 
 </br>
-</br>
+**2. Nemo deorum pei_ maritus est quam Iuppiter. Signum Iovis in foro Romano meli_ est quam alia signa deorum. Villa Iulii meli_ est quam villa Cornelii, sed tectum villae Iulii pei_ est quam tectum villae Cornelii.**
 
-### 2. Nemo deorum pei_ maritus est quam Iuppiter. Signum Iovis in foro Romano meli_ est quam alia signa deorum. Villa Iulii meli_ est quam villa Cornelii, sed tectum villae Iulii pei_ est quam tectum villae Cornelii.
-
-
-</br>
 
 ```{r}
-check_question(answer=c("-or, -us, -us, -or"),
+check_question(answer=c("-or, -us, -or, -us"),
                options = c("-us, -or, -or, -us", "-or, -us, -us, -or", "-or, -us, -or, -us", "-us, -or, -us, -or"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Optime 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 3. Oppidum Tusculum min_ est quam Roma. Urbs Roma mai_ est quam Tusculum. Oppidum Tusculum mai_ est quam viila Iulii. Villa Iulii min_ est quam Tusculum.
 
 
 </br>
+**3. Oppidum Tusculum min_ est quam Roma. Urbs Roma mai_ est quam Tusculum. Oppidum Tusculum mai_ est quam villa Iulii. Villa Iulii min_ est quam Tusculum.**
 
 ```{r}
-check_question(answer=c("-or, -us, -us, -or"),
+check_question(answer=c("-us, -or, -us, -or"),
                options = c("-or, -us, -or, -us ", "-or, -us, -us, -or", "-us, -or, -us, -or", "-us, -or, -or, -us"),
                type = "radio",
                button_label = "Rectene dico?",
@@ -51,81 +40,63 @@ check_question(answer=c("-or, -us, -us, -or"),
                wrong = "**Cogitandum est 🤔**",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 4. Iulius adulescens div_ erat, Aemilia autem erat virgo paup_. Roma est urbs div_, Tusculum est oppidum paup_.
 
 
 </br>
+**4. Iulius adulescens div_ erat, Aemilia autem erat virgo paup_. Roma est urbs div_, Tusculum est oppidum paup_.**
+
 
 ```{r}
 check_question(answer=c("-es, -er, -es, -er"),
                options = c("-es, -er, -es, -er", "-us, -er, -a, -er", "-us, -era, -a, -erum", "-es, -era, -es, -erum"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Minime 😔**",
+               right = "Optime 👍",
+               wrong = "Minime 😔",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 5.1. Davus: O, Syra! Te amo! Tempus amorem meum erga te non _ , immo vero _ !
-
-
 
 </br>
+**5.1. Davus: O, Syra! Te amo! Tempus amorem meum erga te non __ , immo vero __ !**
 
 ```{r}
 check_question(answer=c("minuit, auget"),
                options = c("minuit, auget", "auget, minuit"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Optime 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 5.2. Davus: O, Syra, dico 'tempore non _ , sed _ te amare!'
-
-
 
 </br>
+**5.2. Davus: O, Syra, dico 'tempore non _ , sed _ te amare!'**
 
 ```{r}
 check_question(answer=c("minus, plus"),
                options = c("plus, minus", "minus, plus"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Optime 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 6. Dic aliter: Quamquam Aemilia pauper erat, Iulius eam amabat
-
-
 
 </br>
+**6. _Dic aliter_: Quamquam Aemilia pauper erat, Iulius eam amabat.**
 
 ```{r}
 check_question(answer=c("Iulius Aemiliam etiam pauperem amabat", "Aemilia pauper erat, sed tamen Iulius eam amabat"),
-               options = c("Iulius Aemiliam etiam pauperem amabat ", "Aemilia pauper erat, sed tamen Iulius eam amabat", "Aemilia pauper erat, Iulius enim eam amabat ", "Aemilia pauper erat, Iulius igitur eam amabat"),
+               options = c("Iulius Aemiliam etiam pauperem amabat ", "Aemilia pauper erat, sed tamen Iulius eam amabat", "Aemilia pauper erat, Iulius enim eam amabat", "Aemilia pauper erat, Iulius igitur eam amabat"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Bene 🙂**",
-               wrong = "**Quid ais? 🤨**",
+               right = "Bene 🙂",
+               wrong = "Quid ais? 🤨",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
 
-### 7. Iulius: Ego miser _ , quod me non amabas. Neque tu beta _ , quod Crassus te non amabat. Nos igitur miseri _ neque vos, tu et Crassus, beati _ .
+</br>
+**7. Iulius: Ego miser __ , quod me non amabas. Neque tu beata __ , quod Crassus te non amabat. Nos igitur miseri __ neque vos, tu et Crassus, beati __ .**
 
 
 
@@ -136,66 +107,48 @@ check_question(answer=c("eram, eras, eramus, eratis"),
                options = c("eram, eras, eramus, eratis", "eram, eras, eratis, eramus", "eramus, eratis, eram, eras", "eramus, eratis, eras, eram"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Probe 👌**",
-               wrong = "**Non hercle vero! 😕**",
+               right = "Probe 👌",
+               wrong = "Non hercle vero! 😕",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 8. Iulius: Ego flores ac multa dona ad te mitt_, sed tu omnia ad me remitt_. Miserrimus eram, quod tu Crassum oscula_ neque ipsa ab eo ama_.
-
-
-
 
 </br>
+**8. Iulius: Ego flores ac multa dona ad te mitt_, sed tu omnia ad me remitt_. Miserrimus eram, quod tu Crassum oscula_ neque ipsa ab eo ama_.**
 
 ```{r}
 check_question(answer=c("-ebam, -ebas, -baris, -baris"),
                options = c("-ebar, -ebaris, -bas, -bam", "-ebam, -ebas, -baris, -bas", "-ebar, -ebaris, -bam, -bas", "-ebam, -ebas, -baris, -baris"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Optime 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Optime 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 9. Iulius: Vos domum exiguam posside_, nos autem in villas magnificas conveni_. Nos ab omnibus lauda_, quod dives eramus, vos autem ab omnibus reprehend_, quod pauperes eratis.
-
-
-
 
 </br>
+**9. Iulius: Vos domum exiguam posside_, nos autem in villas magnificas conveni_. Nos ab omnibus lauda_, quod dives eramus, vos autem ab omnibus reprehend_, quod pauperes eratis.**
 
 ```{r}
 check_question(answer=c("-batis, -ebamus, -bamur, ebamini"),
                options = c("-batis, -ebamus, -bamur, ebamini", "-bamur, -ebamini, -bamus, -ebatis", "-batis, -ebamus, -bamini, -ebamur", "-bamur, -ebamini, -batis, -ebamus"),
                type = "radio",
                button_label = "Rectene dico?",
-               right = "**Recte respondes 👍**",
-               wrong = "**Quid ais? 🤨**",
+               right = "Recte respondes 👍",
+               wrong = "Quid ais? 🤨",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
-
-### 10. Quid est verum?
-
-
-
 
 </br>
+**10. Quid est verum?**
 
 ```{r}
-check_question(answer=c("Romae plurimi homines et plurimae villae sunt in toto imperio Romano", "Aemilia Iulium 'virum optimum' appellat"),
-               options = c("maximus liberorum est Marcus, minimus est Quintus", "Romae plurimi homines et plurimae villae sunt in toto imperio Romano", "Aemilia est pessima omnium uxorum", "Aemilia Iulium 'virum optimum' appellat"),
+check_question(answer=c("Roma urbs maxima totius imperii Romani", "Aemilia Iulium 'virum optimum' appellat"),
+               options = c("maximus liberorum est Marcus, minimus est Quintus", "Roma urbs maxima totius imperii Romani", "Aemilia est pessima omnium uxorum", "Aemilia Iulium 'virum optimum' appellat"),
                type = "checkbox",
                button_label = "Rectene dico?",
-               right = "**Sic est 👍**",
-               wrong = "**Non ita ☹️**",
+               right = "Sic est 👍",
+               wrong = "Non ita ☹️",
                random_answer_order = TRUE)
 ```
-</br>
-</br>
+
+
