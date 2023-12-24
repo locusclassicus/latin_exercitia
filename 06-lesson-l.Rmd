@@ -5,8 +5,7 @@
 </br>
 **1. Quid est in imagine?**
 ```{r}
-check_question(c("Saccus a Medo portatur", "Medus ad oppidum ambulat"), right="recte dicis! 🙂", wrong="сogitandum est 🤔", button_label = "rectene dico?",
-                options = c("Medus sacco vehitur", "Medus ad oppidum ambulat", "Saccus a Medo portatur", "Medus lectica portatur"), type = "checkbox")
+check_question(answer=c("Saccus a Medo portatur", "Medus ad oppidum ambulat"), right="recte dicis! 🙂", wrong="сogitandum est 🤔", button_label = "rectene dico?", options = c("Medus sacco vehitur", "Medus ad oppidum ambulat", "Saccus a Medo portatur", "Medus lectica portatur"), type = "checkbox")
 ```
 
 </br>
@@ -36,7 +35,42 @@ check_question(answer = c("autem", "nam", "itaque", "inimici"), right="bene 🤩
 check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), right="Optime!👍", wrong="quid ais? 🤨", button_label = "rectene dico?", options = c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrus, quem Delia amat, Ursum pulsat", "Syrus, qui Deliam amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), type = "checkbox")
 ```
 
+</br>
+</br>
 
-![](https://drive.google.com/uc?id=1zIkZT-s939rTYOAW8rHiHsGdT1hT1aIP)
+![](https://drive.google.com/uc?id=1lV_fLvq7QIwNacHDRZFl8bCHsD5FFv1y){width="80%"}
+
+</br>
+**6.Quid est in imagine?**
+```{r}
+check_question(answer= c("Hispania procul ab Asia est", "Italia inter Hispaniam et Asiam est"), right = "recte😸", wrong = "minime😕", button_label = "rectene dico?", options = c("Asia prope Britanniam est", "Graecia inter Galliam et Europam est", "Hispania procul ab Asia est", "Italia inter Hispaniam et Asiam est"), type ="checkbox")
+```
+
+</br>
+**7. Medus _ portam Capenam _ villam Lydiae it. Medus non est _ dominum suum, nam is solus ambulat. _ Romam est murus longus.**
+```{r}
+check_question(answer = ("per, ad, apud, circum"), right= "recte dicis😕", wrong="non ita😔", button_label = "rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
+```
+</br>
+**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul_ it, nam is Tuscul_ habitat, non Rom_.**
+```{r}
+check_question(answer= ("-a, -um, -i, -ae "), right = "ita😸", wrong = "correge😕", button_label = "rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
+```
+
+![](https://drive.google.com/uc?id=1zIkZT-s939rTYOAW8rHiHsGdT1hT1aIP){width="80%"}
+
+</br>
+
+
+**9. Quid est in imagine?**
+```{r}
+check_question(answer =c("Julia inter Syram et canem est", "canis ante Iuliam est", "Syra post Iuliam est"), right = "bene😕", wrong = "non ita😔", button_label = "rectene dico?", options = c("Iulia inter Syram et canem est", "canis ante Iuliam est", "Syra post Iuliam est", "canis inter Syram et Iuliam est"), type = "checkbox")
+```
+
+</br>
+**10. Davum, quem equus vehit, Syra salutat =...**
+```{r}
+check_question(answer= c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat"), right ="optime🤩", wrong = "non hercle vero😕", button_label = "rectene dico?", options = c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat", "Davus, qui equum vehit, a Syra salutatur", "Davus, qui equo vehitur, Syram salutat"), type = "checkbox")
+```
 
                                         

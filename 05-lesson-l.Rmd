@@ -10,7 +10,7 @@
 check_question(answer="ostia, cubicula, peristylum",
 options = c("fenestra, peristylum, cubicula", "ostia, cubicula, peristylum", "cubicula, ostia, atrium", "peristylum, ostia, impluvium"),
 type = "radio",
-button_label = "Rectene dico?",
+button_label = "Rectene dico?🤔",
 right = "Optime!😏",
 wrong = "Minime😞",
 random_answer_order = TRUE)
@@ -22,7 +22,7 @@ random_answer_order = TRUE)
 ```{r}
 check_question(answer="id, ea, ii, eae",
 options = c("id, eae, ii, ea", "is, ea, ei, eae", "id, ea, ii, eae", "id, ea, ei, ea"),
-button_label = "Rectene dico?",
+button_label = "Rectene dico?🤔",
 right = "Optime!😉",
 wrong = "Minime😢",
 random_answer_order = TRUE)
@@ -38,7 +38,7 @@ random_answer_order = TRUE)
 check_question(answer=c("Iulia rosas carpit","Rosae puellam delectant: ea laeta est"),
 options = c("Iulia rosas carpit", "Rosae puellam delectant: ea laeta est", "Puella lilia in horto carpit", "Iulia rosas ex impluvio sumit"),
 type = "checkbox",
-button_label = "Rectene dico?",
+button_label = "Rectene dico?🤔",
 right = "Optime!😸",
 wrong = "Minime😿",
 random_answer_order = TRUE)
@@ -51,7 +51,7 @@ random_answer_order = TRUE)
 check_question(answer="-as, -a, -ae, -a",
 options = c("-ae, -a, -as, -a", "-as, -a, -ae, -a", "-ae, -a, -a, -as", "-as, -a, -a, -ae"),
 type = "radio",
-button_label = "Rectene dico?",
+button_label = "Rectene dico?🤔",
 right = "Optime!😏",
 wrong = "Minime😞",
 random_answer_order = TRUE)
@@ -67,18 +67,76 @@ random_answer_order = TRUE)
 check_question(answer=c("Aemilia laeta rosas sumit","Pueri Iuliam rident"),
 options = c("Aemilia laeta rosas sumit", "Aemilia cum liberis suis in impluvio est", "Iulia rosas in mensa ponit", "Pueri Iuliam rident"),
 type = "checkbox",
-button_label = "Rectene dico?",
+button_label = "Rectene dico?🤔",
 right = "Optime!😸",
 wrong = "Minime😿",
 random_answer_order = TRUE)
 ```
 </br>
 
+**6. singularis —> pluralis: _delectat_, _videt_, _carpit_, _audit_**
 
+```{r}
+check_question(answer="delectant, vident, carpunt, audiunt",
+options = c("delectant, vident, carpunt, audiunt", "delectant, vidunt, carpiunt, audunt", "delectant, vident, carpiunt, audiunt", "delectant, vident, carpunt, audunt"),
+button_label = "Rectene dico?🤔",
+right = "Optime!😉",
+wrong = "Minime😢",
+random_answer_order = TRUE)
+```
+</br>
 
+**7. singularis —> pluralis: _dēlectā!_, _vidē!_, _carpe!_, _audī!_**
 
+```{r}
+check_question(answer="dēlectāte!, vidēte!, carpite!, audīte!",
+options = c("dēlectāte!, vidite!, carpēte!, audēte!", "dēlectāte!, vidēte!, carpete!, audīte!", "dēlectāte!, vidēte!, carpite!, audīte!", "dēlectāte!, vidēte!, carpite!, audete!"),
+button_label = "Rectene dico?🤔",
+right = "Optime!😉",
+wrong = "Minime😢",
+random_answer_order = TRUE)
+```
+</br>
 
+**8. Ecce villa. Ex __ Medus discedit. Ecce servi. Dominus __ est Iulius. Iulius cum __ Medum quaerit. Ecce cubiculum. In __ Iulia plorat.**
 
+```{r}
+check_question(answer="ea, eorum, iis, eo",
+options = c("ea, eorum, iis, eo", "eo, iis, eorum, ea", "ea, iis, eorum, eo", "eo, eorum, iis, ea"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Optime!😏",
+wrong = "Minime😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**9. Iulia quae est pulchra puella __ horto __ rosis venit. Pueri: «__ rosis foeda est Iulia!» Iulia __ iis discedit et __ cubiculo suo plorat.**
+
+```{r}
+check_question(answer="ex, cum, sine, ab, in",
+options = c("cum, sine, in, ex, ab", "ex, cum, sine, ab, in", "ad, cum, sine, ex, in", "in sine, cum, ab, ex"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Optime!😏",
+wrong = "Minime😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**10. Marcus, qui est puer improbus, Iuliam ridet, quia nasus eius __ est. __ Quintus Iuliam ridet: is __ puer improbus est.**
+
+```{r}
+check_question(answer="foedus, etiam, quoque",
+options = c("foedus, quoque, etiam", "pulcher, quoque, etiam", "pulcher, etiam, quoque", "foedus, etiam, quoque"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Optime!😸",
+wrong = "Minime😿",
+random_answer_order = TRUE)
+```
+
+</br>
 
 
 

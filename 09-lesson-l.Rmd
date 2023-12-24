@@ -39,3 +39,38 @@ check_question("quaerit, vestigia, reperiuntur, ipsa",options=c("quaerit, ipsa, 
 ```
 
 </br>
+**6. In silva \_\_ lupus, qui oves \_\_. Oves \_\_ cibus luporum, quem lupi laeti \_\_.**
+
+```{r}
+check_question("est, est, sunt, edunt",options=c("est, edunt, est, sunt","est, est, sunt, edunt","est, edunt, sunt, est","est, est, edunt, sunt"),type="radio",button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
+```
+
+</br>
+**7. Amici pastor_ sunt canes. Inimici ov_ sunt lupi. Vestigia dent_ sunt in collo.**
+
+```{r}
+check_question("-um, -ium, -ium",options=c("-um, -ium, -ium","-um, -ium, -um","-ium, -ium, -um","-um, -um, -ium"),type="radio",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿")
+```
+
+</br>
+**8. Pastor, dominus can_, cum can_ suo ducit ov_ nigram ad rivum. Illic pastor ov_ suae aquam dat, quae aquam bibit.**
+
+```{r}
+check_question("-is, -e, -em, -i",options=c("-is, -e, -em, -i","-is, -e, -am, -i","-is, -o, -em, -ae","-is, -o, -am, -ae"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
+```
+
+</br>
+**9. Pastor, dominus ov_, sub arbore est. Arbor ov_ albis umbram dat. Supra magnos mont_ sol lucet in caelo sine multis nub_.**
+
+```{r}
+check_question("-ium, -ibus, -es, -ibus",options=c("-ium, -ibus, -es, -ibus","-ium, -is, -os, -is","-ium, -ibus, -es, -is","-ium, -is, -os, -ibus"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
+```
+
+</br>
+**10. Canis \_\_\_: "Baubau!" Ovis \_\_\_: "Baba!" Lupus \_\_\_: "Uhu!"**
+
+```{r}
+check_question("latrat, balat, ululat",options=c("latrat, balat, ululat","ululat, latrat, balat","ululat, balat, latrat","balat, latrat, ululat"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
+```
+
+</br>
