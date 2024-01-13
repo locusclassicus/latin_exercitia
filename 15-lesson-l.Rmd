@@ -61,7 +61,7 @@ check_question("-is, -io, -es, -eo", options = c("-io, -is, -es, -eo", "-is, -io
 ```
  
 </br>
-**9. Magistri: "Cur non consid_ ad sellas suas, discipuli?" Discipuli: "Nin consid_, quod nos verber_ atque terga nostra dolent.". Magistri: "Vos verber_, quod nos magistri sumus, vos autem mali discipuli estis."**
+**9. Magistri: "Cur non consid_ ad sellas suas, discipuli?" Discipuli: "Nin consid_, quod nos verber_ atque terga nostra dolent". Magistri: "Vos verber_, quod nos magistri sumus, vos autem mali discipuli estis."**
  
 ```{r}
 check_question("-itis, -imus, -atis, -amus", options = c("-itis, -imus, -atis, -amus", "-imus, -itis, -amus, atis", "-itis, -itis, -amus, -amus", "-itis, -imus, -amus, -itis"), right = "recte sane 🙂", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "radio")
