@@ -1,0 +1,216 @@
+# 12 Miles Romanus
+
+</br>
+**1. _Caesar_ est (1), _Iulius_ est (2), _Gaius_ est (3).**
+
+
+```{r}
+ answ1 <- check_question(answer = "cognomen",
+                        options = c("praenomen", "nomen", "cognomen"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "probe 👌", 
+                        wrong = "quid ais? 🤨")
+
+ answ2 <- check_question(answer = "nomen",
+                        options = c("praenomen", "nomen", "cognomen"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "probe 👌", 
+                        wrong = "quid ais? 🤨")
+
+ answ3 <- check_question(answer = "praenomen",
+                        options = c("praenomen", "nomen", "cognomen"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "probe 👌", 
+                        wrong = "quid ais? 🤨")
+
+```
+1. `r answ1`
+2. `r answ2`
+3. `r answ3`
+
+</br>
+**2. Quint\_\_ est unus frater, \_\_ nomen est Marcus. Quam longus est Marcus? Marcus quinque ped\_\_ longus est.**
+
+
+```{r}
+check_question(answer = "-o, cui, -es (acc)", 
+               options = c("-us, qui, -es (acc)", "-us, cui, -es (nom)", "-o, cui, -es (acc)", "-o, qui, -es (nom)"),
+               type = "radio",
+               random_answer_order = TRUE,
+               button_label = "Rectene dico?",
+               right = "recte sane 🙂", 
+               wrong = "non hercle vero! 😕")
+```
+ 
+</br>
+**3. Aemilius pedes est, non eques. Quae arma Aemilius fert?**
+
+```{r}
+check_question(c("scutum", "gladium", "pilum"), options = c("scutum", "gladium", "pilum", "hastam"), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "sic est  🤩", wrong = "minime 😔")
+```
+
+</br>
+**4. Hic gladus (1) est quam ille. Haec hasta (2) est quam illa. Hoc pilum (3) est quam illud.** 
+
+```{r}
+word1 <- check_question(answer = "brevior",
+                        placeholder = "brevis",
+                        button_label = "Rectene dico?",
+                        right = "quam recte dixisti omnia! 👍", 
+                        wrong = "errasti 😔")
+
+word2 <- check_question(answer = "longior",
+                        placeholder = "longus",
+                        button_label = "Rectene dico?",
+                        right = "quam recte dixisti omnia! 👍", 
+                        wrong = "errasti 😔")
+
+word3 <- check_question(answer = "gravius",
+                        placeholder = "gravis",
+                        button_label = "Rectene dico?",
+                        right = "quam recte dixisti omnia! 👍", 
+                        wrong = "errasti 😔")
+```
+1. `r word1`
+2. `r word2`
+3. `r word3`
+
+</br>
+**5. Provincia est pars imperii Romani, ut membrum pars corporis est; Roma enim caput imperii est, provinciae membra sunt. Provinciae Romanae sunt:**
+
+```{r}
+check_question(c("Gallia", "Hispania", "Aegyptus"), options = c("Gallia", "Hispania", "Germania", "Aegyptus"), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "recte respondes 👍", wrong = "minime 😔")
+```
+
+</br>
+**6. Romani contra Germanos (1). Barbari castra Romanorum (2), sed Romani fortes sunt; itaque Germani castra non (3).**
+
+```{r}
+answer1 <- check_question(answer = "pugnant",
+                        options = c("pugnant", "expugnant", "oppugnant"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "optime 👌", 
+                        wrong = "cogitandum est 😔")
+
+answer2 <- check_question(answer = "oppugnant",
+                        options = c("pugnant", "expugnant", "oppugnant"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "optime 👌", 
+                        wrong = "cogitandum est 😔")
+
+ answer3 <- check_question(answer = "expugnant",
+                        options = c("pugnant", "expugnant", "oppugnant"),
+                        type = "select",
+                        button_label = "Rectene dico?",
+                        right = "optime 👌", 
+                        wrong = "cogitandum est 😔")
+
+```
+1. `r answer1`
+2. `r answer2`
+3. `r answer3`
+
+</br>
+**7. _Miles Germanus_:** 
+**"O dei boni! Vallum Romanum nimis (1) est, fossa nimis (2)."**
+
+```{r}
+w1 <- check_question(answer = "altum", 
+               options = c("altum", "alta", "latum", "lata"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "euge, probe meministi 👌", 
+               wrong = "quid ais? 🤨")
+
+w2 <- check_question(answer = "lata", 
+               options = c("altum", "alta", "latum", "lata"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "euge, probe meministi 👌", 
+               wrong = "quid ais? 🤨")
+
+w3 <- check_question(answer = "leve", 
+               options = c("leve", "grave"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "euge, probe meministi 👌", 
+               wrong = "quid ais? 🤨")
+
+w4 <- check_question(answer = "grave", 
+               options = c("leve", "grave"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "euge, probe meministi 👌", 
+               wrong = "quid ais? 🤨")
+```
+1. `r w1`
+2. `r w2`
+
+**"Pilum meum non (3) est; immo, nimis (4)! Id procul iaci non potest."**
+
+3. `r w3`
+4. `r w4`
+
+</br>
+**8. Quinque \_\_ est unus \_\_. Ergo quinque \_\_ pedum est \_\_ passus.**
+
+```{r}
+check_question(answer= "pedes, passus, milla, mille", 
+               options = c("pedes, passus, milla, mille", "passus, pedes, milla, mille", "pedes, passus, mille, milla", "passus, pedes, mille, milla"), 
+               type = "radio",
+               random_answer_order = TRUE, 
+               button_label = "Rectene dico?", 
+               right = "ita, ut dicis 👏", 
+               wrong = "non hercle vero! 😕")
+```
+
+</br>
+**9. Dux exercit\_\_ Romani in bello equitat\_\_ suo imperat; equites ergo impet\_\_ in hostes faciunt. Sed ecce hostis sagittam ex arc\_\_ iacit. Itaque dux Romanus mortuus est.**
+
+```{r}
+check_question(answer= "-us, -ui, -um, -u", 
+               options = c("-us, -um, -u, -ui", "-us, -ui, -um, -u", "-us, -u, -um, -ui", "-um, -us, -ui, -u"), 
+               type = "radio",
+               random_answer_order = TRUE, 
+               button_label = "Rectene dico?", 
+               right = "optime 👍", 
+               wrong = "minime 😔")
+```
+
+</br>
+**10. Hostes multos (1) faciunt ac sagittas ex (2) iaciunt. Duces ergo suis (3) fugere imperant ad castra, quae duo milia (4) a fine imperii sunt.**
+
+```{r}
+word1 <- check_question(answer = "impetus",
+                        placeholder = "impetus",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "non ita 😕")
+
+word2 <- check_question(answer = "arcibus",
+                        placeholder = "arx",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "non ita 😕")
+
+word3 <- check_question(answer = "exercitibus",
+                        placeholder = "exercitus",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "non ita 😕")
+
+word4 <- check_question(answer = "passuum",
+                        placeholder = "passus",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "non ita 😕")
+```
+1. `r word1`
+2. `r word2`
+3. `r word3`
+4. `r word4`

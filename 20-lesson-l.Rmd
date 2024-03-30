@@ -1,0 +1,108 @@
+# 20 Pugna discipulorum
+
+```{r}
+library(checkdown)
+```
+### 1. Gradus positivus: raro, laetus. Gradus comparativus:
+
+ 
+ 
+```{r}
+check_question(answer=c("rarius, laetior"), 
+               options = c("rarior, laetius", "rarior, laetior", "rarius, laetius", "rarius, laetior"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+```
+</br>
+
+### 2. Aemilia: Infans meus numquam cibo care_ neque vagi_! Immo, semper a me cura_ atque al_. 
+ 
+ 
+```{r}
+check_question(answer=c("-bit, -et, -bitur, -etur"), 
+               options = c("-bit, -bit, -bitur, -ibitur", "-bit, -bit, -bitur, -etur", "-bit, -et, -bitur, -etur", "-bit, -et, -bitur, -ibitur"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+```
+</br>
+
+### 3. Aemilia: semper apud infantem meum mane_ atque eum dilig_; etiam nocte eum cura_ neque ipsa dormi_ 
+ 
+ 
+```{r}
+check_question(answer=c("-bo, -am, -bo, -am"), 
+               options = c("-bo, -em, -bo, -em", "-bo, -em, -bo, -am", "-bo, -am, -bo, -em", "-bo, -am, -bo, -am"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio", random_answer_order = TRUE)
+```
+
+</br>
+
+### 4. Iulia: sororem habere __ ! At vos, Marce et Quinte? Marcus et Quintus: nos quoque sororem habere ____ . Parentes autem, ut mater dicit, plus quam duos filios habere __ . 
+ 
+ 
+ 
+```{r}
+check_question(answer=c("nolo, nolumus, nolunt"), 
+               options = c("nolo, non volumus, nolunt", "nolo, nolumus, non volunt", "nolo, nolumus, nolunt", "non volo, non volumus, non volunt"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio", random_answer_order = TRUE)
+```
+
+</br>
+
+### 5. Aemilia: Cur sola sororem habere _ , Iulia? Iulia: At etiam Marcus sororem habere _ ! Cur fratrem habere _ , mama et tata? 
+
+ 
+ 
+```{r}
+check_question(answer=c("non vis, non vult, non vultis"), 
+               options = c("non vis, nult, non vultis", "non vis, non vult, non vultis", "non vis, non vult, nultis", "non vis, nult, nultis"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio", random_answer_order = TRUE)
+```
+
+
+</br>
+
+### 6. Iulius: Cras debet mihi _ abire, mea filiola. Romae sunt multa officia. Iulia: Quando _ reverteris, tata? Iulius: Post paucos dies _ ero, si potero. 
+ 
+ 
+ 
+ 
+```{r}
+check_question(answer = c("domo", "domum", "domi"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
+```
+
+</br>
+
+### 7. Iulius: Noli _ , Aemilia! Tecum _ volo! Aemilia: Romam discede, Iuli. Noli _ ! Tibi _ nolo! 
+ 
+ 
+ 
+```{r}
+check_question(answer = c("silere", "colloqui", "reverti", "occurere"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
+```
+</br>
+
+### 8. Iulius: Vir _ pecuniam facere ac magnam familiam alere. Feminam _ infantes curare. 
+ 
+ 
+```{r}
+check_question(answer=c("debet, decet"), 
+               options = c("debet, diligit", "dectet, debet", "debet, decet", "diligit, decet"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+```
+</br>
+
+### 9. Mercator: ___ tranquillum est mare, at __ turbidum erit, ut mihi videtur. Metuisne tempestatem? Gubernator: __ ! Sive tranquillum est, sive turbidum mox erit mare, __ merces tuas in Italiam advehere debet.
+ 
+ 
+ 
+```{r}
+check_question(answer=c("hodie, cras, minime, profecto"), 
+               options = c("cras, hodie, profecto, minime", "hodie, cras, profecto, minime", "cras, hodie, minime, profecto", "hodie, cras, minime, profecto"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+```
+</br>
+
+### 10. Quid est verum?
+
+```{r}
+check_question(answer=c("somnus infanti necessarius est", "nutrix est mulier, quae infantem alienum alit"),
+               options = c("sermo infantium viros mulieresque non decet", "somnus infanti necessarius est", "infans parvulus solus primos gradus facere potest", "nutrix est mulier, quae infantem alienum alit"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "**Recte respondes 🙂**",
+               wrong = "**Prave respondes 😔**",
+               random_answer_order = TRUE)
+```
+### Ваш результат: `r insert_score()` из 10

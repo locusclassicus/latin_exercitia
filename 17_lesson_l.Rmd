@@ -1,0 +1,138 @@
+# 17 Numeri Difficiles
+</br>
+
+**1. Quot sunt XX et VIII?** 
+
+```{r}
+check_question(answer = c("duodetriginta", "Duodetriginta"),
+               placeholder = "Responde verbis!",
+               button_label = "Rectene dico?",
+               right = "Probe 👌",
+               wrong = "Prave respondes 🫤")
+```
+</br>
+
+**2. nonaginta - quadraginta + triginta - viginti = _ **
+
+```{r}
+check_question(answer = "sexaginta",
+               options = c("sexaginta", "octoginta", 
+                           "quinquaginta", "septuaginta"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Optime 👍",
+               wrong = "Non ita 😔",
+               random_answer_order = TRUE)
+```
+</br>
+
+**3. octingenti - septingenti + quadringenti - ducenti = _ **
+
+```{r}
+check_question(answer = "trecenti",
+               options = c("trecenti", "nongenti", 
+                           "quingenti", "sescenti"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "Ita, ut dicis 👏",
+               wrong = "Non hercle vero! 😕",
+               random_answer_order = TRUE)
+```
+</br>
+
+**4. Quid est verum?**
+
+```{r}
+check_question(answer = c("Titus, qui de numero difficili interrogatur, responsum incertum dat", "Marcus saepe prave respondet"),
+               options = c("Titus, qui de numero difficili interrogatur, responsum incertum dat", "Marcus saepe prave respondet", "Quisque discipulus computare nescit", "Sextus numquam recte respondet"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Recte sane 😊",
+               wrong = "Minime 😒",
+               random_answer_order = TRUE)
+```
+</br>
+
+**5. Iulius: ego (item mea Aemilia) pecuniam meam numquam largi_! Tune, Corneli, pecunaim tuam parti_ cum aliis? Cornelius et Fabia: largi sumus, itaque nos ab aliis lauda_. Vos vero, Iuli et Aemila, saepe reprehendi_.**  
+ 
+```{r}
+check_question(answer = c("-or", "-ris", "-mur", "-mini"), 
+               type = "in_order",
+               button_label = "Rectene dico?",
+               right = "Bene est 🤩",
+               wrong = "Quid ais? 🤨")
+```
+</br>
+
+**6. Sextus: "Ego responsum scio!" Sextus dicit '_ responsum scire.' Magister, qui male audit: "Dicis '_ responsum scire', Sexte?" Sextus: "Recte audis, magister, '_ responsum scire' dico."**
+
+```{r}
+check_question(answer = "se, te, me",
+               options = c("eum, te, me", 
+                           "eum, me, te", 
+                           "se, te, me", 
+                           "se, me, te"),
+               type = "select",
+               button_label = "Rectene dico?",
+               right = "Euge, probe meministi 🥳",
+               wrong = "Cogitandum est 🤔")
+```
+</br>
+
+**7. _Dic totam sententiam:_ Quintus a magistro laudatur...**
+
+```{r}
+check_question(answer = c("quamquam abest", "etiam absens"),
+               options = c("quamquam abest", "etiam absens", "quia abest", "is enim abest"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Sic est 😎",
+               wrong = "Errasti 😥",
+               random_answer_order = TRUE)
+```
+</br>
+
+**8. Quid est verum?** 
+
+```{r}
+check_hint("(1 sest. = 4 as..; 1 den. = 4 sest.)",
+           hint_title = "🔎 VIDE ADMONITUS")
+``` 
+```{r}
+check_question(answer = c("unus denarius = sedecim asses", "duodecim asses = tres sestertii"),
+               options = c("unus denarius = sedecim asses", "duodecim asses = tres sestertii", "quattuordecim asses = quattuor sestertii", "duo denarii = septendecim sestertii"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Probe 💯",
+               wrong = "Non ita ❌",
+               random_answer_order = TRUE)
+```
+</br>
+
+**9. Marcus: _ computare discimus, magister? _ ad mille nos computare iubes! _ numeros, quot computamus, scire non oportet.** 
+
+```{r}
+check_question(answer = c("quare", "usque", "tot"), 
+               type = "in_order",
+               button_label = "Rectene dico?",
+               right = "Quam recte dixisti omnia! 🔥",
+               wrong = "Non hercle vero! 😟",
+               random_answer_order = TRUE)
+```
+</br>
+
+**10. Magister de Marco cogitat: "is est discipulus..."** 
+
+```{r}
+check_question(answer = c("piger", "indoctus"),
+               options = c("piger", "indoctus", 
+                           "industrius", "prudens"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "Recte fecisti officium tuum 😃",
+               wrong = "Minime 😞",
+               random_answer_order = TRUE)
+```
+</br>
+
+
