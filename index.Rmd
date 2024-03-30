@@ -3,21 +3,43 @@ title: "Exercitia Latina"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
-# url: 
-# cover-image: 
-description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+url:  locusclassicus.github.io/latin_exercitia/ 
+description: Сборник упражнений к учебнику Familia Romana
 link-citations: yes
-# github-repo: 
+github-repo: https://github.com/locusclassicus/latin_exercitia
 ---
 
-# About
+# Об этом сайте
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, results = "asis", message = FALSE, warning = FALSE)
 ```
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+
+Salvete, sodales! 
+
+- Здесь вы найдете дополнительные интерактивные упражнения к учебнику Familia Romana. Их можно задавать на дом ученикам, когда не хочется проверять домашку, или делать _motu proprio_, когда хочется повторить грамматику или лексику уроков. 
+
+- Наши упражнения не дублируют сборник Exercitia Latina и другие коллекций заданий к учебнику Ханса Эрберга. Они составлены участниками Греко-латинского клуба [Antibarbari](http://antibarbari.ru/) НИУ ВШЭ специально для этого проекта. 
+
+- Чтобы не нарушать ничьих авторских прав, мы отказались от оригинальных картинок. Без Юлии и розы учить латынь не так весело, но чужая _pecunia_ пусть лежит, где ей положено. 
+
+- Над этим сборником работали студенты НИУ ВШЭ: Екатерина Демидова (ОП "Филология"), Татьяна Крюкова (ОП "Античность"), Александр Семенов (ОП "История"), Мария Худошина (ОП "Филология"), Денис Манаков (ОП "Философия"), Вероника Пушкина (ОП "Филология"), Тимур Саев (ОП "Философия"), Ульяна Афанасьева (ОП "История").
+
+- Руководители проекта: преподаватель Школы философии и культурологии [Кирилл Евгеньевич Прокопов](https://www.hse.ru/staff/prokopov) (составление и проверка упражнений) и доцент Школы философии и культурологии [Ольга Валерьевна Алиева](https://www.hse.ru/org/persons/77284635) (технические вопросы).
+
+- Интерактивная часть сайта реализована с использованием пакета [checkdown](https://cran.r-project.org/web/packages/checkdown/index.html) для языка R. Его разработал наш коллега, заведующий Международной лаборатории языковой конвергенции, доцент Школы лингвистики [Георгий Мороз](https://www.hse.ru/staff/agricolamz). Благодарим Георгия Алексеевича за консультации и за несколько полезных функций, добавленных в пакет по нашей просьбе.  
+
+- Предложить помощь с развитием сайта или сообщить об ошибке можно по адресу: oalieva (c) hse.ru. Если вам понравился этот проект, поддержите лайками и расшарами наш канал в Telegram:  https://t.me/antibarbari. 
+
+Bene valete!
+
+_Сайт подготовлен по результатам проекта "[Цифровая античность](https://hum.hse.ru/proj/digital_antiquity)" при поддержке фонда «Гуманитарные исследования» ФГН НИУ «Высшая школа экономики» в 2023-2024 гг._
+
+
+
+
+
+
+
+
