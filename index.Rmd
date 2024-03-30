@@ -3,9 +3,8 @@ title: "Exercitia Latina"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-url:  locusclassicus.github.io/latin_exercitia/ 
+#url:  locusclassicus.github.io/latin_exercitia/ 
 description: Сборник упражнений к учебнику Familia Romana
-link-citations: yes
 github-repo: https://github.com/locusclassicus/latin_exercitia
 ---
 

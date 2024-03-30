@@ -1,9 +1,6 @@
 # 12 Miles Romanus
 
 </br>
-**1. _Caesar_ est (1), _Iulius_ est (2), _Gaius_ est (3).**
-
-
 ```{r}
  answ1 <- check_question(answer = "cognomen",
                         options = c("praenomen", "nomen", "cognomen"),
@@ -27,6 +24,8 @@
                         wrong = "quid ais? 🤨")
 
 ```
+**1. _Caesar_ est (1), _Iulius_ est (2), _Gaius_ est (3).**
+
 1. `r answ1`
 2. `r answ2`
 3. `r answ3`
@@ -53,7 +52,7 @@ check_question(c("scutum", "gladium", "pilum"), options = c("scutum", "gladium",
 ```
 
 </br>
-**4. Hic gladus (1) est quam ille. Haec hasta (2) est quam illa. Hoc pilum (3) est quam illud.** 
+**4. Hic gladius (1) est quam ille. Haec hasta (2) est quam illa. Hoc pilum (3) est quam illud.** 
 
 ```{r}
 word1 <- check_question(answer = "brevior",
@@ -210,6 +209,7 @@ word4 <- check_question(answer = "passuum",
                         right = "sic est 👍", 
                         wrong = "non ita 😕")
 ```
+
 1. `r word1`
 2. `r word2`
 3. `r word3`

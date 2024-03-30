@@ -105,4 +105,3 @@ check_question(answer=c("somnus infanti necessarius est", "nutrix est mulier, qu
                wrong = "**Prave respondes 😔**",
                random_answer_order = TRUE)
 ```
-### Ваш результат: `r insert_score()` из 10
