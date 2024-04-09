@@ -1,0 +1,72 @@
+# 10 Bestiae et homines
+
+**1. Quae animalia sunt bestiae ferae?**
+
+```{r}
+check_question(c("leones","aquilae"), options=c("leones","aquilae","asini","canes"),type="checkbox", button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
+```
+
+</br>
+**2. Quid habet deus Mercurius, qui in caelo volat?**
+
+```{r}
+check_question(c("alas","petasum","pedes"),options=c("alas","petasum","caudam","pedes"),type="checkbox",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿️")
+```
+
+</br>
+**3. Quid et homines et pisces facere possunt?**
+
+```{r}
+check_question(c("se movere","natare"),options=c("volare","canere","se movere","natare"),type="checkbox",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
+```
+
+</br>
+**4. Pulli ab aquila \_\_\_ possunt, ergo necesse est avibus parvis nidos suos \_\_\_. Quintus autem in arborem ascendere et nidum \_\_\_ audet, sed puer crassus parvo ramo \_\_\_ non potest.**
+
+```{r}
+check_question("capi, occultare, reperire, sustineri",options=c("capi, occultare, reperire, sustineri","capere, occultari, reperire, sustineri","capi, occultari, reperiri, sustinere","capi, occultare, reperiri, sustinere"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
+```
+
+</br>
+**5. Da genetivos: _nom_ pes, _gen_ \_\_\_; _nom_ homo, _gen_ \_\_\_; _nom_ flumen, _gen_ \_\_\_; _nom_ leo, _gen_ \_\_\_.**
+
+```{r}
+check_question("pedis, hominis, fluminis, leonis",options=c("pesis, homis, fluminis, leosis","pedis, homis, flumenis, leosis","pedis, hominis, fluminis, leonis","pedis, hominis, flumenis, leonis"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
+```
+
+</br>
+**6. Mar\_ plena sunt animal\_. Multi pisces in magno mar\_ vivunt.**
+
+```{r}
+check_question("-ia, -ium, -i",options=c("-ia, -ium, -e","-a, -ium, -i","-ia, -um, -i","-ia, -ium, -i"),type="radio",button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
+```
+
+</br>
+**7. Quae animalia ova pariunt?**
+
+```{r}
+check_question(c("aves","aquilae"),options=c("oves","aves","canis","aquilae"),type="checkbox",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿")
+```
+
+</br>
+**8. Quintus vivus est (= vivit). Iulius eum videt. = \_\_\_.** 
+
+```{r}
+check_question(c("Iulius Quintum vivum esse videt","Iulius Quintum vivere videt"),options=c("Iulius Quintum videre vivit","Iulius Quintum vivum esse videt","Iulius Quintum vivere videt","Iulius Quintum vivus esse videt"),type="checkbox",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
+```
+
+</br>
+**9. _Dic totam sententiam:_ Quintus de arbore cadit \_\_\_.**
+
+```{r}
+check_question("ergo ambulare non potest",options=c("Iulius enim eum portat","quod Marcus perterritus est","ergo ambulare non potest","cum in lecto iacet"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
+```
+
+</br>
+**10. Mortui \_\_\_.**
+
+```{r}
+check_question(c("animam in pulmones ducere non possunt","neque spirant neque se movent"),options=c("ova pariunt","animam in pulmones ducere non possunt","neque spirant neque se movent","magna voce clamant"),type="checkbox",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
+```
+
+</br>

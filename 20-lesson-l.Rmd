@@ -1,11 +1,7 @@
 # 20 Pugna discipulorum
 
-```{r}
-library(checkdown)
-```
-### 1. Gradus positivus: raro, laetus. Gradus comparativus:
+**1. Gradus positivus: raro, laetus. Gradus comparativus:**
 
- 
  
 ```{r}
 check_question(answer=c("rarius, laetior"), 
@@ -13,7 +9,7 @@ check_question(answer=c("rarius, laetior"),
 ```
 </br>
 
-### 2. Aemilia: Infans meus numquam cibo care_ neque vagi_! Immo, semper a me cura_ atque al_. 
+**2. Aemilia: Infans meus numquam cibo care_ neque vagi_ ! Immo, semper a me cura_ atque al_ . **
  
  
 ```{r}
@@ -22,7 +18,7 @@ check_question(answer=c("-bit, -et, -bitur, -etur"),
 ```
 </br>
 
-### 3. Aemilia: semper apud infantem meum mane_ atque eum dilig_; etiam nocte eum cura_ neque ipsa dormi_ 
+**3. Aemilia: semper apud infantem meum mane_ atque eum dilig_ ; etiam nocte eum cura_ neque ipsa dormi_ .**
  
  
 ```{r}
@@ -32,7 +28,7 @@ check_question(answer=c("-bo, -am, -bo, -am"),
 
 </br>
 
-### 4. Iulia: sororem habere __ ! At vos, Marce et Quinte? Marcus et Quintus: nos quoque sororem habere ____ . Parentes autem, ut mater dicit, plus quam duos filios habere __ . 
+**4. Iulia: sororem habere \_\_\_ ! At vos, Marce et Quinte? Marcus et Quintus: nos quoque sororem habere \_\_\_ . Parentes autem, ut mater dicit, plus quam duos filios habere \_\_\_ .** 
  
  
  
@@ -43,7 +39,7 @@ check_question(answer=c("nolo, nolumus, nolunt"),
 
 </br>
 
-### 5. Aemilia: Cur sola sororem habere _ , Iulia? Iulia: At etiam Marcus sororem habere _ ! Cur fratrem habere _ , mama et tata? 
+**5. Aemilia: Cur sola sororem habere \_\_\_ , Iulia? Iulia: At etiam Marcus sororem habere \_\_\_ ! Cur fratrem habere \_\_\_ , mama et tata? **
 
  
  
@@ -55,7 +51,7 @@ check_question(answer=c("non vis, non vult, non vultis"),
 
 </br>
 
-### 6. Iulius: Cras debet mihi _ abire, mea filiola. Romae sunt multa officia. Iulia: Quando _ reverteris, tata? Iulius: Post paucos dies _ ero, si potero. 
+**6. Iulius: Cras debet mihi \_\_\_ abire, mea filiola. Romae sunt multa officia. Iulia: Quando \_\_\_ reverteris, tata? Iulius: Post paucos dies \_\_\_ ero, si potero.**
  
  
  
@@ -66,7 +62,7 @@ check_question(answer = c("domo", "domum", "domi"), right = "recte sane 🙂", w
 
 </br>
 
-### 7. Iulius: Noli _ , Aemilia! Tecum _ volo! Aemilia: Romam discede, Iuli. Noli _ ! Tibi _ nolo! 
+**7. Iulius: Noli \_\_\_, Aemilia! Tecum \_\_\_ volo! Aemilia: Romam discede, Iuli. Noli \_\_\_ ! Tibi \_\_\_ nolo!**
  
  
  
@@ -75,7 +71,7 @@ check_question(answer = c("silere", "colloqui", "reverti", "occurere"), right = 
 ```
 </br>
 
-### 8. Iulius: Vir _ pecuniam facere ac magnam familiam alere. Feminam _ infantes curare. 
+**8. Iulius: Vir \_\_\_ pecuniam facere ac magnam familiam alere. Feminam \_\_\_ infantes curare.** 
  
  
 ```{r}
@@ -84,7 +80,7 @@ check_question(answer=c("debet, decet"),
 ```
 </br>
 
-### 9. Mercator: ___ tranquillum est mare, at __ turbidum erit, ut mihi videtur. Metuisne tempestatem? Gubernator: __ ! Sive tranquillum est, sive turbidum mox erit mare, __ merces tuas in Italiam advehere debet.
+**9. Mercator: \_\_\_ tranquillum est mare, at \_\_\_ turbidum erit, ut mihi videtur. Metuisne tempestatem? Gubernator: \_\_\_ ! Sive tranquillum est, sive turbidum mox erit mare, \_\_\_ merces tuas in Italiam advehere debet.**
  
  
  
@@ -94,7 +90,7 @@ check_question(answer=c("hodie, cras, minime, profecto"),
 ```
 </br>
 
-### 10. Quid est verum?
+**10. Quid est verum?**
 
 ```{r}
 check_question(answer=c("somnus infanti necessarius est", "nutrix est mulier, quae infantem alienum alit"),

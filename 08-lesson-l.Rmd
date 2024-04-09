@@ -1,0 +1,169 @@
+# 8 Taberna romana
+
+**1. Lydia ocul\_ ad tabernam Albini vertit. Lydia tabernam digit\_ monstrat. Medus consistit et tabern\_ aspicit. Tabernarius lineam margarit\_ Lydiae Medoque ostendit.**
+
+```{r}
+check_question(answer=c("-os, -o, -am, -arum"),
+               options = c("-os, -o, -am, -arum", "-i, -o, -am, -am", "-is, -us, -um, -am", "-i, -um, -is, -arum"),
+               type = "checkbox",
+               button_label = "Rectene dico?",
+               right = "**Recte respondes!** 🥳",
+               wrong = "**Cogitandum est** 🤔",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**2. lulius: "Delia et Syra, ascpic\_ anulum!" Delia et Syra anulum aspic\_\_. "Aemilia, accip\_ eum!" Aemilia laeta anulum accip\_\_.**
+
+```{r}
+check_question(answer=c("-ite, -iunt, -e, -it"),
+               options = c("-ite, -unt, -e, -et", "-ite, -iunt, -i, -it", "-ite, -iunt, -e, -it", "-ete, -iunt, -e, -it"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Optime** 👍",
+               wrong = "**Non ita** ☹️",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**3. Non ＿ ornamenta emuntur, quae hic ponuntur, sed ＿ gemmae, quae illic ostenduntur.**
+
+```{r}
+check_question(answer=c("haec, illae"),
+               options = c("illa, hae", "hae, illa", "haec, illae", "illae, haec"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Recte sane** 🙂",
+               wrong = "**Minime** 😔",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**4. XC (=＿) sestertii est nimis magnum pretium, nam femina XX (=＿) tantum habet. Sed ecce vir ei LXXX (=＿) dat. Hoc satis est! Femina anulum emit ceterosque sestertios in sacculo ponit.**
+
+```{r}
+check_question(answer=c("nonaginta, viginti, octoginta"),
+               options = c("nonaginta, viginti, octoginta", "nonaginta, octoginta, viginti", "octoginta, viginti, nonaginta", "nonaginta, octoginta, viginti"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Probe** 👌",
+               wrong = "**Non hercle vero!** 😕",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**5. Medus: "Quot numm\_ constat ille anulus, Albine?"**
+
+```{r}
+check_question(answer=c("-īs"),
+               options = c("-īs", "-ī", "-os", "-as"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Sic est** 👏",
+               wrong = "**Prave respondes!** 🤨",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**6. Albinus: "Pretium huius anuli est C sesterti\_."**
+
+```{r}
+check_question(answer=c("-ī"),
+               options = c("-īs", "-ī", "-os", "-as"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Probe** 🤩",
+               wrong = "**Minime** 😔",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**7. Medus: "Sed anuli sine gemmis XX sesterti\_ emuntur. ＿ pretio eum vende!"**
+
+```{r}
+check_question(answer=c("-īs, hōc"),
+               options = c("-īs, hōc", "-īs, hi", "-īs, hic", "-ī, hi"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Ita!** 🙂",
+               wrong = "**Non ita** ☹️",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**8. Non hic anulus, sed ali＿ anulus a Lydia amatur, nam hoc ornamentum foedum est, ali＿ ornamentum est pulchrum. Neque hunc anulum Lydia aspicit, sed ali＿ anulum. Itaque Medus non hoc ornamentum, sed ali＿ emit.**
+
+```{r}
+check_question(answer=c("-us, -ud, -um, -um"),
+               options = c("-us, -ud, -um, -ud", "-ud, -um, -ud, -um", "-us, -ud, -ud, -um", "-us, -ud, -um, -um"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Ita, ut dicis** 👏",
+               wrong = "**Quid ais?** 🤨",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**9. ＿ est hoc? Ornamentum est. ＿ ornamentum? Anulus gemmatus. Ornamentum ＿ Medus in digito Lydiae ponit est anulus gemmatus. ＿ anulum gemmatum emit pecuniosus est.**
+
+```{r}
+check_question(answer=c("quid, quod, quod, qui"),
+               options = c("quid, quod, quis, quid", "quid, quod, quod, qui", "quid, qui, quod, quod", "quis, quod, quod, quid"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Bene 👌**",
+               wrong = "**Prave respondes!**",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**10. ＿ anulus ad ＿ digitum non convenit. Pretium ＿ anuli parvus est. Itaque Albinus alium anulum ＿ viro dat.**
+
+```{r}
+check_question(answer=c("ille, illum, illius, illi"),
+               options = c("ille, illud, illi, illo", "ille, illum, illius, illi", "ille, illum, illius, illo", "ille, illud, illi, illi"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Rectissime! 🤗**",
+               wrong = "**Prave respondes! 🤭**",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**11. ＿ gemma ad ＿ feminam non convenit. Pretium ＿ gemmae magnum est. Itaque aliam gemmam Albinus ＿ feminae dat.**
+
+```{r}
+check_question(answer=c("haec, hanc, huius, huic"),
+               options = c("haec, hunc, hae, huic", "haec, hanc, huius, hae", "haec, hanc, hae, hae", "haec, hanc, huius, huic"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Recte dicis!** 💎",
+               wrong = "**Prave ** 😳",
+               random_answer_order = TRUE)
+```
+
+</br>
+
+**12. ＿ ornamentum ad ＿ collum non convenit, quia pretium ＿ ornamenti magnus est. Albinus aliud ornamentum ＿ collo dat.**
+
+```{r}
+check_question(answer=c("id, id, eius, ei"),
+               options = c("id, id, eius, ei", "id, eum, ei, ei", "id, eum, ei, eo", "eum, id, eius, eo"),
+               type = "radio",
+               button_label = "Rectene dico?",
+               right = "**Recte 🌟**",
+               wrong = "**Prave ☹️**",
+               random_answer_order = TRUE)
+```
+
+</br>

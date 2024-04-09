@@ -1,0 +1,133 @@
+# 14 Novus dies
+</br>
+
+**1. _Quid nocte in villa agitur?_**
+
+
+```{r}
+check_question(answer=c("alter puer fenestra clausa dormit", "Quintus oculis apertis cubat, is enim non valet"),
+options = c("omnes in familia praeter Quintum vigilant", "alter puer fenestra clausa dormit", "gallus totam noctem canit", "Quintus oculis apertis cubat, is enim non valet"),
+type = "checkbox",
+button_label = "Rectene dico?🤔",
+right = "Optime!😏",
+wrong = "Minime😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**2. ____ femina aegra est, Fabiane an Aemilia? ____ femina aegrotat, ____ femina valet; omnes igitur gaudent nec medicus arcessitur.**
+
+```{r}
+check_question(answer="utra, neutra, utraque",
+options = c("utra, neutra, utraque", "utra, utraque, neutra", "utraque, neutra, utra", "utraque, utra, neutra"),
+button_label = "Rectene dico?🤔",
+right = "Probe!😉",
+wrong = "Non ita😢",
+random_answer_order = TRUE)
+```
+</br>
+
+**3. _Quid Marcus mane agit?_**
+
+
+```{r}
+check_question(answer=c("e lecto surgit, quod a Davo excitatur","aquam ad manus poscit, quam Davus affert"),
+options = c("e lecto surgit, quod a Davo excitatur", "aquam ad manus poscit, quam Davus affert", "nihil aliud praeter faciem lavat; manus enim purae sunt", "corpus totum sordidum in aquam mergit"),
+type = "checkbox",
+button_label = "Rectene dico?🤔",
+right = "Optime!😸",
+wrong = "Minime😿",
+random_answer_order = TRUE)
+```
+</br>
+
+**4. Mane cubicula puerorum ____ (= qui dormiunt) sole ____ (= qui lucet) illustrantur.**
+
+```{r}
+check_question(answer="dormientium, lucente",
+options = c("dormientium, lucente", "dormientum, lucentis", "dormientis, lucente", "dormientorum, lucento"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Probe!😏",
+wrong = "Non ita😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**5. ____ Quintus surgere solet, ____ Marcus. ____ autem Quintus aegrotans in lecto suo ____ cubat.**
+
+```{r}
+check_question(answer = c("primum", "deinde", "hodie", "adhuc"),
+type = "in_order",
+button_label = "Rectene dico?🤔",
+right = "Optime!😸",
+wrong = "Minime😿",
+random_answer_order = TRUE)
+```
+</br>
+
+**6. Vir romanus primum ____ induit, deinde ____. Pes ____ et pes dexter eius ____ operiuntur.**
+
+```{r}
+check_question(answer="tunicam, togam, sinister, calceis",
+options = c("tunicam, togam, sinister, calceis", "togam, tunicam, sinister, calceis", "tunicam, togam, sinistra, calceis", "tunicam, togam, sinister, calceo"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Sic est!😉",
+wrong = "Non hercle vero😢",
+random_answer_order = TRUE)
+```
+</br>
+
+**7. Marcus Davum ____ venire iubet: "Veni ____, Dave! Etiam res meas ____ sume!"**
+
+```{r}
+check_question(answer="secum, mecum, tecum",
+options = c("tecum, secum, mecum", "secum, tecum, mecum", "secum, mecum, tecum", "tecum, mecum, secum"),
+button_label = "Rectene dico?🤔",
+right = "Optime!😉",
+wrong = "Minime😢",
+random_answer_order = TRUE)
+```
+</br>
+
+**8. Dorippa: "Nemo me amat, ____ me rident! Nullus vir probus est, ____ vir est improbus! Nihil me delectat, ____ me tristem faciunt!"**
+
+```{r}
+check_question(answer="omnes, omnis, omnia",
+options = c("omnis, omnia, omnis", "omnes, omnis, omnia", "omnes, omnia, omnis", "omnia, omnes, omnis"),
+type = "radio",
+button_label = "Rectene dico?🤔",
+right = "Probe!😏",
+wrong = "Non ita😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**9. Davus: "Marce, ____ totum corpus nudum est! Nonne corpus ____ friget?" Marcus: "Etiam caput ____ dolet, iube igitur me in lecto cubare!"**
+
+```{r}
+check_question(answer= "tibi, tibi, mihi",
+options = c("te, tibi, mihi", "tibi, te, mihi", "tibi, tibi, mihi", "te, tibi, me"),
+button_label = "Rectene dico?🤔",
+right = "Optime!😏",
+wrong = "Minime😞",
+random_answer_order = TRUE)
+```
+</br>
+
+**10. _Quae res Marcus hodie ad ludum secum fert?_**
+
+```{r}
+check_question(answer= c("regulam", "stilum", "tabulam"),
+options = c("regulam", "stilum", "nihil praeter malum", "tabulam"),
+type = "checkbox",
+button_label = "Rectene dico?🤔",
+right = "Probe!😸",
+wrong = "Non ita😿",
+random_answer_order = TRUE)
+```
+</br>
+
+
+
