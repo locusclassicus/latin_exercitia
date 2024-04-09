@@ -1,19 +1,10 @@
 # 5 Villa et hortus
 </br>
 
-**1. _Quid est 1, 6, 5, 4?_**
-
-![](https://drive.google.com/uc?id=1uDN5ASrFiKq2Y4qJ_rZWb_oiXtuAM37G){width="40%"}
-</br>
-
+**1. filios** 
 ```{r}
-check_question(answer="ostia, cubicula, peristylum",
-options = c("fenestra, peristylum, cubicula", "ostia, cubicula, peristylum", "cubicula, ostia, atrium", "peristylum, ostia, impluvium"),
-type = "radio",
-button_label = "Rectene dico?🤔",
-right = "Optime!😏",
-wrong = "Minime😞",
-random_answer_order = TRUE)
+check_question(answer=c("accusativus pluralis"), 
+               options = c("nominativus singularis", "genetivus pluralis", "accusativus pluralis", "nominativus pluralis"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
 
@@ -29,19 +20,10 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**3. _Quid est in imagine?_**
-
-![](https://drive.google.com/uc?id=1pH1rZgLV5AMVGa54lnaIXWED_xBB0mu1){width="30%"}
-</br>
+**3. Nominativus singularis: filius, cubiculum, filia, hortus. Accusativus pluralis: fili_ , cubicul_ , fili_ , hort_**
 
 ```{r}
-check_question(answer=c("Iulia rosas carpit","Rosae puellam delectant: ea laeta est"),
-options = c("Iulia rosas carpit", "Rosae puellam delectant: ea laeta est", "Puella lilia in horto carpit", "Iulia rosas ex impluvio sumit"),
-type = "checkbox",
-button_label = "Rectene dico?🤔",
-right = "Optime!😸",
-wrong = "Minime😿",
-random_answer_order = TRUE)
+check_question("-os, -a, -as, -os", right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "-a, -as, -os, -os")
 ```
 </br>
 
@@ -58,19 +40,10 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**5. _Quid est in imagine?_**
-
-![](https://drive.google.com/uc?id=1vDqs_CRbT6WtL2QhfW7g2ks90TTMmllV){width=40%}
-</br>
-
+**5. Aemilia cum liber___ in horto est. Aemilia liber___ laudat. Iulius ab oppid___ venit. Iulia ex peristyl___ discedit et patrem salutat.**
 ```{r}
-check_question(answer=c("Aemilia laeta rosas sumit","Pueri Iuliam rident"),
-options = c("Aemilia laeta rosas sumit", "Aemilia cum liberis suis in impluvio est", "Iulia rosas in mensa ponit", "Pueri Iuliam rident"),
-type = "checkbox",
-button_label = "Rectene dico?🤔",
-right = "Optime!😸",
-wrong = "Minime😿",
-random_answer_order = TRUE)
+check_question(answer=c("-is, -os, -o, -o"), 
+               options = c("-os, -is, -o, -um", "-is, -os, -o, -o", "-os, -os, -o, -o", "-is, -os, -um, -o"), right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
 

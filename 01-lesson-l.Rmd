@@ -1,16 +1,12 @@
 # 1 Imperium Romanum
 
 </br>
-**1.Quid est in imagine?**
-
-![](https://drive.google.com/uc?id=14l1SlTj1v8jmeYL73lXgPsd-Hjk6C64Z){width="50%"}
-
+**1. _____ oppidum est. _____ fluvius est. _____ insula est.**
 ```{r}
-library(checkdown)
-check_question(NULL, answer = c("oppidum", "insula", "fluvius"), options = c("oppidum", "insula", "fluvius","capitulum"), type = "checkbox",  right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?")
+check_question(answer = c("Tusculum", "Tiberis", "Melita"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
-
 </br>
+
 **2. Italia in Europa est. Graecia __ in Europa est. Hispania et Graecia __ in Europa, __ Syria est in Asia.**
 
 ```{r}
@@ -18,7 +14,7 @@ check_question(answer = "quoque, sunt, sed", placeholder = "sed, quoque, sunt", 
 ```
 
 </br>
-**3. Tiberis et Danuvus __ sunt. Corsica et Sardinia __ sunt. Roma et Brundisium __ sunt.**
+**3. Tiberis et Danuvius __ sunt. Corsica et Sardinia __ sunt. Roma et Brundisium __ sunt.**
 
 ```{r}
 check_question(answer = "fluvii, insulae, oppida", placeholder = "fluvius, insula, oppidum",  right = "recte sane 😁", wrong = "minime ☹️ ", button_label = "Rectene dico?")
@@ -40,10 +36,10 @@ check_question(answer = c("num, quid, estne, ubi", "Num, Quid, Estne, Ubi"), pla
 ```
 
 </br>
-**6. Quid est in imagine?**
-
-![](https://drive.google.com/uc?id=126a5HqT0_VU11YI6w3rkO40vPMNq013Y){width="50%"}
-
+**6. Г ______ est. Ubi ______ est. -bi _____ est.  III ________ est.**
+```{r}
+check_question(answer = c("littera", "vocabulum", "syllaba", "numerus"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
+```
 </br>
 ```{r}
 check_question(NULL, answer = c("literae Latinae", "literae Graecae","numeri Romani"), options = c("capitula Latina", "literae Latinae", "literae Graecae","numeri Romani"), type = "checkbox",  right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?")

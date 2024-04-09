@@ -1,17 +1,12 @@
 # 7 Puella et rosa
 
-**1. Quid est in imagine?**
-
-![](https://drive.google.com/uc?id=1H-ZuFOVdiW8e-h9qDzC3Ahl8BfqgwMso){height=300}
-
+**1. Mala a servis portantur. Servi ancillis mala dant. _A servis_ est casus _____ . _Ancillis_ est casus _____ .**
 ```{r}
-check_question(c("Iulia rosam ante se tenet", "oculi puellae pleni sunt lacrimarum"), options = c("Iulia rosam ante se tenet", "Iulia rosam carpit", "oculi puellae pleni sunt lacrimarum", "puella speculum ante se tenet"), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "optime 👍", wrong = "minime 😔")
+check_question(answer=c("ablativus, dativus"), 
+               options = c("dativus, dativus", "dativus, ablativus", "ablativus, dativus", "ablativus, ablativus"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
-
 </br>
 **2. Iulius, qui ante __ ostium videt, ostario imperat: "Aper__ ostium!" Ostarius ostium aperit. Iulius, qui per ostium intrat, ostario imperat: "Claud__ ostium post me!" Ostarius paret, post __ ostium claudit.**
-
-![](https://drive.google.com/uc?id=1hoDGhyz5pK9Mdh9bGlah2EtJhl0tLiZo){width=50%}
 
 ```{r}
 check_question(answer = "se, -i, -e, eum", 

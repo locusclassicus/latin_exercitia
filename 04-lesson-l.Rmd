@@ -1,16 +1,13 @@
 # 4 Dominus et servi
  
 </br>
-**1. Quid adest in imagine?**
- 
-![](https://drive.google.com/uc?id=1XWcriQw4THCvcznw25-a52Y4jjWV5L3r){ width="50%" }
- 
+**1. baculum**
 ```{r}
-check_question(c("Mensa", "Sacculus", "Nummi"), options = c("Baculum", "Mensa", "Sacculus", "Nummi"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
+check_question(answer=c("nominativus singularis", "accusativus singularis"), 
+               options = c("accusativus singularis", "accusativus pluralis", "nominativus singularis", "nominativus pluralis"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
 ```
- 
-
 </br>
+
 **2. Scribe verbis Latinis: 10, 8, 5, 4, 7, 9**
  
 </br>
@@ -28,21 +25,13 @@ check_question("habet, imperat, serve, paret", options = c("habet, imperat, serv
 ```
  
 </br>
-**4. Quid abest in imagine?**
- 
-![](https://drive.google.com/uc?id=1AJuFrasLIDA8BDTIaUPKk7OiTH_sH9ue){ width="50%" }
- 
+**4. Iulius Med__ vocat: ‘Med__ ! Veni!’ Aemilia Iuli__ , filiam suam, vocat: ‘Iuli__ !’**
 ```{r}
-check_question("mensa",
-               right = "optime 👍",
-               wrong = "cogitandum est 🤔", 
-               button_label = "Rectene dico?", 
-               options = c("baculum", "mensa", "Iulius", "sacculus"),
-               type = "radio")
+check_question(answer=c("-um, -e, am, -a"), 
+               options = c("-us, -us, -a, -a", "-um, -e, -a, -a", "-us, -e, -am, -a", "-um, -e, am, -a"), right = "optime 👍", wrong = "non ita ☹️", button_label = "Rectene dico?", type = "radio")
 ```
-  
-
 </br>
+
 **5. In mensa baculum Iulii et sacculus Davi sunt. __ [:Iulius] baculum __ et sacculum __ sumit.** 
   
 
@@ -51,15 +40,13 @@ check_question(answer = c("is", "suum", "eius"), right = "bene 🤩", wrong = "m
 ```
  
 </br>
-**6. Quid est in imagine?**
- 
-![](https://drive.google.com/uc?id=1c2GEBSjJUTjFuHve8ZEIPcMXau-Tl44L){ width="50%" }
-    
+**6. In sacculo Davi nulla pecunia est. Sacculus Davi _____ est.** 
 ```{r}
-check_question("Davus in mensa sacculum ponit", options = c("Davus in mensa sacculum ponit", "Davus sacculum sumit", "Davus mensam sumit et discedit", "Davus mensam sumit et sacculum ponit"), right = "optime 👍 ", wrong = "non hercle vero! 😕 ", button_label = "Rectene dico?", type = "radio")
+check_question(answer=c("vacuus"), 
+               options = c("plenus", "vacuus", "nullus", "foedus"), right = "sic est  🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
-  
 </br>
+
 **7. Imperativi verborum _ponit_, _tacet_, _imperat_, _dormit_ sunt...**
   
 
@@ -85,13 +72,10 @@ check_question(c("venire", "ponere"), options = c("venire", "accusare", "habere"
  
 
 </br>
-**10. Quid est in imagine?**
-
-![](https://drive.google.com/uc?id=1V4Hs7x4xfFCOWJhUU-9fV4EZe6n4kuZT){ width="50%" }
- 
+**10. Iulius: ‘Davus, voc__ Marcum!’. Davus: ‘Marce, ven__ !’. Marcus: ‘Davus, tac__ !’ Iulius: ‘Marce, disced__ ! Puer improbus es!’.**
 ```{r}
-check_question(c("Iulius vocat Medum", "Aemelia ridet"), options = c("Iulius tacet", "Aemilia abest", "Iulius vocat Medum", "Aemelia ridet"), right = "ita, ut dicis 👏", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "checkbox")
+check_question(answer=c("-a, -i, -e, -e"), 
+               options = c("-a, -i, -e, -e", "-e, -a, -e, -i", "-e, -i, -e, -i", "-e, -e, -i, -i"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
-
 </br>
  

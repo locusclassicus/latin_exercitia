@@ -1,16 +1,10 @@
 # 2 Familia Romana
 
-![**1. Qui sunt in imagine?**](https://drive.google.com/uc?id=13WjUZv7MttgR6nZ5afjlAEbeT7YXP5aI){ width='50%' }
-
+</br>
+**1. servorum**
 ```{r}
-check_question(answer = c("dominus dominaque", "pueri puellaque", "vir feminaque"),
-               options = c("servi ancillaeque", "dominus dominaque", 
-                           "pueri puellaque", "vir feminaque"),
-               type = "checkbox",
-               button_label = "Rectene dico?",
-               right = "Probe 👌",
-               wrong = "Cogitandum est 🤔",
-               random_answer_order = TRUE)
+check_question(answer=c("genetivus pluralis"), 
+               options = c("genetivus singularis", "nominativus pluralis", "nominativus singularis", "genetivus pluralis"), right = "probe 👌", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
 
@@ -58,17 +52,11 @@ check_question(answer = "-orum,-arum,-orum",
 ```
 </br>
 
-![**5. Qui sunt in imagine?**](https://drive.google.com/uc?id=1UFkf0eeBzDj13r2-JvO9fR6KMk-OEW9A){ width='40%' }
- 
+**5. Magnus numerus oppidorum = mult_ oppid_. Parvus numerus liberorum = pauc_ liber_.**
+
 ```{r}
-check_question(answer = c("servi ancillaeque", "viri feminaeque"),
-               options = c("servi ancillaeque", "domini dominaeque", 
-                           "filii filiaeque Iulii et Aemiliae", "viri feminaeque"),
-               type = "checkbox",
-               button_label = "Rectene dico?",
-               right = "Bene est 🤩",
-               wrong = "Quid ais? 🤨",
-               random_answer_order = TRUE)
+check_question(answer=c("-a, -a, -i, -i"), 
+               options = c("-os, -os, -as, -as", "-as, -as, -a, -a", "-a, -a, -i, -i", "-os, -os, -i, -i"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
 

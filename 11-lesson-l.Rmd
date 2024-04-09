@@ -3,8 +3,6 @@
 </br>
 **1. Corpus humanum atque sanum habet…**
 
-![](https://drive.google.com/uc?id=1r3kWitD-bHRnBBCdaiVnw4cJYwyyQgho){width="50%"}
-
 ```{r}
 check_question(answer=c("duo bracchia", "duo crura"),
                options = c("duo capita", "duo bracchia", "tria pectora", "duo crura"),
@@ -18,9 +16,6 @@ check_question(answer=c("duo bracchia", "duo crura"),
 
 </br>
 **2. Ubi est caput humanum? Caput ＿ collum est. In capite sunt oculi, ＿ oculos est frons, ＿ oculos genae sunt.**
-
-
-![](https://drive.google.com/uc?id=16k0pIXoILvuFno75ivmaft6nWjEaniM1){width="25%"}
 
 ```{r}
 check_question(answer=c("super, supra, infra"),
@@ -36,8 +31,6 @@ check_question(answer=c("super, supra, infra"),
 </br>
 **3. Quae viscera homini sano sunt?**
 
-
-![](https://drive.google.com/uc?id=1wQ2qpcSfMi4ZdT4RzRHvHtxjV-nfAxWS){width="35%"}
 
 ```{r}
 check_question(answer=c("unum iecur", "unus venter"),
@@ -66,40 +59,21 @@ check_question(answer=c("iubet, arcessit, revenit"),
 
 
 </br>
-**5. Quid est in imagine?**
-
-</br>
-
-![](https://drive.google.com/uc?id=17seuMpoVvWvKDu_LaaN8ko6woUboBTwt){width="40%"}
+**5. Quintus aegrotat. Aemilia videt ___ ___ .**
 
 ```{r}
-check_question(answer=c("Quintus linguam ostendit", "Manus medici prope aures Quinti sunt"),
-               options = c("Quintus linguam ostendit", "Medicus frontem Quinti tangit", "Manus medici prope aures Quinti sunt", "Medicus digitum ad labrum Quinti apponit"),
-               type = "checkbox",
-               button_label = "Rectene dico?",
-               right = "Ita! 👏",
-               wrong = "Minime... 🤨",
-               random_answer_order = TRUE)
+check_question(answer=c("Quintum aegrotare"), 
+               options = c("Quintus aegrotat", "Quintus aegrotare", "Quintum aegrotat", "Quintum aegrotare"), right = "bene  🤩", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "radio")
 ```
-
-
 </br>
-**6. Quid est in imagine?**
 
-
-![](https://drive.google.com/uc?id=1gRFSveoWhHGgGgtWM-yq5v-awFsi95tE){width="40%"}
-
+**6. Quid est infra oculos?**
 ```{r}
-check_question(answer=c("Iulius bracchium Quinti tenet", "Medicus cultrum ad bracchium Quinti appoint"),
-               options = c("Aemilia poculum super bracchium Quinti tenet", "Puer quietus sub lecto iacet", "Iulius bracchium Quinti tenet", "Medicus cultrum ad bracchium Quinti appoint"),
-               type = "checkbox",
-               button_label = "Rectene dico?",
-               right = "Ita, ut dicis 👏",
-               wrong = "Quid ais? 🤨",
-               random_answer_order = TRUE)
+check_question(answer=c("os", "nasus"), 
+               options = c("os", "capillus", "nasus", "frons"), right = "ita, ut dicis 👏", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "checkbox")
 ```
-
 </br>
+
 **7. Quintus ＿ arbore cadit ＿ ambulare potest; pes ＿ caput dolet. Medicus arcessitur, iam non ＿ pede et capite, sed etiam bracchio puer aeger est!**
 
 

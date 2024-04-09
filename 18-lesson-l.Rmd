@@ -1,8 +1,8 @@
 # 18 Litterae latinae
 </br>
 
-### 1.Quid est verum?
-</br>
+**1.Quid est verum?**
+
 
 ```{r}
 check_question(answer = c ("in Lingua Latina sunt XXIII litterae", " 'Kaeso' est praenomen Latinum rarissimum"), options = c("in Lingua Latina sunt XXIII litterae", " 'Kaeso' est praenomen Latinum rarissimum", "Z, Y, K sunt litterae Latinae frequentes", "in Lingua Latina numerus vocalium et consonantium idem est"), type = "checkbox",  right = "optime 👍",
@@ -10,9 +10,9 @@ check_question(answer = c ("in Lingua Latina sunt XXIII litterae", " 'Kaeso' est
 ```
 </br>
 
-### 2. In __ HOMO OCVLOS ET NASVM HABET sunt V __ . In vocabulo NASVM sunt II __ et III __ .
+**2. In __ HOMO OCVLOS ET NASVM HABET sunt V __ . In vocabulo NASVM sunt II __ et III __ .**
 
-</br>
+
 
 ```{r}
 check_question(answer = "sententia, vocabula, vocales, consonantes", options = c("sententia, vocabula, vocales, consonantes", "sententia, littera, vocales, consonantes", "littera, sententiae, consonantes, vocales", "sententia, vocabula, consonantes,
@@ -23,9 +23,8 @@ vocales"), type = "select", right = "bene 😁",
 </br>
 
 
-### 3. In ludo pueri scribere discunt. Quisque discipulus scribit sententias quas magister ei dictat. Quomodo scribunt? Quod magister facit?
+**3. In ludo pueri scribere discunt. Quisque discipulus scribit sententias quas magister ei dictat. Quid faciunt pueri et magister?**
 
-</br>
 
 ```{r}
 check_question(NULL, answer = c ("Quisque discipulus stilo in tabula scribit", "Magister chartam tenens sententiam dictat"), options = c("Magister stilum in ceram premit", "Magister chartam tenens sententiam dictat", "Quisque discipulus stilo in tabula scribit","Quisque discipulus calamo in charta scribit"), type = "checkbox",  right = "optime 👍",
@@ -34,8 +33,7 @@ check_question(NULL, answer = c ("Quisque discipulus stilo in tabula scribit", "
 
 </br>
 
-### 4. Marcus sic scribit: OMO OCOLOS ET NASV ABET. Quoties Marcus mendat (=mendum facit)?
-</br> 
+**4. Marcus sic scribit: OMO OCOLOS ET NASV ABET. Quoties Marcus mendat (=mendum facit)?**
 
 ```{r}
 check_question("quater", options = c("ter", "quater", "quinquies", "sexies"), type = "radio", right = "probe 👌",
@@ -43,7 +41,7 @@ check_question("quater", options = c("ter", "quater", "quinquies", "sexies"), ty
 ```            
 </br> 
    
-### 5. In vocabulo HOCLOS littera H __ , littera V __ . Necesse est litteram V __ , litteram H __ .
+**5. In vocabulo HOCLOS littera H __ , littera V __ . Necesse est litteram V __ , litteram H __ .**
 </br> 
 
 ```{r}
@@ -53,7 +51,7 @@ check_question(answer = c("superest", "deest", "addere", "delere"), type = "in_o
 
 </br>
 
-### 6. Quid est verum?
+**6. Quid est verum?**
 
 
 ```{r}
@@ -62,9 +60,9 @@ check_question(NULL, answer = c ("Ferrum non tam molle est quam cera", "Discipul
 ```
 </br>
 
-### 7. Synonyma sunt vocabula quae ..dem rem vel ..dem hominem significant.
+**7. Synonyma sunt vocabula quae ..dem rem vel ..dem hominem significant.**
 
-</br>
+
 
 ```{r}
 check_question("ean- , eun-", options = c("i- , eun- ", "i- , i-", "ean- , eun-", "ean- , i-"), type = "radio", right = "probe 👌",
@@ -72,27 +70,25 @@ check_question("ean- , eun-", options = c("i- , eun- ", "i- , i-", "ean- , eun-"
 ```     
 </br>
 
-### 8. Quisque puer vel __ puella __ litteram __ vocabuli sic legit: "R-O Ro, M-A Ma, Ro-ma". Ita __ vocabulum a puero vel puella legitur.
+**8. Quisque puer vel __ puella __ litteram __ vocabuli sic legit: "R-O Ro, M-A Ma, Ro-ma". Ita __ vocabulum a puero vel puella legitur.**
 
-</br>
+
 
 ```{r}
 check_question("quaeque, quamque, cuiusque, quodque", options = c("quisque, quemque, cuiusque, quodque", "quisque, quamque, quodque, cuiusque", "quaeque, quamque, cuiusque, quodque", "quaeque, quemque, quodque, cuiusque"), type = "select", right = "recte sane 🙂",wrong = "cogitandum est 🤔", button_label = "Rectene dico?")
 ```
 </br>
 
-### 9. Sextus non tam foed_ nec tam turp_ scribit quam Titus. Titus turp_ scribit quam Sextus. Marcus ex omnibus discipulis foed_ scribit.
+**9. Sextus non tam foed_ nec tam turp_ scribit quam Titus. Titus turp_ scribit quam Sextus. Marcus ex omnibus discipulis foed_ scribit.**
 
-</br>
 
 ```{r}
 check_question("-e, -iter, -ius, -issime", options = c("-e, -iter, -ius, -issime", "-iter, -e, -ius, -issime", "-iter, -e, -ior, -issiumus", "-e, -iter, -ior, -issimus"), type = "radio", right = "ita, ut dicis 👏",wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
 ```
 </br>
 
-### 10. Quid est verum?
+**10. Quid est verum?**
 
-</br>
 
 
 ```{r}

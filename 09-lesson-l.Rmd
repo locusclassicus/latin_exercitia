@@ -1,23 +1,20 @@
 # 9 Pastor et oves
 
-**1. Quid est in imagine?**
-
-![](https://drive.google.com/uc?id=1eCMVTtVa3AsCX_uWJWS7gvpQ8Z3xUXHW){ width=55% }
+**1. Accusativus singularis: ancillam, servum, pastorem. Accusativus pluralis: ancill_ , serv_ , pastor_**
 
 ```{r}
-check_question(c("nulla nubes in caelo videtur","pastor umbram petit"), options=c("lupus ad pastorem accurrit","nulla nubes in caelo videtur","ovis nigra aquam bibit","pastor umbram petit"),type="checkbox", button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
+check_question(answer=c("-as, -os, -es"), 
+               options = c("-as, -os, -es", "-os, -os, -es", "-os, -es, -as", "-as, -es, -os"), right = "probe 👌", wrong = "non ita ☹️", button_label = "Rectene dico?", type = "radio")
 ```
-
 </br>
-**2. Quid _abest_ in imagine?**
 
-![](https://drive.google.com/uc?id=1NsSmYN5epAiXcxeTEau297JodyNrecwD){ width=30% }
+**2. Ovis balat. Pastor ___ audit. Sed ubi est ovis ____ ? ___ a pastore non videtur.** 
 
 ```{r}
-check_question("valles",options=c("umbra","collis","arbor","valles"),type="radio",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿️")
+check_question(answer = c("eam", "ipsa", "ea"), right = "recte sane 🙂", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", type = "in_order")
 ```
-
 </br>
+
 **3. Pastor centum oves habet: unam ovem nigram et __ oves albas. Duodecim oves in sole errant, ceterae __ autem in arboris umbra iacent.**
 
 ```{r}
