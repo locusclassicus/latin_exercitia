@@ -20,10 +20,10 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**3. Nominativus singularis: filius, cubiculum, filia, hortus. Accusativus pluralis: fili_ , cubicul_ , fili_ , hort_**
+**3. Nominativus singularis: filius, cubiculum, filia, hortus. Accusativus pluralis: fili_ , cubicul_ , fili_ , hort_**.
 
 ```{r}
-check_question("-os, -a, -as, -os", right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "-a, -as, -os, -os")
+check_question("filios, cubicula, filias, hortos", right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "filius, cubiculum, filia, hortus")
 ```
 </br>
 

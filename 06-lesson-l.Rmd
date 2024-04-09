@@ -1,7 +1,5 @@
 # 6 Via Latina
 
-![](https://drive.google.com/uc?id=1waBib2blNfUeuu7hVgKpnjiUooggDhRI){width="50%"}
-
 </br>
 **1. Via Appia est ____ Romam et Brundisium. Ostia est ____ Romam. _____ Romam muri sunt.**
 
@@ -10,7 +8,7 @@ check_question(answer = c("inter", "prope", "circum"), right = "recte sane 🙂"
 ```
 </br>
 
-**2. Baculum servos verbera_. Domini a servis time_. Iulius lectica vehi_. Verba Medi a Lydia non audiu_.**
+**2. Dominus servos verbera_. Domini a servis time_. Iulius lectica vehi_. Verba Medi a Lydia non audiu_.**
 ```{r}
 check_question (answer = "-t, -ntur, -tur, -ntur", right ="Ita est 🤩", wrong ="Non ita 😔", button_label = "rectene dico?", options = c("-ntur, -t, -tur, -t", "-t, -tur, -ntur, -tur","-t, -ntur, -tur, -ntur", "-tur, -ntur, -t, -ntur"), type = "radio")
 ```
@@ -23,7 +21,7 @@ check_question(c("per, circum", "apud, inter", "post, ante", "ad, prope"), right
 ```       
 
 </br>
-**4. Bonus servus malum servum non amat. Davus bonus servus est. Medus _ est servus malus, _ is pecuniam Iulii habet. _ Davus et Medus sunt_.**
+**4. Bonus servus malum servum non amat. Davus bonus servus est. Medus \_\_\_ est servus malus, \_\_\_ is pecuniam Iulii habet. \_\_\_ Davus et Medus sunt \_\_\_.**
  
 ```{r}
 check_question(answer = c("autem", "nam", "itaque", "inimici"), right="bene 🤩", wrong="minime 😔", button_label = "rectene dico?", 
@@ -44,12 +42,12 @@ check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "
 ```
 </br>
 
-**7. Medus _ portam Capenam _ villam Lydiae it. Medus non est _ dominum suum, nam is solus ambulat. _ Romam est murus longus.**
+**7. Medus \_\_\_ portam Capenam \_\_\_ villam Lydiae it. Medus non est \_\_\_ dominum suum, nam is solus ambulat. \_\_\_ Romam est murus longus.**
 ```{r}
 check_question(answer = ("per, ad, apud, circum"), right= "recte dicis😕", wrong="non ita😔", button_label = "rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
 ```
 </br>
-**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul_ it, nam is Tuscul_ habitat, non Rom_.**
+**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul_ it, nam is Tuscul_ habitat, non Rom_ .**
 ```{r}
 check_question(answer= ("-a, -um, -i, -ae "), right = "ita😸", wrong = "correge😕", button_label = "rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
 ```

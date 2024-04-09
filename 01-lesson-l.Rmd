@@ -40,10 +40,6 @@ check_question(answer = c("num, quid, estne, ubi", "Num, Quid, Estne, Ubi"), pla
 ```{r}
 check_question(answer = c("littera", "vocabulum", "syllaba", "numerus"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
-</br>
-```{r}
-check_question(NULL, answer = c("literae Latinae", "literae Graecae","numeri Romani"), options = c("capitula Latina", "literae Latinae", "literae Graecae","numeri Romani"), type = "checkbox",  right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?")
-```
 
 </br>
 **7. Quomodo dices: III + I + II + VI ≠ M ?**
