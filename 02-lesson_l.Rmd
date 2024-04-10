@@ -60,7 +60,7 @@ check_question(answer=c("-a, -a, -i, -i"),
 ```
 </br>
 
-**6. _ est Iulius? Pater. _ est Aemilia? Mater. _ sunt Medus Davusque? Servi. _ sunt servi in familia? Centum.**
+**6. \_\_\_ est Iulius? Pater. \_\_\_ est Aemilia? Mater. \_\_\_ sunt Medus Davusque? Servi. \_\_\_ sunt servi in familia? Centum.**
 
 ```{r}
 check_question(answer = c("Quis", "Quae", "Qui", "Quot"), 
@@ -71,7 +71,7 @@ check_question(answer = c("Quis", "Quae", "Qui", "Quot"),
 ```
 </br>
 
-**7. Qui sunt Medus et Davus? _ servi. Delia et Syra? _ ancillae. Sparta, Delphi, Athenae? _ oppdia Graeca.**
+**7. Qui sunt Medus et Davus? \_\_\_ servi. Delia et Syra? \_\_\_ ancillae. Sparta, Delphi, Athenae? \_\_\_ oppdia Graeca.**
 
 ```{r}
 check_question(answer = "duo, duae, tria",
@@ -85,7 +85,7 @@ check_question(answer = "duo, duae, tria",
 ```
 </br>
 
-**8. Cornelius: Suntne Medus et Davus _ servi? Iulius: Sunt. Et ceteri multi. In familia _ C servi sunt**.
+**8. Cornelius: Suntne Medus et Davus \_\_\_ servi? Iulius: Sunt. Et ceteri multi. In familia \_\_\_ C servi sunt**.
 
 ```{r}
 check_question(answer = "tui, mea",
@@ -99,7 +99,7 @@ check_question(answer = "tui, mea",
 ```
 </br>
 
-**9. Quintus, Marcus Iuliaque sunt _ . In bibliotheca sunt duo _ Latini. Numerus _ est tres, numerus _ est duo.**
+**9. Quintus, Marcus Iuliaque sunt \_\_\_ . In bibliotheca sunt duo \_\_\_ Latini. Numerus \_\_\_ est tres, numerus \_\_\_ est duo.**
 
 ```{r}
 check_question(answer = "liberi, libri, liberorum, librorum",

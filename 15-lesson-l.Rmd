@@ -4,7 +4,7 @@
 **1. Quid est verum?**
 
 ```{r}
-check_question(c("Magister recitare desinit, quod omnes discipuli dormiunt neque eum audiunt", "Diodorus magister severus discipulos suos virga punire solet"), options = c("In Iudo discipuli in lectulis cubant", "Titus ad Iudum venit antequam magister ipse per ianuam intrat", "Magister recitare desinit, quod omnes discipuli dormiunt neque eum audiunt", "Diodorus magister severus discipulos suos virga punire solet"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
+check_question(c("Magister recitare desinit, quod omnes discipuli dormiunt neque eum audiunt", "Diodorus, magister severus, discipulos suos virga punire solet"), options = c("In ludo discipuli in lectulis cubant", "Titus ad ludum venit antequam magister ipse per ianuam intrat", "Magister recitare desinit, quod omnes discipuli dormiunt neque eum audiunt", "Diodorus magister severus discipulos suos virga punire solet"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
 ```
  
 </br>
@@ -15,14 +15,14 @@ check_question("-i, -i, -os, -os", options = c ("-i, os, -i, -i", "-i, -i, -i, -
 ```
  
 </br>
-**3. Sextus, discipulus probus, __ de sella surgit magistrum videns. __ Marcus, discipulus improbus, __ adest, is enim adhuc in via est, quae Tusculum fert.**
+**3. Sextus, discipulus probus, \_\_\_ de sella surgit magistrum videns. \_\_\_ Marcus, discipulus improbus, \_\_\_ adest, is enim adhuc in via est, quae Tusculum fert.**
   
 ```{r}
 check_question(answer = c("statim", "at", "nondum"), right = "probe 👌 ", wrong = "non ita ☹️ ", button_label = "Rectene dico?", type = "in_order")
 ```
  
 </br>
-**4. Pueri __ partem tantum libri audiunt, sed dormientes partem __ non audiunt. Magister igitur partem tergi __ iis verberat.**
+**4. Pueri \_\_\_ partem tantum libri audiunt, sed dormientes partem \_\_\_ non audiunt. Magister igitur partem tergi \_\_\_ iis verberat.**
  
 ```{r}
 check_question(answer = c("priorem", "posteriorem", "inferiorem"),
@@ -31,23 +31,23 @@ check_question(answer = c("priorem", "posteriorem", "inferiorem"),
 ```
   
 </br>
-5. Diodorus: "_ librum Tito, Marce! Tum ad sellam suam _ atque conside."
+5. **Diodorus: "\_\_\_ librum Tito, Marce! Tum ad sellam suam \_\_\_ atque conside."**
  
 ```{r}
 check_question(c("redde", "redi"), options = c("rede", "reddi", "redi", "redde"), right = "bene 🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
 ```
  
 </br>
-**6. Diodorus: "Potesne _ in ludum ad tempus venire, Marce?" 
-Marcus: "_ non possum, dormire amo. At _, Tite et Sexte, potestis."
-Sextus et Titus: "Verum dicis, Marce. _ possumus ad tempus venire."**
+**6. Diodorus: "Potesne \_\_\_ in ludum ad tempus venire, Marce?" 
+Marcus: "\_\_\_ non possum, dormire amo. At \_\_\_, Tite et Sexte, potestis."
+Sextus et Titus: "Verum dicis, Marce. \_\_\_ possumus ad tempus venire."**
     
 ```{r}
 check_question(answer = c("tu", "ego", "vos", "nos"), right = "optime 👍 ", wrong = "non hercle vero! 😕 ", button_label = "Rectene dico?", type = "in_order")
 ```
   
 </br>
-**7. Marcus: "Ego discipulus probus \_\_ . At tu, Sexte, \_\_ discipulus improbus. Etiam tu, Tite, quod librum meum habes." Sextus et Titus: "Quid? Nos probissimi \_\_ discipuli. Desine, Marce!" Diodorus: "Tacete, discipuli, vos omnes improbissimi \_\_!"**
+**7. Marcus: "Ego discipulus probus \_\_\_ . At tu, Sexte, \_\_\_ discipulus improbus. Etiam tu, Tite, quod librum meum habes." Sextus et Titus: "Quid? Nos probissimi \_\_\_ discipuli. Desine, Marce!" Diodorus: "Tacete, discipuli, vos omnes improbissimi \_\_\_!"**
   
 ```{r}
 check_question(answer = c("sum, es, estis, sumus"), right = "sic est 🤩", wrong = "minime 😔", button_label = "Rectene dico?", placeholder = "sum, sumus, es, estis")

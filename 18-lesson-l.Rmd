@@ -60,7 +60,7 @@ check_question(NULL, answer = c ("Ferrum non tam molle est quam cera", "Discipul
 ```
 </br>
 
-**7. Synonyma sunt vocabula quae ..dem rem vel ..dem hominem significant.**
+**7. Synonyma sunt vocabula quae \_\_dem rem vel \_\_dem hominem significant.**
 
 
 

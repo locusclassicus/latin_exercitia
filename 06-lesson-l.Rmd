@@ -35,7 +35,7 @@ check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia
 ```
 
 </br>
-**6. ____ venit Iulius? Tusculo venit. ____ it Iulius? Villam it. ____ est villa Iulii? Villa Iulii prope Tusculum est.**
+**6. \_\_\_ venit Iulius? Tusculo venit. \_\_\_ it Iulius? Villam it. \_\_\_ est villa Iulii? Villa Iulii prope Tusculum est.**
 
 ```{r}
 check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
@@ -54,7 +54,7 @@ check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minim
 </br>
 
 
-**9. Iulius in Tusculo est = Iulius Tuscul___ est. Iulius Romam it = Iulius ___ Romam it. Iulius Tusculo venit = Iulius ___ oppido venit.**
+**9. Iulius in Tusculo est = Iulius Tuscul__ est. Iulius Romam it = Iulius \_\_\_ Romam it. Iulius Tusculo venit = Iulius \_\_\_ oppido venit.**
 
 ```{r}
 check_question(answer=c("-i, ad, ab"), 
@@ -62,9 +62,9 @@ check_question(answer=c("-i, ad, ab"),
 ```
 </br>
 
-**10. Davum, quem equus vehit, Syra salutat =...**
+**10. Davum, quem equus vehit, Syra salutat = ...**
 ```{r}
-check_question(answer= c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat"), right ="optime🤩", wrong = "non hercle vero😕", button_label = "Rectene dico?", options = c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat", "Davus, qui equum vehit, a Syra salutatur", "Davus, qui equo vehitur, Syram salutat"), type = "checkbox")
+check_question(answer= c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat"), right ="optime 🤩", wrong = "non hercle vero 😕", button_label = "Rectene dico?", options = c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat", "Davus, qui equum vehit, a Syra salutatur", "Davus, qui equo vehitur, Syram salutat"), type = "checkbox")
 ```
 
                                         

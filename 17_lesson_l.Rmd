@@ -29,7 +29,7 @@ check_question(answer = "sexaginta",
 
 </br>
 
-**3. octingenti - septingenti + quadringenti - ducenti = \_**
+**3. octingenti - septingenti + quadringenti - ducenti = ? **
 
 ```{r}
 check_question(answer = "trecenti",
@@ -70,7 +70,7 @@ check_question(answer = c("-or", "-ris", "-mur", "-mini"),
 
 </br>
 
-**6. Sextus: "Ego responsum scio!" Sextus dicit '\_ responsum scire.' Magister, qui male audit: "Dicis '\_ responsum scire', Sexte?" Sextus: "Recte audis, magister, '\_ responsum scire' dico."**
+**6. Sextus: "Ego responsum scio!" Sextus dicit '\_\_\_ responsum scire.' Magister, qui male audit: "Dicis '\_\_\_ responsum scire', Sexte?" Sextus: "Recte audis, magister, '\_\_\_ responsum scire' dico."**
 
 ```{r}
 check_question(answer = "se, te, me",

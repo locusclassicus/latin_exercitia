@@ -18,7 +18,7 @@ check_question(answer = c("decem", "octo", "quinque", "quattuor", "septem", "nov
  
 
 </br>
-**3. Iulius bonum servum Davum  __ . Iulius __ : veni, __ ! Davus __ et venit.**
+**3. Iulius bonum servum Davum  \_\_\_ . Iulius \_\_\_ : veni, \_\_\_ ! Davus \_\_\_ et venit.**
  
 ```{r}
 check_question("habet, imperat, serve, paret", options = c("habet, imperat, serve, paret", "paret, habet, serve, imperat", "habet, paret, servus, imperat", "habet, imperat, servus, paret"), right = "probe 👌 ", wrong = "non ita ☹️ ", button_label = "Rectene dico?", type = "select")
@@ -32,7 +32,7 @@ check_question(answer=c("-um, -e, am, -a"),
 ```
 </br>
 
-**5. In mensa baculum Iulii et sacculus Davi sunt. __ [:Iulius] baculum __ et sacculum __ sumit.** 
+**5. In mensa baculum Iulii et sacculus Davi sunt. \_\_\_ [:Iulius] baculum \_\_\_ et sacculum \_\_\_ sumit.** 
   
 
 ```{r}
@@ -40,7 +40,7 @@ check_question(answer = c("is", "suum", "eius"), right = "bene 🤩", wrong = "m
 ```
  
 </br>
-**6. In sacculo Davi nulla pecunia est. Sacculus Davi _____ est.** 
+**6. In sacculo Davi nulla pecunia est. Sacculus Davi \_\_\_ est.** 
 ```{r}
 check_question(answer=c("vacuus"), 
                options = c("plenus", "vacuus", "nullus", "foedus"), right = "sic est  🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")

@@ -15,7 +15,7 @@ check_question(answer=c("duo bracchia", "duo crura"),
 
 
 </br>
-**2. Ubi est caput humanum? Caput ＿ collum est. In capite sunt oculi, ＿ oculos est frons, ＿ oculos genae sunt.**
+**2. Ubi est caput humanum? Caput \_\_\_ collum est. In capite sunt oculi, \_\_\_ oculos est frons, \_\_\_ oculos genae sunt.**
 
 ```{r}
 check_question(answer=c("super, supra, infra"),
@@ -44,7 +44,7 @@ check_question(answer=c("unum iecur", "unus venter"),
 
 
 </br>
-**4. lulius Syrum ad oppidum ire __ . Syrus it, medicum __ cum eo ad villam __ .**
+**4. lulius Syrum ad oppidum ire \_\_\_ . Syrus it, medicum \_\_\_ cum eo ad villam \_\_\_ .**
 
 
 ```{r}
@@ -59,7 +59,7 @@ check_question(answer=c("iubet, arcessit, revenit"),
 
 
 </br>
-**5. Quintus aegrotat. Aemilia videt ___ ___ .**
+**5. Quintus aegrotat. Aemilia videt \_\_\_ \_\_\_ .**
 
 ```{r}
 check_question(answer=c("Quintum aegrotare"), 
@@ -74,7 +74,7 @@ check_question(answer=c("os", "nasus"),
 ```
 </br>
 
-**7. Quintus ＿ arbore cadit ＿ ambulare potest; pes ＿ caput dolet. Medicus arcessitur, iam non ＿ pede et capite, sed etiam bracchio puer aeger est!**
+**7. Quintus \_\_\_ arbore cadit \_\_\_ ambulare potest; pes \_\_\_ caput dolet. Medicus arcessitur, iam non \_\_\_ pede et capite, sed etiam bracchio puer aeger est!**
 
 
 ```{r}

@@ -1,27 +1,27 @@
 # 1 Imperium Romanum
 
 </br>
-**1. _____ oppidum est. _____ fluvius est. _____ insula est.**
+**1. \_\_\_ oppidum est. \_\_\_ fluvius est. \_\_\_ insula est.**
 ```{r}
 check_question(answer = c("Tusculum", "Tiberis", "Melita"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
 </br>
 
-**2. Italia in Europa est. Graecia __ in Europa est. Hispania et Graecia __ in Europa, __ Syria est in Asia.**
+**2. Italia in Europa est. Graecia \_\_\_ in Europa est. Hispania et Graecia \_\_\_ in Europa, \_\_\_ Syria est in Asia.**
 
 ```{r}
 check_question(answer = "quoque, sunt, sed", placeholder = "sed, quoque, sunt",  right = "bene 😁", wrong = "non ita ☹️ ", button_label = "Rectene dico?")
 ```
 
 </br>
-**3. Tiberis et Danuvius __ sunt. Corsica et Sardinia __ sunt. Roma et Brundisium __ sunt.**
+**3. Tiberis et Danuvius \_\_\_ sunt. Corsica et Sardinia \_\_\_ sunt. Roma et Brundisium \_\_\_ sunt.**
 
 ```{r}
 check_question(answer = "fluvii, insulae, oppida", placeholder = "fluvius, insula, oppidum",  right = "recte sane 😁", wrong = "minime ☹️ ", button_label = "Rectene dico?")
 ```
 
 </br>
-**4. Nilus et Rhenus fluvii sunt. Nilus est in __ , Rhenus in __ est**.
+**4. Nilus et Rhenus fluvii sunt. Nilus est in \_\_\_ , Rhenus in \_\_\_ est**.
 
 ```{r}
 check_question("Aegypto, Germania", options = c("Germania, Aegypta", "Aegypta, Germania", "Aegypto, Germania", "Germania, Aegypto"), type = "radio", right = "probe 👌",  wrong = "non ita ☹️", button_label = "Rectene dico?")
@@ -29,41 +29,41 @@ check_question("Aegypto, Germania", options = c("Germania, Aegypta", "Aegypta, G
 
 
 </br> 
-**5. __ Creta oppidum est? Non est! __ est Creta? Insula. __ insula magna? Est insula magna. __ est? In Graecia**.
+**5. \_\_\_ Creta oppidum est? Non est! \_\_\_ est Creta? Insula. \_\_\_ insula magna? Est insula magna. \_\_\_ est? In Graecia**.
 
 ```{r}
 check_question(answer = c("num, quid, estne, ubi", "Num, Quid, Estne, Ubi"), placeholder = "ubi, num, quid, estne",  right = "ita, ut dicis 👏", wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
 ```
 
 </br>
-**6. Г ______ est. Ubi ______ est. -bi _____ est.  III ________ est.**
+**6. Г \_\_\_ est. Ubi \_\_\_ est. -bi \_\_\_ est.  III \_\_\_ est.**
 ```{r}
 check_question(answer = c("littera", "vocabulum", "syllaba", "numerus"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
 
 </br>
-**7. Quomodo dices: III + I + II + VI ≠ M ?**
+**7. III + I + II + VI ≠ M **
 
 ```{r}
 check_question("tres + unus + duo + sex ≠ mille", options = c("tertius + primus + secundus + sextus ≠ centum ", "tertius + primus + secundus + sextus ≠ mille", "tres + unus + duo + sex ≠ mille", "tres + unus + duo + sex ≠ centum"), type = "radio", right = "probe 👌", wrong = "non ita ☹️", button_label = "Rectene dico?")
 ```     
 
 </br>
-**8. In vocabulo _ubi_ sunt __ litterae et __ syllabae**
+**8. In vocabulo _ubi_ sunt \_\_\_ litterae et \_\_\_ syllabae**
 
 ```{r}
 check_question("tres, duae", options = c("duae, tres", "tres, duae", "sex, tres", "tertiae, secundae"), type = "select", right = "recte sane 🙂",wrong = "cogitandum est 🤔", button_label = "Rectene dico?")
 ```
 
 </br>
-**9. In vocabulo _ubi_ littera __ est _"i"_, littera __ est _"u"_, _"b"_ est littera __ .**
+**9. In vocabulo _ubi_ littera \_\_\_ est _"i"_, littera \_\_\_ est _"u"_, _"b"_ est littera \_\_\_ .**
 
 ```{r}
 check_question("tertia, prima, secunda", options = c("prima, secunda, tertia", "tertia, prima, secunda", "tres, unus, duo", "unus, duo, tres"), type = "select", right = "ita, ut dicis 👏",wrong = "non hercle vero! 😕", button_label = "Rectene dico?")
 ```
 
 </br>
-**10. In Africa sunt __ fluvii. Unus fluvius __ est, Nilus**.
+**10. In Africa sunt \_\_\_ fluvii. Unus fluvius \_\_\_ est, Nilus**.
 
 ```{r}
 check_question("pauci, magnus", options = c("pauci, multus", "pauci, magnus", "multi, paucus", "multi, parvus"), type = "radio", right = "optime 👍", wrong = "quid ais? 🤨", button_label = "Rectene dico?")

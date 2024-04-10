@@ -8,21 +8,21 @@ check_question(answer=c("-as, -os, -es"),
 ```
 </br>
 
-**2. Ovis balat. Pastor ___ audit. Sed ubi est ovis ____ ? ___ a pastore non videtur.** 
+**2. Ovis balat. Pastor \_\_\_ audit. Sed ubi est ovis \_\_\_ ? \_\_\_ a pastore non videtur.** 
 
 ```{r}
 check_question(answer = c("eam", "ipsa", "ea"), right = "recte sane 🙂", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", type = "in_order")
 ```
 </br>
 
-**3. Pastor centum oves habet: unam ovem nigram et __ oves albas. Duodecim oves in sole errant, ceterae __ autem in arboris umbra iacent.**
+**3. Pastor centum oves habet: unam ovem nigram et \_\_\_ oves albas. Duodecim oves in sole errant, ceterae \_\_\_ autem in arboris umbra iacent.**
 
 ```{r}
 check_question("undecentum, duodenonaginta",options=c("undecentum, duodenonaginta","undenonaginta, duodenonagina","undenonaginta, duodeoctoginta","undecentum, duodeoctogina"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
 ```
 
 </br>
-**4. Pastor ___ arbor_ iacet. Itaque sol ___ pastor_ non lucet.**
+**4. Pastor \_\_\_ arbor_ iacet. Itaque sol \_\_\_ pastor_ non lucet.**
 
 ```{r}
 check_question("sub, -e, supra, -em",options=c("supra, -e, sub, -em","sub, -em, supra, -e","supra, -em, sub, -e","sub, -e, supra, -em"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
@@ -36,7 +36,7 @@ check_question("quaerit, vestigia, reperiuntur, ipsa",options=c("quaerit, ipsa, 
 ```
 
 </br>
-**6. In silva \_\_ lupus, qui oves \_\_. Oves \_\_ cibus luporum, quem lupi laeti \_\_.**
+**6. In silva \_\_\_ lupus, qui oves \_\_\_. Oves \_\_\_ cibus luporum, quem lupi laeti \_\_\_.**
 
 ```{r}
 check_question("est, est, sunt, edunt",options=c("est, edunt, est, sunt","est, est, sunt, edunt","est, edunt, sunt, est","est, est, edunt, sunt"),type="radio",button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")

@@ -1,12 +1,12 @@
 # 7 Puella et rosa
 
-**1. Mala a servis portantur. Servi ancillis mala dant. _A servis_ est casus _____ . _Ancillis_ est casus _____ .**
+**1. Mala a servis portantur. Servi ancillis mala dant. _A servis_ est casus \_\_\_ . _Ancillis_ est casus \_\_\_ .**
 ```{r}
 check_question(answer=c("ablativus, dativus"), 
                options = c("dativus, dativus", "dativus, ablativus", "ablativus, dativus", "ablativus, ablativus"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
-**2. Iulius, qui ante __ ostium videt, ostario imperat: "Aper__ ostium!" Ostarius ostium aperit. Iulius, qui per ostium intrat, ostario imperat: "Claud__ ostium post me!" Ostarius paret, post __ ostium claudit.**
+**2. Iulius, qui ante \_\_\_ ostium videt, ostario imperat: "Aper__ ostium!" Ostiarius ostium aperit. Iulius, qui per ostium intrat, ostiario imperat: "Claud__ ostium post me!" Ostiarius paret, post \_\_\_ ostium claudit.**
 
 ```{r}
 check_question(answer = "se, -i, -e, eum", 
@@ -32,7 +32,7 @@ check_question(answer = "-um, -o, -um, -o",
 ```
 
 </br>
-**4. _Iulius_: "O, Leander! __ apud me pone sacculum, non __ procul a me!"** 
+**4. _Iulius_: "O, Leander! \_\_\_ apud me pone sacculum, non \_\_\_ procul a me!"** 
 
 ```{r}
 check_question(answer = "hic, illic", 
@@ -58,7 +58,7 @@ check_question(answer = "ex-, ad-, in-, ad-",
 ```
 
 </br>
-**6. _Iulia_: "__ nasus meus foedus est, Syra?" _Syra_: "Foedus? __ tam formosus est quam meus! __ formosus est nasus meus?" _Iulia_: "Nasus tuus foedus est, Syra. Tene speculum eumque vide!"**
+**6. _Iulia_: "\_\_\_ nasus meus foedus est, Syra?" _Syra_: "Foedus? \_\_\_ tam formosus est quam meus! \_\_\_ formosus est nasus meus?" _Iulia_: "Nasus tuus foedus est, Syra. Tene speculum eumque vide!"**
 
 
 ```{r}
@@ -71,7 +71,7 @@ check_question(answer = "num, immo, nonne",
 ```
 
 </br>
-**7. _Iulius_: "Pueri, \_\_ ad Iuliam eamque vocate! Tu, Marce, \_\_ probus neque eam ride!" _Delia_: "Terge oculos, lulia, nam pater tuus iam hic est, \_\_ ad eum!" _Aemilia_: "Laetae \_\_, Syra et Delia, nam dominus mala et pira ancillis suis dat!"**
+**7. _Iulius_: "Pueri, \_\_\_ ad Iuliam eamque vocate! Tu, Marce, \_\_\_ probus neque eam ride!" _Delia_: "Terge oculos, lulia, nam pater tuus iam hic est, \_\_\_ ad eum!" _Aemilia_: "Laetae \_\_\_, Syra et Delia, nam dominus mala et pira ancillis suis dat!"**
 
 ```{r}
 check_question(answer = "ite, es, i, este", 
@@ -84,7 +84,7 @@ check_question(answer = "ite, es, i, este",
 ```
 
 </br>
-**8. __ lulius osculum dat? Puella, __ Iulius osculum dat, lulia est. Iulius __ [= Iuliae] osculum dat, non __ [= Marco et Quinto].**
+**8. \_\_\_ Iulius osculum dat? Puella, \_\_\_ Iulius osculum dat, Iulia est. Iulius \_\_\_ [= Iuliae] osculum dat, non \_\_\_ [= Marco et Quinto].**
 
 ```{r}
 check_question(answer = "cui, cui, ei, iis", 
@@ -97,14 +97,14 @@ check_question(answer = "cui, cui, ei, iis",
 ```
 
 </br>
-**9. Iulius mala piraque servis suis dat: servi __ mala __ pira habent.**
+**9. Iulius mala piraque servis suis dat: servi \_\_\_ mala \_\_\_ pira habent.**
 
 ```{r}
 check_question(c("non solum... sed etiam...", "et... et..."), options = c("non solum... sed etiam...", "neque... neque...", "tam... quam...", "et... et..."), type = "checkbox", random_answer_order = TRUE, button_label = "Rectene dico?", right = "sic est  🤩", wrong = "minime 😔")
 ```
 
 </br>
-**10. Ecce femina. __ femina amico suo osculum non dat. __ osculum, quod eius amicus exspectat, non datur. Itaque __ amicus lacrimat; oculi eius pleni sunt lacrimarum.**
+**10. Ecce femina. \_\_\_ femina amico suo osculum non dat. \_\_\_ osculum, quod amicus eius exspectat, non datur. Itaque \_\_\_ amicus lacrimat; oculi eius pleni sunt lacrimarum.**
 
 
 ```{r}
