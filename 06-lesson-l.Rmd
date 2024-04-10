@@ -10,7 +10,7 @@ check_question(answer = c("inter", "prope", "circum"), right = "recte sane 🙂"
 
 **2. Dominus servos verbera_. Domini a servis time_. Iulius lectica vehi_. Verba Medi a Lydia non audiu_.**
 ```{r}
-check_question (answer = "-t, -ntur, -tur, -ntur", right ="Ita est 🤩", wrong ="Non ita 😔", button_label = "rectene dico?", options = c("-ntur, -t, -tur, -t", "-t, -tur, -ntur, -tur","-t, -ntur, -tur, -ntur", "-tur, -ntur, -t, -ntur"), type = "radio")
+check_question (answer = "-t, -ntur, -tur, -ntur", right ="ita est 🤩", wrong ="minime 😔", button_label = "rectene dico?", options = c("-ntur, -t, -tur, -t", "-t, -tur, -ntur, -tur","-t, -ntur, -tur, -ntur", "-tur, -ntur, -t, -ntur"), type = "radio")
 ```
 
 </br>
@@ -31,7 +31,7 @@ check_question(answer = c("autem", "nam", "itaque", "inimici"), right="bene 🤩
 </br>
 **5. Syrus, qui a Delia amatur, ab Urso pulsatur =**
 ```{r}
-check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), right="Optime!👍", wrong="quid ais? 🤨", button_label = "rectene dico?", options = c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrus, quem Delia amat, Ursum pulsat", "Syrus, qui Deliam amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), type = "checkbox")
+check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), right="Optime! 👍", wrong="quid ais? 🤨", button_label = "rectene dico?", options = c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrus, quem Delia amat, Ursum pulsat", "Syrus, qui Deliam amat, ab Urso pulsatur", "Syrum, qui a Delia amatur, Ursus pulsat"), type = "checkbox")
 ```
 
 </br>
@@ -44,12 +44,12 @@ check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "
 
 **7. Medus \_\_\_ portam Capenam \_\_\_ villam Lydiae it. Medus non est \_\_\_ dominum suum, nam is solus ambulat. \_\_\_ Romam est murus longus.**
 ```{r}
-check_question(answer = ("per, ad, apud, circum"), right= "recte dicis😕", wrong="non ita😔", button_label = "rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
+check_question(answer = ("per, ad, apud, circum"), right= "recte dicis 😸", wrong="non ita 😔", button_label = "Rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
 ```
 </br>
 **8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul_ it, nam is Tuscul_ habitat, non Rom_ .**
 ```{r}
-check_question(answer= ("-a, -um, -i, -ae "), right = "ita😸", wrong = "correge😕", button_label = "rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
+check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minime 😕", button_label = "Rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
 ```
 </br>
 
@@ -64,7 +64,7 @@ check_question(answer=c("-i, ad, ab"),
 
 **10. Davum, quem equus vehit, Syra salutat =...**
 ```{r}
-check_question(answer= c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat"), right ="optime🤩", wrong = "non hercle vero😕", button_label = "rectene dico?", options = c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat", "Davus, qui equum vehit, a Syra salutatur", "Davus, qui equo vehitur, Syram salutat"), type = "checkbox")
+check_question(answer= c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat"), right ="optime🤩", wrong = "non hercle vero😕", button_label = "Rectene dico?", options = c("Davus, quem equus vehit, a Syra salutatur", "Davum, qui equo vehitur, Syra salutat", "Davus, qui equum vehit, a Syra salutatur", "Davus, qui equo vehitur, Syram salutat"), type = "checkbox")
 ```
 
                                         
