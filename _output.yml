@@ -9,4 +9,4 @@ bookdown::gitbook:
         <li><a href="./">Exercitia Latina</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/locusclassicus/latin_exercitia/edit/main/%s
+    edit: "https://github.com/locusclassicus/latin_exercitia/edit/main/%s"
