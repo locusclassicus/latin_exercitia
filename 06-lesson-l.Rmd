@@ -1,7 +1,7 @@
 # 6 Via Latina
 
 </br>
-**1. Via Appia est \_\_\_ Romam et Brundisium. Ostia est \_\_\_ Romam. \_\_\_ Romam muri sunt.**
+**1. Via Appia est ________ Romam et Brundisium. Ostia est ________ Romam. ________ Romam muri sunt.**
 
 ```{r}
 check_question(answer = c("inter", "prope", "circum"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
@@ -21,7 +21,7 @@ check_question(c("per, circum", "apud, inter", "post, ante", "ad, prope"), right
 ```       
 
 </br>
-**4. Bonus servus malum servum non amat. Davus bonus servus est. Medus \_\_\_ est servus malus, \_\_\_ is pecuniam Iulii habet. \_\_\_ Davus et Medus sunt \_\_\_.**
+**4. Bonus servus malum servum non amat. Davus bonus servus est. Medus ________ est servus malus, ________ is pecuniam Iulii habet. ________ Davus et Medus sunt ________.**
  
 ```{r}
 check_question(answer = c("autem", "nam", "itaque", "inimici"), right="bene 🤩", wrong="minime 😔", button_label = "rectene dico?", 
@@ -35,14 +35,14 @@ check_question(c("Syrus, quem Delia amat, ab Urso pulsatur", "Syrum, qui a Delia
 ```
 
 </br>
-**6. \_\_\_ venit Iulius? Tusculo venit. \_\_\_ it Iulius? Villam it. \_\_\_ est villa Iulii? Villa Iulii prope Tusculum est.**
+**6. ________ venit Iulius? Tusculo venit. ________ it Iulius? Villam it. ________ est villa Iulii? Villa Iulii prope Tusculum est.**
 
 ```{r}
 check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
 </br>
 
-**7. Medus \_\_\_ portam Capenam \_\_\_ villam Lydiae it. Medus non est \_\_\_ dominum suum, nam is solus ambulat. \_\_\_ Romam est murus longus.**
+**7. Medus ________ portam Capenam ________ villam Lydiae it. Medus non est ________ dominum suum, nam is solus ambulat. ________ Romam est murus longus.**
 ```{r}
 check_question(answer = ("per, ad, apud, circum"), right= "recte dicis 😸", wrong="non ita 😔", button_label = "Rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
 ```
@@ -54,7 +54,7 @@ check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minim
 </br>
 
 
-**9. Iulius in Tusculo est = Iulius Tuscul\_\_ est. Iulius Romam it = Iulius \_\_\_ Romam it. Iulius Tusculo venit = Iulius \_\_\_ oppido venit.**
+**9. Iulius in Tusculo est = Iulius Tuscul\_\_ est. Iulius Romam it = Iulius ________ Romam it. Iulius Tusculo venit = Iulius ________ oppido venit.**
 
 ```{r}
 check_question(answer=c("-i, ad, ab"), 

@@ -70,7 +70,7 @@ check_question(answer = c("-or", "-ris", "-mur", "-mini"),
 
 </br>
 
-**6. Sextus: "Ego responsum scio!" Sextus dicit '\_\_\_ responsum scire.' Magister, qui male audit: "Dicis '\_\_\_ responsum scire', Sexte?" Sextus: "Recte audis, magister, '\_\_\_ responsum scire' dico."**
+**6. Sextus: "Ego responsum scio!" Sextus dicit '________ responsum scire.' Magister, qui male audit: "Dicis '________ responsum scire', Sexte?" Sextus: "Recte audis, magister, '________ responsum scire' dico."**
 
 ```{r}
 check_question(answer = "se, te, me",
@@ -119,7 +119,7 @@ check_question(answer = c("unus denarius = sedecim asses", "duodecim asses = tre
 
 </br>
 
-**9. Marcus: \_\_\_ computare discimus, magister? \_\_\_ ad mille nos computare iubes! \_\_\_ numeros, quot computamus, scire non oportet.**
+**9. Marcus: ________ computare discimus, magister? ________ ad mille nos computare iubes! ________ numeros, quot computamus, scire non oportet.**
 
 ```{r}
 check_question(answer = c("quare", "usque", "tot"), 

@@ -2,7 +2,7 @@
 
 </br>
 
-**1. Tempestas mare t\_\_\_ atque altos f\_\_\_ facit, qui navem aqua i\_\_\_ possunt.**
+**1. Tempestas mare t________ atque altos f________ facit, qui navem aqua i________ possunt.**
 
 ```{r}
 check_question(answer = c("turbat, fluctus, implere"),
@@ -14,7 +14,7 @@ check_question(answer = c("turbat, fluctus, implere"),
 
 </br>
 
-**2. \_\_\_ est ea pars caeli unde sol hora prima \_\_\_ . \_\_\_ est ea caeli pars quo sol hora duodecima \_\_\_ .**
+**2. ________ est ea pars caeli unde sol hora prima ________ . ________ est ea caeli pars quo sol hora duodecima ________ .**
 
 ```{r}
 check_question(answer = c("oriens", "oritur", "occidens", "occidit"), 
@@ -42,7 +42,7 @@ check_question(answer = "-ius, -ius",
 
 </br>
 
-**4. Medus, qui paulo ante Neptunum vocavit, \_\_\_ eum invocare conatur, sed vox eius \_\_\_ auditur \_\_\_ tonitrum. Lydia \_\_\_ Christum invocat, qui omnes servat.**
+**4. Medus, qui paulo ante Neptunum vocavit, ________ eum invocare conatur, sed vox eius ________ auditur ________ tonitrum. Lydia ________ Christum invocat, qui omnes servat.**
 
 ```{r}
 check_question(answer = c("iterum", "vix", "propter", "vero"), 
@@ -119,7 +119,7 @@ check_question(answer = "vento secundo, sole oriente",
 
 </br>
 
-**9. Ventus magnos fluctus \_\_\_. At Lydia: "Christe, iube mare tranquillum \_\_\_!" Lydia Christum invocante, mare tranquillum \_\_\_.**
+**9. Ventus magnos fluctus ________. At Lydia: "Christe, iube mare tranquillum ________!" Lydia Christum invocante, mare tranquillum ________.**
 
 ```{r}
 check_question(answer = c("facit", "fieri", "fit"), 

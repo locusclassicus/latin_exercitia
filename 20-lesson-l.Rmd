@@ -28,7 +28,7 @@ check_question(answer=c("-bo, -am, -bo, -am"),
 
 </br>
 
-**4. Iulia: sororem habere \_\_\_ ! At vos, Marce et Quinte? Marcus et Quintus: nos quoque sororem habere \_\_\_ . Parentes autem, ut mater dicit, plus quam duos filios habere \_\_\_ .** 
+**4. Iulia: sororem habere ________ ! At vos, Marce et Quinte? Marcus et Quintus: nos quoque sororem habere ________ . Parentes autem, ut mater dicit, plus quam duos filios habere ________ .** 
  
  
  
@@ -39,7 +39,7 @@ check_question(answer=c("nolo, nolumus, nolunt"),
 
 </br>
 
-**5. Aemilia: Cur sola sororem habere \_\_\_ , Iulia? Iulia: At etiam Marcus sororem habere \_\_\_ ! Cur fratrem habere \_\_\_ , mama et tata? **
+**5. Aemilia: Cur sola sororem habere ________ , Iulia? Iulia: At etiam Marcus sororem habere ________ ! Cur fratrem habere ________ , mama et tata? **
 
  
  
@@ -51,7 +51,7 @@ check_question(answer=c("non vis, non vult, non vultis"),
 
 </br>
 
-**6. Iulius: Cras debet mihi \_\_\_ abire, mea filiola. Romae sunt multa officia. Iulia: Quando \_\_\_ reverteris, tata? Iulius: Post paucos dies \_\_\_ ero, si potero.**
+**6. Iulius: Cras debet mihi ________ abire, mea filiola. Romae sunt multa officia. Iulia: Quando ________ reverteris, tata? Iulius: Post paucos dies ________ ero, si potero.**
  
  
  
@@ -62,7 +62,7 @@ check_question(answer = c("domo", "domum", "domi"), right = "recte sane 🙂", w
 
 </br>
 
-**7. Iulius: Noli \_\_\_, Aemilia! Tecum \_\_\_ volo! Aemilia: Romam discede, Iuli. Noli \_\_\_ ! Tibi \_\_\_ nolo!**
+**7. Iulius: Noli ________, Aemilia! Tecum ________ volo! Aemilia: Romam discede, Iuli. Noli ________ ! Tibi ________ nolo!**
  
  
  
@@ -71,7 +71,7 @@ check_question(answer = c("silere", "colloqui", "reverti", "occurere"), right = 
 ```
 </br>
 
-**8. Iulius: Vir \_\_\_ pecuniam facere ac magnam familiam alere. Feminam \_\_\_ infantes curare.** 
+**8. Iulius: Vir ________ pecuniam facere ac magnam familiam alere. Feminam ________ infantes curare.** 
  
  
 ```{r}
@@ -80,7 +80,7 @@ check_question(answer=c("debet, decet"),
 ```
 </br>
 
-**9. Mercator: \_\_\_ tranquillum est mare, at \_\_\_ turbidum erit, ut mihi videtur. Metuisne tempestatem? Gubernator: \_\_\_ ! Sive tranquillum est, sive turbidum mox erit mare, \_\_\_ merces tuas in Italiam advehere debet.**
+**9. Mercator: ________ tranquillum est mare, at ________ turbidum erit, ut mihi videtur. Metuisne tempestatem? Gubernator: ________ ! Sive tranquillum est, sive turbidum mox erit mare, ________ merces tuas in Italiam advehere debet.**
  
  
  

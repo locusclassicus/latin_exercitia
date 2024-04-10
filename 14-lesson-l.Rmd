@@ -15,7 +15,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**2. \_\_\_ femina aegra est, Fabiane an Aemilia? \_\_\_ femina aegrotat, \_\_\_ femina valet; omnes igitur gaudent nec medicus arcessitur.**
+**2. ________ femina aegra est, Fabiane an Aemilia? ________ femina aegrotat, ________ femina valet; omnes igitur gaudent nec medicus arcessitur.**
 
 ```{r}
 check_question(answer="utra, neutra, utraque",
@@ -41,7 +41,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**4. Mane cubicula puerorum \_\_\_ (= qui dormiunt) sole \_\_\_ (= qui lucet) illustrantur.**
+**4. Mane cubicula puerorum ________ (= qui dormiunt) sole ________ (= qui lucet) illustrantur.**
 
 ```{r}
 check_question(answer="dormientium, lucente",
@@ -54,7 +54,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**5. \_\_\_ Quintus surgere solet, \_\_\_ Marcus. \_\_\_ autem Quintus aegrotans in lecto suo \_\_\_ cubat.**
+**5. ________ Quintus surgere solet, ________ Marcus. ________ autem Quintus aegrotans in lecto suo ________ cubat.**
 
 ```{r}
 check_question(answer = c("primum", "deinde", "hodie", "adhuc"),
@@ -66,7 +66,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**6. Vir romanus primum \_\_\_ induit, deinde \_\_\_. Pes \_\_\_ et pes dexter eius \_\_\_ operiuntur.**
+**6. Vir romanus primum ________ induit, deinde ________. Pes ________ et pes dexter eius ________ operiuntur.**
 
 ```{r}
 check_question(answer="tunicam, togam, sinister, calceis",
@@ -79,7 +79,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**7. Marcus Davum \_\_\_ venire iubet: "Veni \_\_\_, Dave! Etiam res meas \_\_\_ sume!"**
+**7. Marcus Davum ________ venire iubet: "Veni ________, Dave! Etiam res meas ________ sume!"**
 
 ```{r}
 check_question(answer="secum, mecum, tecum",
@@ -91,7 +91,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**8. Dorippa: "Nemo me amat, \_\_\_ me rident! Nullus vir probus est, \_\_\_ vir est improbus! Nihil me delectat, \_\_\_ me tristem faciunt!"**
+**8. Dorippa: "Nemo me amat, ________ me rident! Nullus vir probus est, ________ vir est improbus! Nihil me delectat, ________ me tristem faciunt!"**
 
 ```{r}
 check_question(answer="omnes, omnis, omnia",
@@ -104,7 +104,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**9. Davus: "Marce, \_\_\_ totum corpus nudum est! Nonne corpus \_\_\_ friget?" Marcus: "Etiam caput \_\_\_ dolet, iube igitur me in lecto cubare!"**
+**9. Davus: "Marce, ________ totum corpus nudum est! Nonne corpus ________ friget?" Marcus: "Etiam caput ________ dolet, iube igitur me in lecto cubare!"**
 
 ```{r}
 check_question(answer= "tibi, tibi, mihi",

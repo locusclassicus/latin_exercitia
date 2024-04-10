@@ -21,14 +21,14 @@ check_question(c("se movere","natare"),options=c("volare","canere","se movere","
 ```
 
 </br>
-**4. Pulli ab aquila \_\_\_ possunt, ergo necesse est avibus parvis nidos suos \_\_\_. Quintus autem in arborem ascendere et nidum \_\_\_ audet, sed puer crassus parvo ramo \_\_\_ non potest.**
+**4. Pulli ab aquila ________ possunt, ergo necesse est avibus parvis nidos suos ________. Quintus autem in arborem ascendere et nidum ________ audet, sed puer crassus parvo ramo ________ non potest.**
 
 ```{r}
 check_question("capi, occultare, reperire, sustineri",options=c("capi, occultare, reperire, sustineri","capere, occultari, reperire, sustineri","capi, occultari, reperiri, sustinere","capi, occultare, reperiri, sustinere"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
 ```
 
 </br>
-**5. Da genetivos: _nom_ pes, _gen_ \_\_\_; _nom_ homo, _gen_ \_\_\_; _nom_ flumen, _gen_ \_\_\_; _nom_ leo, _gen_ \_\_\_.**
+**5. Da genetivos: _nom_ pes, _gen_ ________; _nom_ homo, _gen_ ________; _nom_ flumen, _gen_ ________; _nom_ leo, _gen_ ________.**
 
 ```{r}
 check_question("pedis, hominis, fluminis, leonis",options=c("pesis, homis, fluminis, leosis","pedis, homis, flumenis, leosis","pedis, hominis, fluminis, leonis","pedis, hominis, flumenis, leonis"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")
@@ -49,21 +49,21 @@ check_question(c("aves","aquilae"),options=c("oves","aves","canis","aquilae"),ty
 ```
 
 </br>
-**8. Quintus vivus est (= vivit). Iulius eum videt. = \_\_\_.** 
+**8. Quintus vivus est (= vivit). Iulius eum videt. = ________.** 
 
 ```{r}
 check_question(c("Iulius Quintum vivum esse videt","Iulius Quintum vivere videt"),options=c("Iulius Quintum videre vivit","Iulius Quintum vivum esse videt","Iulius Quintum vivere videt","Iulius Quintum vivus esse videt"),type="checkbox",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
 ```
 
 </br>
-**9. _Dic totam sententiam:_ Quintus de arbore cadit, \_\_\_.**
+**9. _Dic totam sententiam:_ Quintus de arbore cadit, ________.**
 
 ```{r}
 check_question("ergo ambulare non potest",options=c("Iulius enim eum portat","quod Marcus perterritus est","ergo ambulare non potest","cum in lecto iacet"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
 ```
 
 </br>
-**10. Mortui \_\_\_.**
+**10. Mortui ________.**
 
 ```{r}
 check_question(c("animam in pulmones ducere non possunt","neque spirant neque se movent"),options=c("ova pariunt","animam in pulmones ducere non possunt","neque spirant neque se movent","magna voce clamant"),type="checkbox",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais?🤨")

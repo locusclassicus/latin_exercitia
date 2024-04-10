@@ -31,7 +31,7 @@
 3. `r answ3`
 
 </br>
-**2. Quint\_\_ est unus frater, \_\_\_ nomen est Marcus. Quam longus est Marcus? Marcus quinque ped\_\_ longus est.**
+**2. Quint\_\_ est unus frater, ________ nomen est Marcus. Quam longus est Marcus? Marcus quinque ped\_\_ longus est.**
 
 
 ```{r}
@@ -156,7 +156,7 @@ w4 <- check_question(answer = "grave",
 4. `r w4`
 
 </br>
-**8. Quinque \_\_\_ est unus \_\_\_. Ergo quinque \_\_\_ pedum est \_\_\_ passus.**
+**8. Quinque ________ est unus ________. Ergo quinque ________ pedum est ________ passus.**
 
 ```{r}
 check_question(answer= "pedes, passus, milla, mille", 

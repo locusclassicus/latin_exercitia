@@ -10,7 +10,7 @@ check_question(answer = c ("in Lingua Latina sunt XXIII litterae", " 'Kaeso' est
 ```
 </br>
 
-**2. In \_\_\_ HOMO OCVLOS ET NASVM HABET sunt V \_\_\_ . In vocabulo NASVM sunt II \_\_\_ et III \_\_\_ .**
+**2. In ________ HOMO OCVLOS ET NASVM HABET sunt V ________ . In vocabulo NASVM sunt II ________ et III ________ .**
 
 
 
@@ -41,7 +41,7 @@ check_question("quater", options = c("ter", "quater", "quinquies", "sexies"), ty
 ```            
 </br> 
    
-**5. In vocabulo HOCLOS littera H \_\_\_ , littera V \_\_\_ . Necesse est litteram V \_\_\_ , litteram H \_\_\_ .**
+**5. In vocabulo HOCLOS littera H ________ , littera V ________ . Necesse est litteram V ________ , litteram H ________ .**
 </br> 
 
 ```{r}
@@ -70,7 +70,7 @@ check_question("ean- , eun-", options = c("i- , eun- ", "i- , i-", "ean- , eun-"
 ```     
 </br>
 
-**8. Quisque puer vel \_\_\_ puella \_\_\_ litteram \_\_\_ vocabuli sic legit: "R-O Ro, M-A Ma, Ro-ma". Ita \_\_\_ vocabulum a puero vel puella legitur.**
+**8. Quisque puer vel ________ puella ________ litteram ________ vocabuli sic legit: "R-O Ro, M-A Ma, Ro-ma". Ita ________ vocabulum a puero vel puella legitur.**
 
 
 

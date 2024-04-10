@@ -28,7 +28,7 @@ check_question(answer=c("-ite, -iunt, -e, -it"),
 
 </br>
 
-**3. Non \_\_\_ ornamenta emuntur, quae hic ponuntur, sed \_\_\_ gemmae, quae illic ostenduntur.**
+**3. Non ________ ornamenta emuntur, quae hic ponuntur, sed ________ gemmae, quae illic ostenduntur.**
 
 ```{r}
 check_question(answer=c("haec, illae"),
@@ -42,7 +42,7 @@ check_question(answer=c("haec, illae"),
 
 </br>
 
-**4. XC (=\_\_\_) sestertii est nimis magnum pretium, nam femina XX (=\_\_\_) tantum habet. Sed ecce vir ei LXXX (=\_\_\_) dat. Hoc satis est! Femina anulum emit ceterosque sestertios in sacculo ponit.**
+**4. XC (=________) sestertii est nimis magnum pretium, nam femina XX (=________) tantum habet. Sed ecce vir ei LXXX (=________) dat. Hoc satis est! Femina anulum emit ceterosque sestertios in sacculo ponit.**
 
 ```{r}
 check_question(answer=c("nonaginta, viginti, octoginta"),
@@ -84,7 +84,7 @@ check_question(answer=c("-ī"),
 
 </br>
 
-**7. Medus: "Sed anuli sine gemmis XX sesterti\_\_ emuntur. \_\_\_ pretio eum vende!"**
+**7. Medus: "Sed anuli sine gemmis XX sesterti\_\_ emuntur. ________ pretio eum vende!"**
 
 ```{r}
 check_question(answer=c("-īs, hōc"),
@@ -112,7 +112,7 @@ check_question(answer=c("-us, -ud, -um, -um"),
 
 </br>
 
-**9. \_\_\_ est hoc? Ornamentum est. \_\_\_ ornamentum? Anulus gemmatus. Ornamentum \_\_\_ Medus in digito Lydiae ponit est anulus gemmatus. \_\_\_ anulum gemmatum emit pecuniosus est.**
+**9. ________ est hoc? Ornamentum est. ________ ornamentum? Anulus gemmatus. Ornamentum ________ Medus in digito Lydiae ponit est anulus gemmatus. ________ anulum gemmatum emit pecuniosus est.**
 
 ```{r}
 check_question(answer=c("quid, quod, quod, qui"),
@@ -126,7 +126,7 @@ check_question(answer=c("quid, quod, quod, qui"),
 
 </br>
 
-**10. \_\_\_ anulus ad \_\_\_ digitum non convenit. Pretium \_\_\_ anuli parvus est. Itaque Albinus alium anulum \_\_\_ viro dat.**
+**10. ________ anulus ad ________ digitum non convenit. Pretium ________ anuli parvus est. Itaque Albinus alium anulum ________ viro dat.**
 
 ```{r}
 check_question(answer=c("ille, illum, illius, illi"),
@@ -140,7 +140,7 @@ check_question(answer=c("ille, illum, illius, illi"),
 
 </br>
 
-**11. \_\_\_ gemma ad \_\_\_ feminam non convenit. Pretium \_\_\_ gemmae magnum est. Itaque aliam gemmam Albinus \_\_\_ feminae dat.**
+**11. ________ gemma ad ________ feminam non convenit. Pretium ________ gemmae magnum est. Itaque aliam gemmam Albinus ________ feminae dat.**
 
 ```{r}
 check_question(answer=c("haec, hanc, huius, huic"),
@@ -154,7 +154,7 @@ check_question(answer=c("haec, hanc, huius, huic"),
 
 </br>
 
-**12. \_\_\_ ornamentum ad \_\_\_ collum non convenit, quia pretium \_\_\_ ornamenti magnum est. Albinus aliud ornamentum \_\_\_ collo dat.**
+**12. ________ ornamentum ad ________ collum non convenit, quia pretium ________ ornamenti magnum est. Albinus aliud ornamentum ________ collo dat.**
 
 ```{r}
 check_question(answer=c("id, id, eius, ei"),

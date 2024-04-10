@@ -8,7 +8,7 @@ check_question(answer=c("accusativus pluralis"),
 ```
 </br>
 
-**2. Ecce cubiculum. \_\_\_ magnum est. Ecce cubicula. \_\_\_ parva sunt. Ecce servi. \_\_\_ foedi sunt. Ecce ancillae. \_\_\_ pulchrae sunt.**
+**2. Ecce cubiculum. ________ magnum est. Ecce cubicula. ________ parva sunt. Ecce servi. ________ foedi sunt. Ecce ancillae. ________ pulchrae sunt.**
 
 ```{r}
 check_question(answer="id, ea, ii, eae",
@@ -71,7 +71,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**8. Ecce villa. Ex \_\_\_ Medus discedit. Ecce servi. Dominus \_\_\_ est Iulius. Iulius cum \_\_\_ Medum quaerit. Ecce cubiculum. In \_\_\_ Iulia plorat.**
+**8. Ecce villa. Ex ________ Medus discedit. Ecce servi. Dominus ________ est Iulius. Iulius cum ________ Medum quaerit. Ecce cubiculum. In ________ Iulia plorat.**
 
 ```{r}
 check_question(answer="ea, eorum, iis, eo",
@@ -84,7 +84,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**9. Iulia quae est pulchra puella \_\_\_ horto \_\_\_ rosis venit. Pueri: «\_\_\_ rosis foeda est Iulia!» Iulia \_\_\_ iis discedit et \_\_\_ cubiculo suo plorat.**
+**9. Iulia quae est pulchra puella ________ horto ________ rosis venit. Pueri: «________ rosis foeda est Iulia!» Iulia ________ iis discedit et ________ cubiculo suo plorat.**
 
 ```{r}
 check_question(answer="ex, cum, sine, ab, in",
@@ -97,7 +97,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**10. Marcus, qui est puer improbus, Iuliam ridet, quia nasus eius \_\_\_ est. \_\_\_ Quintus Iuliam ridet: is \_\_\_ puer improbus est.**
+**10. Marcus, qui est puer improbus, Iuliam ridet, quia nasus eius ________ est. ________ Quintus Iuliam ridet: is ________ puer improbus est.**
 
 ```{r}
 check_question(answer="foedus, etiam, quoque",

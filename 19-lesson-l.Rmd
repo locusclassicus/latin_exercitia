@@ -57,7 +57,7 @@ check_question(answer=c("-es, -er, -es, -er"),
 ```
 
 </br>
-**5.1. Davus: O, Syra! Te amo! Tempus amorem meum erga te non \_\_\_ , immo vero \_\_\_ !**
+**5.1. Davus: O, Syra! Te amo! Tempus amorem meum erga te non ________ , immo vero ________ !**
 
 ```{r}
 check_question(answer=c("minuit, auget"),
@@ -70,7 +70,7 @@ check_question(answer=c("minuit, auget"),
 ```
 
 </br>
-**5.2. Davus: O, Syra, dico 'tempore non \_\_\_, sed \_\_\_ te amare!'**
+**5.2. Davus: O, Syra, dico 'tempore non ________, sed ________ te amare!'**
 
 ```{r}
 check_question(answer=c("minus, plus"),
@@ -96,7 +96,7 @@ check_question(answer=c("Iulius Aemiliam etiam pauperem amabat", "Aemilia pauper
 ```
 
 </br>
-**7. Iulius: Ego miser \_\_\_ , quod me non amabas. Neque tu beata \_\_\_ , quod Crassus te non amabat. Nos igitur miseri \_\_\_ neque vos, tu et Crassus, beati \_\_\_ .**
+**7. Iulius: Ego miser ________ , quod me non amabas. Neque tu beata ________ , quod Crassus te non amabat. Nos igitur miseri ________ neque vos, tu et Crassus, beati ________ .**
 
 
 
