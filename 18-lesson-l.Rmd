@@ -79,7 +79,7 @@ check_question("quaeque, quamque, cuiusque, quodque", options = c("quisque, quem
 ```
 </br>
 
-**9. Sextus non tam foed_ nec tam turp_ scribit quam Titus. Titus turp_ scribit quam Sextus. Marcus ex omnibus discipulis foed_ scribit.**
+**9. Sextus non tam foed\_\_ nec tam turp\_\_ scribit quam Titus. Titus turp\_\_ scribit quam Sextus. Marcus ex omnibus discipulis foed\_\_ scribit.**
 
 
 ```{r}

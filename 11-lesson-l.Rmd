@@ -31,7 +31,6 @@ check_question(answer=c("super, supra, infra"),
 </br>
 **3. Quae viscera homini sano sunt?**
 
-
 ```{r}
 check_question(answer=c("unum iecur", "unus venter"),
                options = c("unus pulmo", "unus venter", "unum iecur", "duo corda"),
@@ -89,7 +88,7 @@ check_question(answer=c("de, nec, atque, modo"),
 
 
 </br>
-**8. Medus advenit. Lydia gaudet. = **
+**8. Medus advenit. Lydia gaudet. = ? **
 
 
 ```{r}
@@ -118,7 +117,7 @@ check_question(answer=c("sentire", "iubere", "necesse esse", "putare"),
 
 
 </br>
-**10. Quintus: "Ei! Dolet pes!" = **
+**10. Quintus: "Ei! Dolet pes!" = ?**
 
 ```{r}
 check_question(answer=c("pes Quinti aeger est", "Quintus aeger est pede"),

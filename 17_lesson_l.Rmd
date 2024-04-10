@@ -58,7 +58,7 @@ check_question(answer = c("Titus, qui de numero difficili interrogatur, responsu
 
 </br>
 
-**5. Iulius: ego (item mea Aemilia) pecuniam meam numquam largi\_! Tune, Corneli, pecunaim tuam parti\_ cum aliis? Cornelius et Fabia: largi sumus, itaque nos ab aliis lauda\_. Vos vero, Iuli et Aemila, saepe reprehendi\_.**
+**5. Iulius: ego (item mea Aemilia) pecuniam meam numquam largi\_\_! Tune, Corneli, pecunaim tuam parti\_\_ cum aliis? Cornelius et Fabia: largi sumus, itaque nos ab aliis lauda\_\_. Vos vero, Iuli et Aemila, saepe reprehendi\_\_.**
 
 ```{r}
 check_question(answer = c("-or", "-ris", "-mur", "-mini"), 
@@ -132,7 +132,7 @@ check_question(answer = c("quare", "usque", "tot"),
 
 </br>
 
-**10. Magister de Marco cogitat: "is est discipulus..."**
+**10. Magister de Marco cogitat: "Is est discipulus..."**
 
 ```{r}
 check_question(answer = c("piger", "indoctus"),

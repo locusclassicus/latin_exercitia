@@ -20,14 +20,14 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**3. Nominativus singularis: filius, cubiculum, filia, hortus. Accusativus pluralis: fili_ , cubicul_ , fili_ , hort_**.
+**3. Nominativus singularis: filius, cubiculum, filia, hortus. Accusativus pluralis: fili\_\_ , cubicul\_\_ , fili\_\_ , hort\_\_**.
 
 ```{r}
 check_question("filios, cubicula, filias, hortos", right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", placeholder = "filius, cubiculum, filia, hortus")
 ```
 </br>
 
-**4. Ecce Iulia in horto. Puella ros__ et lili__ amat: ros__ et lili__ eam delectant.**
+**4. Ecce Iulia in horto. Puella ros\_\_ et lili\_\_ amat: ros\_\_ et lili\_\_ eam delectant.**
 
 ```{r}
 check_question(answer="-as, -a, -ae, -a",
@@ -40,7 +40,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**5. Aemilia cum liber__ in horto est. Aemilia liber__ laudat. Iulius ab oppid__ venit. Iulia ex peristyl__ discedit et patrem salutat.**
+**5. Aemilia cum liber\_\_ in horto est. Aemilia liber\_\_ laudat. Iulius ab oppid\_\_ venit. Iulia ex peristyl\_\_ discedit et patrem salutat.**
 ```{r}
 check_question(answer=c("-is, -os, -o, -o"), 
                options = c("-os, -is, -o, -um", "-is, -os, -o, -o", "-os, -os, -o, -o", "-is, -os, -um, -o"), right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")

@@ -35,7 +35,7 @@ check_question("pedis, hominis, fluminis, leonis",options=c("pesis, homis, flumi
 ```
 
 </br>
-**6. Mar\_ plena sunt animal\_. Multi pisces in magno mar\_ vivunt.**
+**6. Mar\_\_ plena sunt animal\_\_. Multi pisces in magno mar\_\_ vivunt.**
 
 ```{r}
 check_question("-ia, -ium, -i",options=c("-ia, -ium, -e","-a, -ium, -i","-ia, -um, -i","-ia, -ium, -i"),type="radio",button_label="Rectene dico?",right="Optime!👍",wrong="Minime😔")
@@ -56,7 +56,7 @@ check_question(c("Iulius Quintum vivum esse videt","Iulius Quintum vivere videt"
 ```
 
 </br>
-**9. _Dic totam sententiam:_ Quintus de arbore cadit \_\_\_.**
+**9. _Dic totam sententiam:_ Quintus de arbore cadit, \_\_\_.**
 
 ```{r}
 check_question("ergo ambulare non potest",options=c("Iulius enim eum portat","quod Marcus perterritus est","ergo ambulare non potest","cum in lecto iacet"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")

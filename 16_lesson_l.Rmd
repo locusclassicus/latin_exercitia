@@ -27,7 +27,7 @@ check_question(answer = c("oriens", "oritur", "occidens", "occidit"),
 
 </br>
 
-**3. Lydia: Christus est filius ips\_ Dei ac dominus omnium hominum. Medus: ego sum null\_ domini servus!**
+**3. Lydia: Christus est filius ips\_\_ Dei ac dominus omnium hominum. Medus: ego sum null\_\_ domini servus!**
 
 ```{r}
 check_question(answer = "-ius, -ius",
@@ -55,7 +55,7 @@ check_question(answer = c("iterum", "vix", "propter", "vero"),
 
 </br>
 
-**5. Pastor, qui propter solem lucentem mult\_ fessior est quam solet, mult\_ panis secum fert, sed sacculus eius paul\_ levior fit, quod paul\_ cibi e sacculo sumit et est.**
+**5. Pastor, qui propter solem lucentem mult\_\_ fessior est quam solet, mult\_\_ panis secum fert, sed sacculus eius paul\_\_ levior fit, quod paul\_\_ cibi e sacculo sumit et est.**
 
 ```{r}
 check_question(answer = "-o, -um, -o, -um",
@@ -88,7 +88,7 @@ check_question(answer = "opperitur, loqui, consolari",
 
 </br>
 
-**7. Multae naves e portu Ostiensi proficisc\_ ad alias oras maritimas. Medus, qui dominum suum iam non ver\_, Lydiam complect\_. Duo amantes caelum serenum intu\_.**
+**7. Multae naves e portu Ostiensi proficisc\_\_ ad alias oras maritimas. Medus, qui dominum suum iam non ver\_\_, Lydiam complect\_\_. Duo amantes caelum serenum intu\_\_.**
 
 ```{r}
 check_question(answer = c("-untur, -etur, -itur, -entur"),

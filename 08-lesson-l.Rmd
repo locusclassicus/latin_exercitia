@@ -1,6 +1,6 @@
 # 8 Taberna romana
 
-**1. Lydia ocul\_ ad tabernam Albini vertit. Lydia tabernam digit\_ monstrat. Medus consistit et tabern\_ aspicit. Tabernarius lineam margarit\_ Lydiae Medoque ostendit.**
+**1. Lydia ocul\_\_ ad tabernam Albini vertit. Lydia tabernam digit\_\_ monstrat. Medus consistit et tabern\_\_ aspicit. Tabernarius lineam margarit\_\_ Lydiae Medoque ostendit.**
 
 ```{r}
 check_question(answer=c("-os, -o, -am, -arum"),
@@ -14,7 +14,7 @@ check_question(answer=c("-os, -o, -am, -arum"),
 
 </br>
 
-**2. lulius: "Delia et Syra, ascpic\_ anulum!" Delia et Syra anulum aspic\_\_. "Aemilia, accip\_ eum!" Aemilia laeta anulum accip\_\_.**
+**2. lulius: "Delia et Syra, ascpic\_\_ anulum!" Delia et Syra anulum aspic\_\_. "Aemilia, accip\_\_ eum!" Aemilia laeta anulum accip\_\_.**
 
 ```{r}
 check_question(answer=c("-ite, -iunt, -e, -it"),
@@ -56,7 +56,7 @@ check_question(answer=c("nonaginta, viginti, octoginta"),
 
 </br>
 
-**5. Medus: "Quot numm\_ constat ille anulus, Albine?"**
+**5. Medus: "Quot numm\_\_ constat ille anulus, Albine?"**
 
 ```{r}
 check_question(answer=c("-īs"),
@@ -70,7 +70,7 @@ check_question(answer=c("-īs"),
 
 </br>
 
-**6. Albinus: "Pretium huius anuli est C sesterti\_."**
+**6. Albinus: "Pretium huius anuli est C sesterti\_\_."**
 
 ```{r}
 check_question(answer=c("-ī"),
@@ -84,7 +84,7 @@ check_question(answer=c("-ī"),
 
 </br>
 
-**7. Medus: "Sed anuli sine gemmis XX sesterti\_ emuntur. \_\_\_ pretio eum vende!"**
+**7. Medus: "Sed anuli sine gemmis XX sesterti\_\_ emuntur. \_\_\_ pretio eum vende!"**
 
 ```{r}
 check_question(answer=c("-īs, hōc"),

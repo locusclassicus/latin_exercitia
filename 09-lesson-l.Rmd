@@ -1,6 +1,6 @@
 # 9 Pastor et oves
 
-**1. Accusativus singularis: ancillam, servum, pastorem. Accusativus pluralis: ancill_ , serv_ , pastor_**
+**1. Accusativus singularis: ancillam, servum, pastorem. Accusativus pluralis: ancill\_\_ , serv\_\_ , pastor\_\_**
 
 ```{r}
 check_question(answer=c("-as, -os, -es"), 
@@ -22,7 +22,7 @@ check_question("undecentum, duodenonaginta",options=c("undecentum, duodenonagint
 ```
 
 </br>
-**4. Pastor \_\_\_ arbor_ iacet. Itaque sol \_\_\_ pastor_ non lucet.**
+**4. Pastor \_\_\_ arbor_ iacet. Itaque sol \_\_\_ pastor\_\_ non lucet.**
 
 ```{r}
 check_question("sub, -e, supra, -em",options=c("supra, -e, sub, -em","sub, -em, supra, -e","supra, -em, sub, -e","sub, -e, supra, -em"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")
@@ -43,21 +43,21 @@ check_question("est, est, sunt, edunt",options=c("est, edunt, est, sunt","est, e
 ```
 
 </br>
-**7. Amici pastor_ sunt canes. Inimici ov_ sunt lupi. Vestigia dent_ sunt in collo.**
+**7. Amici pastor\_\_ sunt canes. Inimici ov\_\_ sunt lupi. Vestigia dent\_\_ sunt in collo.**
 
 ```{r}
 check_question("-um, -ium, -ium",options=c("-um, -ium, -ium","-um, -ium, -um","-ium, -ium, -um","-um, -um, -ium"),type="radio",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿")
 ```
 
 </br>
-**8. Pastor, dominus can_, cum can_ suo ducit ov_ nigram ad rivum. Illic pastor ov_ suae aquam dat, quae aquam bibit.**
+**8. Pastor, dominus can\_\_, cum can\_\_ suo ducit ov\_\_ nigram ad rivum. Illic pastor ov\_\_ suae aquam dat, quae aquam bibit.**
 
 ```{r}
 check_question("-is, -e, -em, -i",options=c("-is, -e, -em, -i","-is, -e, -am, -i","-is, -o, -em, -ae","-is, -o, -am, -ae"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕")
 ```
 
 </br>
-**9. Pastor, dominus ov_, sub arbore est. Arbor ov_ albis umbram dat. Supra magnos mont_ sol lucet in caelo sine multis nub_.**
+**9. Pastor, dominus ov\_\_, sub arbore est. Arbor ov\_\_ albis umbram dat. Supra magnos mont\_\_ sol lucet in caelo sine multis nub\_\_.**
 
 ```{r}
 check_question("-ium, -ibus, -es, -ibus",options=c("-ium, -ibus, -es, -ibus","-ium, -is, -os, -is","-ium, -ibus, -es, -is","-ium, -is, -os, -ibus"),type="radio",button_label="Rectene dico?",right="Sic est🤩",wrong="Cogitandum est🤔")

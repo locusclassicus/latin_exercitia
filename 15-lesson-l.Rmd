@@ -8,7 +8,7 @@ check_question(c("Magister recitare desinit, quod omnes discipuli dormiunt neque
 ```
  
 </br>
-**2. Diodorus: "Ubi sunt omnes discipul_? Discipul_, vos voco, ubi estis?" Magister nullum discipulum videns magna voce exclamat: "O, discipul_ improb_!"**
+**2. Diodorus: "Ubi sunt omnes discipul_? Discipul\_\_, vos voco, ubi estis?" Magister nullum discipulum videns magna voce exclamat: "O, discipul\_\_ improb\_\_!"**
   
 ```{r}
 check_question("-i, -i, -os, -os", options = c ("-i, os, -i, -i", "-i, -i, -i, -i", "-i, -i, -os, -os", "-i, -os, -os, -os"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "radio")
@@ -31,16 +31,15 @@ check_question(answer = c("priorem", "posteriorem", "inferiorem"),
 ```
   
 </br>
-5. **Diodorus: "\_\_\_ librum Tito, Marce! Tum ad sellam suam \_\_\_ atque conside."**
+**5. Diodorus: "\_\_\_ librum Tito, Marce! Tum ad sellam suam \_\_\_ atque conside."**
  
 ```{r}
 check_question(c("redde", "redi"), options = c("rede", "reddi", "redi", "redde"), right = "bene 🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "checkbox")
 ```
  
 </br>
-**6. Diodorus: "Potesne \_\_\_ in ludum ad tempus venire, Marce?" 
-Marcus: "\_\_\_ non possum, dormire amo. At \_\_\_, Tite et Sexte, potestis."
-Sextus et Titus: "Verum dicis, Marce. \_\_\_ possumus ad tempus venire."**
+
+**6. Diodorus: "Potesne \_\_\_ in ludum ad tempus venire, Marce?"  Marcus: "\_\_\_ non possum, dormire amo. At \_\_\_, Tite et Sexte, potestis." Sextus et Titus: "Verum dicis, Marce. \_\_\_ possumus ad tempus venire."**
     
 ```{r}
 check_question(answer = c("tu", "ego", "vos", "nos"), right = "optime 👍 ", wrong = "non hercle vero! 😕 ", button_label = "Rectene dico?", type = "in_order")
@@ -54,14 +53,14 @@ check_question(answer = c("sum, es, estis, sumus"), right = "sic est 🤩", wron
 ```
  
 </br>
-**8. Discipulus: "Ei, cur me pun_, magister?" Magister: "Te pun_, improbe discipule, quod me rid_!". Discipulus: "Rid_, quod bene recitare non potes."**
+**8. Discipulus: "Ei, cur me pun\_\_, magister?" Magister: "Te pun\_\_, improbe discipule, quod me rid\_\_!". Discipulus: "Rid\_\_, quod bene recitare non potes."**
   
 ```{r}
 check_question("-is, -io, -es, -eo", options = c("-io, -is, -es, -eo", "-is, -io, -es, -eo", "-is, -io, -eo, -es", "-io, -is, -eo, -es"), right = "optime 👍 ", wrong = "cogitandum est 🤔", button_label = "Rectene dico?", type = "radio")
 ```
  
 </br>
-**9. Magistri: "Cur non consid_ ad sellas suas, discipuli?" Discipuli: "Nin consid_, quod nos verber_ atque terga nostra dolent". Magistri: "Vos verber_, quod nos magistri sumus, vos autem mali discipuli estis."**
+**9. Magistri: "Cur non consid\_\_ ad sellas suas, discipuli?" Discipuli: "Nin consid\_\_, quod nos verber\_\_ atque terga nostra dolent". Magistri: "Vos verber\_\_, quod nos magistri sumus, vos autem mali discipuli estis."**
  
 ```{r}
 check_question("-itis, -imus, -atis, -amus", options = c("-itis, -imus, -atis, -amus", "-imus, -itis, -amus, atis", "-itis, -itis, -amus, -amus", "-itis, -imus, -amus, -itis"), right = "recte sane 🙂", wrong = "non hercle vero! 😕", button_label = "Rectene dico?", type = "radio")

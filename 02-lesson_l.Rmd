@@ -8,7 +8,7 @@ check_question(answer=c("genetivus pluralis"),
 ```
 </br>
 
-**2. Cuius filius est Marcus? Filius Iuli_. Iulia, cuius filia? Filia Aemili_. Gallia, cuius provincia? Provincia imperi_ Romani.**
+**2. Cuius filius est Marcus? Filius Iuli\_\_. Iulia, cuius filia? Filia Aemili\_\_. Gallia, cuius provincia? Provincia imperi\_\_ Romani.**
 
 ```{r}
 check_question(answer = "-i,-ae,-i",
@@ -38,7 +38,7 @@ check_question(answer = "magnus numerus servorum et parvus numerus liberorum",
 ```
 </br>
 
-**4. In libro tuo numerus capitul_ est magnus, numerus pagin_ est maximus, sed numerus titul_ est unus: LINGVA LATINA.**
+**4. In libro tuo numerus capitul\_\_ est magnus, numerus pagin\_\_ est maximus, sed numerus titul\_\_ est unus: LINGVA LATINA.**
 
 ```{r}
 check_question(answer = "-orum,-arum,-orum",
@@ -52,7 +52,7 @@ check_question(answer = "-orum,-arum,-orum",
 ```
 </br>
 
-**5. Magnus numerus oppidorum = mult_ oppid_. Parvus numerus liberorum = pauc_ liber_.**
+**5. Magnus numerus oppidorum = mult\_\_ oppid\_\_. Parvus numerus liberorum = pauc\_\_ liber\_\_.**
 
 ```{r}
 check_question(answer=c("-a, -a, -i, -i"), 

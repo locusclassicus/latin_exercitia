@@ -25,7 +25,7 @@ check_question("habet, imperat, serve, paret", options = c("habet, imperat, serv
 ```
  
 </br>
-**4. Iulius Med__ vocat: ‘Med__ ! Veni!’ Aemilia Iuli__ , filiam suam, vocat: ‘Iuli__ !’**
+**4. Iulius Med\_\_ vocat: ‘Med\_\_ ! Veni!’ Aemilia Iuli\_\_ , filiam suam, vocat: ‘Iuli\_\_ !’**
 ```{r}
 check_question(answer=c("-um, -e, am, -a"), 
                options = c("-us, -us, -a, -a", "-um, -e, -a, -a", "-us, -e, -am, -a", "-um, -e, am, -a"), right = "optime 👍", wrong = "non ita ☹️", button_label = "Rectene dico?", type = "radio")
@@ -72,7 +72,7 @@ check_question(c("venire", "ponere"), options = c("venire", "accusare", "habere"
  
 
 </br>
-**10. Iulius: ‘Davus, voc__ Marcum!’. Davus: ‘Marce, ven__ !’. Marcus: ‘Davus, tac__ !’ Iulius: ‘Marce, disced__ ! Puer improbus es!’.**
+**10. Iulius: ‘Davus, voc\_\_ Marcum!’. Davus: ‘Marce, ven\_\_ !’. Marcus: ‘Davus, tac\_\_ !’ Iulius: ‘Marce, disced\_\_ ! Puer improbus es!’.**
 ```{r}
 check_question(answer=c("-a, -i, -e, -e"), 
                options = c("-a, -i, -e, -e", "-e, -a, -e, -i", "-e, -i, -e, -i", "-e, -e, -i, -i"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")

@@ -9,7 +9,7 @@ check_question(answer=c("rarius, laetior"),
 ```
 </br>
 
-**2. Aemilia: Infans meus numquam cibo care_ neque vagi_ ! Immo, semper a me cura_ atque al_ . **
+**2. Aemilia: Infans meus numquam cibo care\_\_ neque vagi\_\_ ! Immo, semper a me cura\_\_ atque al\_\_ . **
  
  
 ```{r}
@@ -18,7 +18,7 @@ check_question(answer=c("-bit, -et, -bitur, -etur"),
 ```
 </br>
 
-**3. Aemilia: semper apud infantem meum mane_ atque eum dilig_ ; etiam nocte eum cura_ neque ipsa dormi_ .**
+**3. Aemilia: semper apud infantem meum mane\_\_ atque eum dilig\_\_ ; etiam nocte eum cura\_\_ neque ipsa dormi\_\_ .**
  
  
 ```{r}

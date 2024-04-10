@@ -1,14 +1,14 @@
 # 6 Via Latina
 
 </br>
-**1. Via Appia est ____ Romam et Brundisium. Ostia est ____ Romam. _____ Romam muri sunt.**
+**1. Via Appia est \_\_\_ Romam et Brundisium. Ostia est \_\_\_ Romam. \_\_\_ Romam muri sunt.**
 
 ```{r}
 check_question(answer = c("inter", "prope", "circum"), right = "recte sane 🙂", wrong = "quid ais? 🤨", button_label = "Rectene dico?", type = "in_order")
 ```
 </br>
 
-**2. Dominus servos verbera_. Domini a servis time_. Iulius lectica vehi_. Verba Medi a Lydia non audiu_.**
+**2. Dominus servos verbera\_\_. Domini a servis time\_\_. Iulius lectica vehi\_\_. Verba Medi a Lydia non audiu\_\_.**
 ```{r}
 check_question (answer = "-t, -ntur, -tur, -ntur", right ="ita est 🤩", wrong ="minime 😔", button_label = "rectene dico?", options = c("-ntur, -t, -tur, -t", "-t, -tur, -ntur, -tur","-t, -ntur, -tur, -ntur", "-tur, -ntur, -t, -ntur"), type = "radio")
 ```
@@ -47,14 +47,14 @@ check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "
 check_question(answer = ("per, ad, apud, circum"), right= "recte dicis 😸", wrong="non ita 😔", button_label = "Rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
 ```
 </br>
-**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul_ it, nam is Tuscul_ habitat, non Rom_ .**
+**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul\_\_ it, nam is Tuscul\_\_ habitat, non Rom\_\_ .**
 ```{r}
 check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minime 😕", button_label = "Rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
 ```
 </br>
 
 
-**9. Iulius in Tusculo est = Iulius Tuscul__ est. Iulius Romam it = Iulius \_\_\_ Romam it. Iulius Tusculo venit = Iulius \_\_\_ oppido venit.**
+**9. Iulius in Tusculo est = Iulius Tuscul\_\_ est. Iulius Romam it = Iulius \_\_\_ Romam it. Iulius Tusculo venit = Iulius \_\_\_ oppido venit.**
 
 ```{r}
 check_question(answer=c("-i, ad, ab"), 

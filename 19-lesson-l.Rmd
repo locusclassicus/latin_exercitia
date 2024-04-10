@@ -14,7 +14,7 @@ check_question(answer=c("Iuno est dea matronarum", "Venus est dea pulchritudinis
 ```
 
 </br>
-**2. Nemo deorum pei_ maritus est quam Iuppiter. Signum Iovis in foro Romano meli_ est quam alia signa deorum. Villa Iulii meli_ est quam villa Cornelii, sed tectum villae Iulii pei_ est quam tectum villae Cornelii.**
+**2. Nemo deorum pei\_\_ maritus est quam Iuppiter. Signum Iovis in foro Romano meli\_\_ est quam alia signa deorum. Villa Iulii meli\_\_ est quam villa Cornelii, sed tectum villae Iulii pei\_\_ est quam tectum villae Cornelii.**
 
 
 ```{r}
@@ -29,7 +29,7 @@ check_question(answer=c("-or, -us, -or, -us"),
 
 
 </br>
-**3. Oppidum Tusculum min_ est quam Roma. Urbs Roma mai_ est quam Tusculum. Oppidum Tusculum mai_ est quam villa Iulii. Villa Iulii min_ est quam Tusculum.**
+**3. Oppidum Tusculum min\_\_ est quam Roma. Urbs Roma mai\_\_ est quam Tusculum. Oppidum Tusculum mai\_\_ est quam villa Iulii. Villa Iulii min\_\_ est quam Tusculum.**
 
 ```{r}
 check_question(answer=c("-us, -or, -us, -or"),
@@ -43,7 +43,7 @@ check_question(answer=c("-us, -or, -us, -or"),
 
 
 </br>
-**4. Iulius adulescens div_ erat, Aemilia autem erat virgo paup_. Roma est urbs div_, Tusculum est oppidum paup_.**
+**4. Iulius adulescens div\_\_ erat, Aemilia autem erat virgo paup\_\_. Roma est urbs div\_\_, Tusculum est oppidum paup\_\_.**
 
 
 ```{r}
@@ -113,7 +113,7 @@ check_question(answer=c("eram, eras, eramus, eratis"),
 ```
 
 </br>
-**8. Iulius: Ego flores ac multa dona ad te mitt_, sed tu omnia ad me remitt_. Miserrimus eram, quod tu Crassum oscula_ neque ipsa ab eo ama_.**
+**8. Iulius: Ego flores ac multa dona ad te mitt\_\_, sed tu omnia ad me remitt\_\_. Miserrimus eram, quod tu Crassum oscula\_\_ neque ipsa ab eo ama\_\_.**
 
 ```{r}
 check_question(answer=c("-ebam, -ebas, -baris, -baris"),
@@ -126,7 +126,7 @@ check_question(answer=c("-ebam, -ebas, -baris, -baris"),
 ```
 
 </br>
-**9. Iulius: Vos domum exiguam posside_, nos autem in villas magnificas conveni_. Nos ab omnibus lauda_, quod dives eramus, vos autem ab omnibus reprehend_, quod pauperes eratis.**
+**9. Iulius: Vos domum exiguam posside\_\_, nos autem in villas magnificas conveni\_\_. Nos ab omnibus lauda\_\_, quod dives eramus, vos autem ab omnibus reprehend\_\_, quod pauperes eratis.**
 
 ```{r}
 check_question(answer=c("-batis, -ebamus, -bamur, ebamini"),
