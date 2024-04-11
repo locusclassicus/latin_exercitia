@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = FALSE, results = "asis", message = FALSE, warning =
 library(checkdown)
 ```
 
+
 _Salvete, sodales!_ 
 
 - Здесь вы найдете дополнительные интерактивные упражнения к учебнику Familia Romana. Их можно задавать на дом ученикам, когда не хочется проверять домашку, или делать _motu proprio_, когда хочется повторить грамматику или лексику уроков. 
@@ -32,7 +33,7 @@ _Salvete, sodales!_
 
 - Интерактивная часть сайта реализована с использованием пакета [checkdown](https://cran.r-project.org/web/packages/checkdown/index.html) для языка R. Его разработал наш коллега, заведующий Международной лаборатории языковой конвергенции, доцент Школы лингвистики [Георгий Мороз](https://www.hse.ru/staff/agricolamz). Благодарим Георгия Алексеевича за консультации и за несколько полезных функций, добавленных в пакет по нашей просьбе.  
 
-- О других проектах Греко-латинского клуба Antibarbari можно следить на нашем канале в Telegram (https://t.me/antibarbari), а также на сайте http://antibarbari.ru/.
+- За другими проектами Греко-латинского клуба Antibarbari можно следить на нашем канале в Telegram (https://t.me/antibarbari), а также на сайте http://antibarbari.ru/.
 
 _Bene valete!_ 
 

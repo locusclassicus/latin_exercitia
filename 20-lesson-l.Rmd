@@ -93,7 +93,9 @@ check_question(answer=c("hodie, cras, minime, profecto"),
 **10. Quid est verum?**
 
 ```{r}
-check_question(answer=c("somnus infanti necessarius est", "nutrix est mulier, quae infantem alienum alit"),
+check_question(answer=c("somnus infanti necessarius est", 
+                        "nutrix est mulier, quae infantem alienum alit",
+                        "sermo infantium viros mulieresque non decet"),
                options = c("sermo infantium viros mulieresque non decet", "somnus infanti necessarius est", "infans parvulus solus primos gradus facere potest", "nutrix est mulier, quae infantem alienum alit"),
                type = "checkbox",
                button_label = "Rectene dico?",

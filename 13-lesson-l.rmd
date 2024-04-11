@@ -6,19 +6,19 @@
 check_question(answer=c("dies in duodecim horas dividitur", "mensis anni undecimus est November"),  right="recte dicis! 🙂", wrong="сogitandum est 🤔", button_label = "Rectene dico?", options = c("totus annus trecentos sexaginta dies habet", "dies in duodecim horas dividitur", "saeculum est ducenti anni", "mensis anni undecimus est November"), type = "checkbox")
 ```
 </br>
-**2.Quam longus est mensis December? December unum et \_\_\_ longus est. Quando sunt idus Decembres? Idus Decembres \_\_\_ decimo \_\_\_ sunt.**
+**2.Quam longus est mensis December? December unum et \_\_\_\_\_\_\_\_\ longus est. Quando sunt idus Decembres? Idus Decembres \_\_\_\_\_\_\_\_\ decimo \_\_\_\_\_\_\_\_\ sunt.**
 ```{r}
 check_question(answer= ("triginta, dies, tertio, die"), right = "ita 😸", wrong = "minime 😕", button_label = "Rectene dico?", options = c("triginta, dies, tertio, die", "triginta, die, tertio, dies", "tertio, die, triginta, dies", "tertio, dies, triginta, die"), type = "radio")
 ```
 
 </br>
-**3. \_\_\_ folia de arboribis cadunt; \_\_\_ campi nova herba operiuntur; \_\_\_ aer callidissimus est; \_\_\_ nix cadit de caelo.**
+**3. \_\_\_\_\_\_\_\_\ folia de arboribis cadunt; \_\_\_\_\_\_\_\_\ campi nova herba operiuntur; \_\_\_\_\_\_\_\_\ aer callidissimus est; \_\_\_\_\_\_\_\_\ nix cadit de caelo.**
 ```{r}
 check_question (answer = "autumno, vere, aestate, hieme", right ="ita est 🤩", wrong ="prave respondes 😔", button_label = "Rectene dico?", options = c("autumno, aestate, vere, hieme", "autumno, hieme, aestate, vere", "autumno, vere, aestate, hieme"), type = "checkbox")
 ```
 
 </br>
-**4. \_\_\_ mensis primus \_\_\_ Martius, \_\_\_ autem mensis primus \_\_\_ Ianuarius.**
+**4. \_\_\_\_\_\_\_\_\ mensis primus \_\_\_\_\_\_\_\_\ Martius, \_\_\_\_\_\_\_\_\ autem mensis primus \_\_\_\_\_\_\_\_\ Ianuarius.**
 ```{r}
 check_question(answer = c("tunc", "erat", "nunc", "est"), right="bene 🙂", wrong="minime 😔", button_label = "Rectene dico?", type = "in_order")
 ```
@@ -36,19 +36,19 @@ check_question(answer= ("28.12"), right = "ita 😸", wrong = "minime 😕", but
 ```
 
 </br>
-**7.Iulius ( \_\_\_ Augustus) est mensis anni \_\_\_ . Mense Ianuario autem nix cadit de nubibus; is mensis \_\_\_ est \_\_\_ .**
+**7.Iulius ( \_\_\_\_\_\_\_\_\ Augustus) est mensis anni \_\_\_\_\_\_\_\_\ . Mense Ianuario autem nix cadit de nubibus; is mensis \_\_\_\_\_\_\_\_\ est \_\_\_\_\_\_\_\_\ .**
 ```{r}
 check_question(answer = ("item, calidissimus, igitur, frigidissimus"), right ="optime 🤩", wrong = "non hercle vero 😕", button_label = "Rectene dico?", options = c("item, frigidissimus, igitur, calidissimus", "igitur, calidissimus, item, frigidissimus", "item, calidissimus, igitur, frigidissimus", "igitur, frigidissimus, item, calidissimus"), type = "radio")
 ```
 
 </br>
-**8.Aemilia \_\_\_ pulchram habet. In \_\_\_ eius est nasus pulcher. Pars \_\_\_ supra oculos est frons. Dum Aemilia irata est, \_\_\_ suae imperare non potest.**
+**8.Aemilia \_\_\_\_\_\_\_\_\ pulchram habet. In \_\_\_\_\_\_\_\_\ eius est nasus pulcher. Pars \_\_\_\_\_\_\_\_\ supra oculos est frons. Dum Aemilia irata est, \_\_\_\_\_\_\_\_\ suae imperare non potest.**
 ```{r}
 check_question(answer = ("faciem, facie, faciei, faciei"),right = "bene 😸", wrong = "erras 😔", button_label = "Rectene dico?", options = c("faciem, facie, faciei, faciei", "faciem, faciei, facie, faciei", "facie, faciei, faciei, faciem", "facie, faciem, faciei, faciei"), type = "radio")
 ```
 
 </br>
-**9.Mensis Iunius \_\_\_ longos habet. Numerus \_\_\_ est XXX. \_\_\_ primis nomina sunt kalendae Ianuariae, Februariae, cet. Ab iis \_\_\_ menses incipiunt.**
+**9.Mensis Iunius \_\_\_\_\_\_\_\_\ longos habet. Numerus \_\_\_\_\_\_\_\_\ est XXX. \_\_\_\_\_\_\_\_\ primis nomina sunt kalendae Ianuariae, Februariae, cet. Ab iis \_\_\_\_\_\_\_\_\ menses incipiunt.**
 ```{r}
 check_question(answer = ("dies, dierum, diebus, diebus"), right="recte dicis 😸", wrong= "non hercle vero! 😕 ", button_label = "Rectene dico?", options = c("dies, diebus, dierum, diebus", "dies, dierum, diebus, diebus", "diebus, diebus, dierum, dies", "diebus, dierum, dies, diebus"), type ="radio")
 ```

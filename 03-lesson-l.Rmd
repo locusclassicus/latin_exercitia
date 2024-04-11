@@ -1,0 +1,72 @@
+# 3 Puer improbus
+
+**1. Iulia ________ est et ________: Lalla! Marcus ________ non est et Iuliam ________ .**
+
+```{r}
+check_question("laeta, cantat, laetus, pulsat", options=c("laeta, cantat, iratus, pulsat","laeta, cantat, laetus, pulsat","irata, plorat, laetus, pulsat","laeta, vocat, iratus, pulsat"),type="radio", button_label="Rectene dico?",right="Optime! 👍",wrong="Minime 😔")
+```
+
+</br>
+**2. Quintus vocat, sed Iulius eum non audit ________ venit: pater non ________ est. Sed ecce Marcus plorat! ________ non dormit Iulius.**
+
+```{r}
+check_question("neque, hic, iam",options=c("neque, iam, cur","neque, hic, iam","neque, hic, cur","neque, iam, hic"),type="radio",button_label="Rectene dico?",right="Recte sane 🙂",wrong="Non ita 😿️")
+```
+
+</br>
+**3. Iulia Aemiliam vocat. Aemilia Quintum ________ : Quis ________ vocat? Quintus ________ : Iulia ________ vocat.**
+
+```{r}
+check_question("interrogat, me, respondet, te",options=c("interrogat, me, respondet, te","interrogat, eam, respondet, eum","interrogat, te, respondet, me","respondet, te, interrogat, me"),type="radio",button_label="Rectene dico?",right="Probe 👌",wrong="Non hercle vero! 😕", random_answer_order = T)
+```
+
+</br>
+**4. Marcus: Hahahae! Marcus ________ . Iulius: Tuxtax! Iulius ________ . Marcus: Uhuhu! Marcus ________ . Iulius: Lalla! Iulius ________ .**
+
+```{r}
+check_question("ridet, verberat, plorat, cantat",options=c("ridet, verberat, plorat, cantat","ridet, pulsat, vocat, cantat","ridet, verberat, plorat, vocat","ridet, verberat, pulsat, cantat"),type="radio",button_label="Rectene dico?",right="Sic est 🤩",wrong="Cogitandum est 🤔", random_answer_order = T)
+```
+
+</br>
+**5. ________ Iulius non dormit? Non dormit, ________ Marcum audit.**
+
+```{r}
+check_question("Cur, quia",options=c("Num, quia","Cur, quia","Num, qui","Cur, qui"),type="radio",button_label="Rectene dico?",right="Ita, ut dicis👏",wrong="Quid ais? 🤨", random_answer_order = T)
+```
+
+</br>
+**6. Marcus Iuliam pulsat. Marcus ________ ________ est. Quintus iratus est, quia Marcus ________ ________ pulsat.**
+
+```{r}
+check_question("puer, improbus, puellam, parvam",options=c("puer, probus, puellam, parvam","puer, improbus, puella, parva","puer, probus, puellam, parva","puer, improbus, puellam, parvam"),type="radio",button_label="Rectene dico?",right="Optime! 👍",wrong="Minime 😔", random_answer_order = T)
+```
+
+</br>
+**7. _Coniuge:_ Quintus videt. Marcus Iuliam pulsat.**
+
+```{r}
+check_question(c("Quintus videt Marcum, qui Iuliam pulsat","Quintus videt Iuliam, quam Marcus pulsat"),options=c("Quintus videt Marcum, quem Iulia pulsat","Quintus videt Iuliam, quae Marcum pulsat","Quintus videt Marcum, qui Iuliam pulsat","Quintus videt Iuliam, quam Marcus pulsat"),type="checkbox",button_label="Rectene dico?",right="Recte sane 🙂",wrong="Non ita 😿", random_answer_order = T)
+```
+
+</br>
+**8. ________ vocat Quintus? Iulium vocat, sed Iulius ________ non audit. ________ vocat Iulia? Aemiliam vocat. Aemilia ________ audit et venit.** 
+
+```{r}
+check_question("Quem, eum, Quam, eam",options=c("Quem, eum, Quam, eam","Quem, eum, Eam, quam","Quem, eam, Quam, eum","Quam, eum, Quem, eam"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕", random_answer_order = T)
+```
+
+</br>
+**9. _Elige:_ -it.**
+
+```{r}
+check_question(c("aud-","ven-","dorm-"),options=c("vid-","aud-","ven-","dorm-"),type="checkbox",button_label="Rectene dico?",right="Sic est 🤩",wrong="Cogitandum est 🤔", random_answer_order = T)
+```
+
+</br>
+**10. _Elige:_ -et.**
+
+```{r}
+check_question(c("vid-","respond-","rid-"),options=c("vid-","respond-","voc-","rid-"),type="checkbox",button_label="Rectene dico?",right="Ita, ut dicis 👏",wrong="Quid ais? 🤨", random_answer_order = T)
+```
+
+</br>
