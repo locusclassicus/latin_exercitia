@@ -3,3 +3,7 @@
 .RData
 .Ruserdata
 .nojekyll
+.Rproj
+._main.tex
+._main.log
+.DS_Store
