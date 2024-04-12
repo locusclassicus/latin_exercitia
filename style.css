@@ -125,6 +125,13 @@ p {
   padding-left: 11px !important;
 }  
 
+/* hierarchy toc styling */
+li.appendix span, li.part span { /* for TOC part names */
+  margin-top: 1em;
+  color: #2D2B43; !important;
+  opacity: 1 !important;
+  text-transform: uppercase;
+}
 
 
 /*________________defaults_____________________*/
