@@ -1,12 +1,14 @@
 bookdown::gitbook:
   number_sections: false
   css: style.css
+  fontsettings: 
+    theme: white
+    size: 3
   config:
     sharing: null
-    toc:
+    toc: 
+      scroll_highlight: no
       collapse: section
       before: |
-        <li><a href="./">Exercitia Latina</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li class="toc-logo"><a href="https://github.com/rstudio/bookdown" target="blank"><img src="logo.jpg"></a></li>
     edit: "https://github.com/locusclassicus/latin_exercitia/edit/main/%s"

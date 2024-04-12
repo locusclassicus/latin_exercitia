@@ -47,7 +47,7 @@ check_question(answer = c("unde", "quo", "ubi"), right = "probe 👌", wrong = "
 check_question(answer = ("per, ad, apud, circum"), right= "recte dicis 😸", wrong="non ita 😔", button_label = "Rectene dico?", options = c("circum, apud, ad, per", "circum, ad, apud, per", "per, ad, apud, circum", "per, circum, apud, ad"), type = "checkbox")
 ```
 </br>
-**8. Unde venit Cornelius? Rom_ venit. Quo it? Tuscul\_\_ it, nam is Tuscul\_\_ habitat, non Rom\_\_ .**
+**8. Unde venit Cornelius? Rom\_\_ venit. Quo it? Tuscul\_\_ it, nam is Tuscul\_\_ habitat, non Rom\_\_ .**
 ```{r}
 check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minime 😕", button_label = "Rectene dico?", options = c("-ae, -um, -i, -a", "-a, -i, -um, -ae", "-a, -um, -i, -ae ", "-ae, -i, -um, -a"), type = "radio")
 ```

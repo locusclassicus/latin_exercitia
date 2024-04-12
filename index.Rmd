@@ -1,6 +1,5 @@
 --- 
 title: "Exercitia Latina"
-date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 #url:  locusclassicus.github.io/latin_exercitia/ 
