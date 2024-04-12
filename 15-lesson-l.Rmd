@@ -31,7 +31,7 @@ check_question(answer = c("priorem", "posteriorem", "inferiorem"),
 ```
   
 </br>
-**5. Diodorus: " ________(1) librum Tito, Marce! Tum ad sellam suam ________(2) atque conside."**
+**5. Diodorus: "________(1) librum Tito, Marce! Tum ad sellam suam ________(2) atque conside."**
  
 ```{r}
 word1 <- check_question(answer = "redde",
@@ -39,7 +39,8 @@ word1 <- check_question(answer = "redde",
                         button_label = "Rectene dico?",
                         right = "sic est 👍", 
                         wrong = "non ita 😕")
-word1 <- check_question(answer = "redi",
+
+word2 <- check_question(answer = "redi",
                         placeholder = "redire",
                         button_label = "Rectene dico?",
                         right = "sic est 👍", 

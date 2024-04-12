@@ -87,7 +87,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**9. Iulia quae est puella pulchra ________ horto ________ rosis venit. Pueri: «________ rosis foeda est Iulia!» Iulia ________ iis discedit et ________ cubiculo suo plorat.**
+**9. Iulia, quae est puella pulchra, ________ horto ________ rosis venit. Pueri: «________ rosis foeda est Iulia!» Iulia ________ iis discedit et ________ cubiculo suo plorat.**
 
 ```{r}
 check_question(answer="ex, cum, sine, ab, in",
