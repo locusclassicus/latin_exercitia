@@ -1,4 +1,4 @@
-# 8 Taberna romana
+# 8 Taberna Romana
 
 **1. Lydia ocul\_\_ ad tabernam Albini vertit. Lydia tabernam digit\_\_ monstrat. Medus consistit et tabern\_\_ aspicit. Tabernarius lineam margarit\_\_ Lydiae Medoque ostendit.**
 
@@ -101,8 +101,11 @@ check_question(answer=c("-īs, hōc"),
 **8. Non hic anulus, sed ali＿ anulus a Lydia amatur, nam hoc ornamentum foedum est, ali＿ ornamentum est pulchrum. Neque hunc anulum Lydia aspicit, sed ali＿ anulum. Itaque Medus non hoc ornamentum, sed ali＿ emit.**
 
 ```{r}
-check_question(answer=c("-us, -ud, -um, -um"),
-               options = c("-us, -ud, -um, -ud", "-ud, -um, -ud, -um", "-us, -ud, -ud, -um", "-us, -ud, -um, -um"),
+check_question(answer=c("-us, -ud, -um, -ud"),
+               options = c("-us, -ud, -um, -ud", 
+                           "-ud, -um, -ud, -um", 
+                           "-us, -ud, -ud, -um", 
+                           "-us, -ud, -um, -um"),
                type = "radio",
                button_label = "Rectene dico?",
                right = "**Ita, ut dicis** 👏",

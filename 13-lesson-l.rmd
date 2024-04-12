@@ -1,7 +1,7 @@
 # 13 Annus et menses
 
 </br>
-**1.Quid est verum**
+**1.Quid est verum?**
 ```{r}
 check_question(answer=c("dies in duodecim horas dividitur", "mensis anni undecimus est November"),  right="recte dicis! 🙂", wrong="сogitandum est 🤔", button_label = "Rectene dico?", options = c("totus annus trecentos sexaginta dies habet", "dies in duodecim horas dividitur", "saeculum est ducenti anni", "mensis anni undecimus est November"), type = "checkbox")
 ```
@@ -14,7 +14,11 @@ check_question(answer= ("triginta, dies, tertio, die"), right = "ita 😸", wron
 </br>
 **3. \_\_\_\_\_\_\_\_\ folia de arboribis cadunt; \_\_\_\_\_\_\_\_\ campi nova herba operiuntur; \_\_\_\_\_\_\_\_\ aer callidissimus est; \_\_\_\_\_\_\_\_\ nix cadit de caelo.**
 ```{r}
-check_question (answer = "autumno, vere, aestate, hieme", right ="ita est 🤩", wrong ="prave respondes 😔", button_label = "Rectene dico?", options = c("autumno, aestate, vere, hieme", "autumno, hieme, aestate, vere", "autumno, vere, aestate, hieme"), type = "checkbox")
+check_question (answer = "autumno, vere, aestate, hieme", 
+                right ="ita est 🤩", wrong ="prave respondes 😔", 
+                button_label = "Rectene dico?", 
+                options = c("autumno, aestate, vere, hieme", "autumno, hieme, aestate, vere", "autumno, vere, aestate, hieme"), 
+                type = "radio")
 ```
 
 </br>

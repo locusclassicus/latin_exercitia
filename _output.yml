@@ -1,7 +1,7 @@
 bookdown::gitbook:
   number_sections: false
   css: style.css
-  fontsettings: false
+  fontsettings: no
   config:
     sharing: null
     toc: 

@@ -43,7 +43,10 @@ random_answer_order = TRUE)
 **5. Aemilia cum liber\_\_ in horto est. Aemilia liber\_\_ laudat. Iulius ab oppid\_\_ venit. Iulia ex peristyl\_\_ discedit et patrem salutat.**
 ```{r}
 check_question(answer=c("-is, -os, -o, -o"), 
-               options = c("-os, -is, -o, -um", "-is, -os, -o, -o", "-os, -os, -o, -o", "-is, -os, -um, -o"), right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+               options = c("-os, -is, -o, -um", 
+                           "-is, -os, -o, -o", 
+                           "-os, -os, -o, -o", 
+                           "-is, -os, -um, -o"), right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
 
@@ -84,11 +87,14 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**9. Iulia quae est pulchra puella ________ horto ________ rosis venit. Pueri: «________ rosis foeda est Iulia!» Iulia ________ iis discedit et ________ cubiculo suo plorat.**
+**9. Iulia quae est puella pulchra ________ horto ________ rosis venit. Pueri: «________ rosis foeda est Iulia!» Iulia ________ iis discedit et ________ cubiculo suo plorat.**
 
 ```{r}
 check_question(answer="ex, cum, sine, ab, in",
-options = c("cum, sine, in, ex, ab", "ex, cum, sine, ab, in", "ad, cum, sine, ex, in", "in sine, cum, ab, ex"),
+options = c("cum, sine, in, ex, ab", 
+            "ex, cum, sine, ab, in", 
+            "ad, cum, sine, ex, in", 
+            "in, sine, cum, ab, ex"),
 type = "radio",
 button_label = "Rectene dico?",
 right = "Optime!😏",

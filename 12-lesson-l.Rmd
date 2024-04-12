@@ -182,7 +182,7 @@ check_question(answer= "-us, -ui, -um, -u",
 ```
 
 </br>
-**10. Hostes multos (1) faciunt ac sagittas ex (2) iaciunt. Duces ergo suis (3) fugere imperant ad castra, quae duo milia (4) a fine imperii sunt.**
+**10. Hostes multos ________(1) faciunt ac sagittas ex ________(2) iaciunt. Duces ergo suis ________(3) fugere imperant ad castra, quae duo milia ________(4) a fine imperii sunt.**
 
 ```{r}
 word1 <- check_question(answer = "impetus",
@@ -192,7 +192,7 @@ word1 <- check_question(answer = "impetus",
                         wrong = "non ita 😕")
 
 word2 <- check_question(answer = "arcibus",
-                        placeholder = "arx",
+                        placeholder = "arcus",
                         button_label = "Rectene dico?",
                         right = "sic est 👍", 
                         wrong = "non ita 😕")

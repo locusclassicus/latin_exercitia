@@ -1,4 +1,4 @@
-# 18 Litterae latinae
+# 18 Litterae Latinae
 </br>
 
 **1.Quid est verum?**
@@ -33,7 +33,7 @@ check_question(NULL, answer = c ("Quisque discipulus stilo in tabula scribit", "
 
 </br>
 
-**4. Marcus sic scribit: OMO OCOLOS ET NASV ABET. Quoties Marcus mendat (=mendum facit)?**
+**4. Marcus sic scribit: OMO OCOLOS ET NASV ABET. Quoties Marcus mendum facit?**
 
 ```{r}
 check_question("quater", options = c("ter", "quater", "quinquies", "sexies"), type = "radio", right = "probe 👌",

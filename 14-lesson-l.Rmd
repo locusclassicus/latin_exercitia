@@ -66,7 +66,7 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**6. Vir romanus primum ________ induit, deinde ________. Pes ________ et pes dexter eius ________ operiuntur.**
+**6. Vir Romanus primum ________ induit, deinde ________. Pes ________ et pes dexter eius ________ operiuntur.**
 
 ```{r}
 check_question(answer="tunicam, togam, sinister, calceis",

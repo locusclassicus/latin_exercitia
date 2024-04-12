@@ -1,12 +1,12 @@
-# 16 Familia Romana
+# 16 Tempestas
 
 </br>
 
-**1. Tempestas mare t________ atque altos f________ facit, qui navem aqua i________ possunt.**
+**1. Tempestas mare ________ atque altos ________ facit, qui ________ aqua implere possunt.**
 
 ```{r}
-check_question(answer = c("turbat, fluctus, implere"),
-               placeholder = "___, ___, ___",
+check_question(answer = c("turbat, fluctus, navem"),
+               placeholder = "turbare, fluctus, navis",
                button_label = "Rectene dico?",
                right = "Probe 👌",
                wrong = "Prave respondes 😒")
@@ -71,7 +71,7 @@ check_question(answer = "-o, -um, -o, -um",
 
 </br>
 
-**6. *Dic aliter:* Lepidus, qui amicam suam Dorippam** <u>exspectat</u>, cum ea <u>verba dicere</u> vult atque eam <u>laetam facere</u>.
+**6. _Dic aliter_: Lepidus, qui amicam suam Dorippam exspectat, cum ea verba dicere vult atque eam laetam facere**.
 
 ```{r}
 check_question(answer = "opperitur, loqui, consolari",
@@ -102,7 +102,7 @@ check_question(answer = c("-untur, -etur, -itur, -entur"),
 
 </br>
 
-**8. *Dic aliter:*** <u>dum ventus est secundus</u>, navis e portu egreditur, <u>quia sol oritur</u>.
+**8. _Dic aliter:_ Dum ventus est secundus, navis e portu egreditur, quia sol oritur.**
 
 ```{r}
 check_question(answer = "vento secundo, sole oriente",

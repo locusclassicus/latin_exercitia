@@ -45,7 +45,11 @@ check_question("-ia, -ium, -i",options=c("-ia, -ium, -e","-a, -ium, -i","-ia, -u
 **7. Quae animalia ova pariunt?**
 
 ```{r}
-check_question(c("aves","aquilae"),options=c("oves","aves","canis","aquilae"),type="checkbox",button_label="Rectene dico?",right="Recte sane🙂",wrong="Non ita😿")
+check_question(c("aves","aquilae"),
+               options=c("oves","aves","canes","aquilae"),
+               type="checkbox",button_label="Rectene dico?",
+               right="Recte sane🙂",
+               wrong="Non ita😿")
 ```
 
 </br>

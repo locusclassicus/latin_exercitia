@@ -57,37 +57,50 @@ check_question(answer=c("-es, -er, -es, -er"),
 ```
 
 </br>
-**5.1. Davus: O, Syra! Te amo! Tempus amorem meum erga te non ________ , immo vero ________ !**
+**5. Davus: "O, Syra! Te amo! Tempus amorem meum erga te non ________(1) , immo vero ________(2)!" Syra: "Quid dicis?". Davus: "O, Syra, dico 'tempore non ________(3), sed ________(4) te amare!"**
+
 
 ```{r}
-check_question(answer=c("minuit, auget"),
-               options = c("minuit, auget", "auget, minuit"),
-               type = "radio",
-               button_label = "Rectene dico?",
-               right = "Optime 👍",
-               wrong = "Non ita ☹️",
-               random_answer_order = TRUE)
+word1 <- check_question(answer = "minuit",
+                        placeholder = "minuere",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "minime 😕")
+
+word2 <- check_question(answer = "auget",
+                        placeholder = "augere",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "minime 😕")
+
+word3 <- check_question(answer = "minus",
+                        placeholder = "<",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "minime 😕")
+
+word4 <- check_question(answer = "plus",
+                        placeholder = ">",
+                        button_label = "Rectene dico?",
+                        right = "sic est 👍", 
+                        wrong = "minime 😕")
 ```
 
-</br>
-**5.2. Davus: O, Syra, dico 'tempore non ________, sed ________ te amare!'**
-
-```{r}
-check_question(answer=c("minus, plus"),
-               options = c("plus, minus", "minus, plus"),
-               type = "radio",
-               button_label = "Rectene dico?",
-               right = "Optime 👍",
-               wrong = "Non ita ☹️",
-               random_answer_order = TRUE)
-```
+1. `r word1`
+2. `r word2`
+3. `r word3`
+4. `r word4`
 
 </br>
 **6. _Dic aliter_: Quamquam Aemilia pauper erat, Iulius eam amabat.**
 
 ```{r}
-check_question(answer=c("Iulius Aemiliam etiam pauperem amabat", "Aemilia pauper erat, sed tamen Iulius eam amabat"),
-               options = c("Iulius Aemiliam etiam pauperem amabat ", "Aemilia pauper erat, sed tamen Iulius eam amabat", "Aemilia pauper erat, Iulius enim eam amabat", "Aemilia pauper erat, Iulius igitur eam amabat"),
+check_question(answer=c("Iulius Aemiliam etiam pauperem amabat", 
+                        "Aemilia pauper erat, sed tamen Iulius eam amabat"),
+               options = c("Iulius Aemiliam etiam pauperem amabat", 
+                           "Aemilia pauper erat, sed tamen Iulius eam amabat",
+                           "Aemilia pauper erat, Iulius enim eam amabat",
+                           "Aemilia pauper erat, Iulius igitur eam amabat"),
                type = "checkbox",
                button_label = "Rectene dico?",
                right = "Bene 🙂",
