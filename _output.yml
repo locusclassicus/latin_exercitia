@@ -1,14 +1,12 @@
 bookdown::gitbook:
   number_sections: false
   css: style.css
-  fontsettings: 
-    theme: white
-    size: 3
+  fontsettings: false
   config:
     sharing: null
     toc: 
       scroll_highlight: no
       collapse: section
       before: |
-        <li class="toc-logo"><a href="https://github.com/rstudio/bookdown" target="blank"><img src="logo.jpg"></a></li>
+        <li class="toc-logo"><a href="http://antibarbari.ru/" target="blank"><img src="logo.jpg"></a></li>
     edit: "https://github.com/locusclassicus/latin_exercitia/edit/main/%s"

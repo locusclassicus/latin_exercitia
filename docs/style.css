@@ -133,6 +133,20 @@ li.appendix span, li.part span { /* for TOC part names */
   text-transform: uppercase;
 }
 
+/* link color */
+
+/*-----Body Links-------*/
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #BE1C47;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+color: #BE1C47; /* darker color when hovering */
+text-decoration: none;
+}
+
+
 
 /*________________defaults_____________________*/
  
