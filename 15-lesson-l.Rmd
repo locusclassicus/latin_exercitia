@@ -34,21 +34,21 @@ check_question(answer = c("priorem", "posteriorem", "inferiorem"),
 **5. Diodorus: "________(1) librum Tito, Marce! Tum ad sellam suam ________(2) atque conside."**
  
 ```{r}
-word1 <- check_question(answer = "redde",
+q1 <- check_question(answer = "redde",
                         placeholder = "reddere",
                         button_label = "Rectene dico?",
                         right = "sic est 👍", 
                         wrong = "non ita 😕")
 
-word2 <- check_question(answer = "redi",
+q2 <- check_question(answer = "redi",
                         placeholder = "redire",
                         button_label = "Rectene dico?",
                         right = "sic est 👍", 
                         wrong = "non ita 😕")
 ```
 
-1. `r word1`
-2. `r word2`
+1. `r q1`
+2. `r q2`
 
 </br>
 

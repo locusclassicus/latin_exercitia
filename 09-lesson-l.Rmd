@@ -1,6 +1,6 @@
 # 9 Pastor et oves
 
-**1. Accusativus singularis: ancillam, servum, pastorem. Accusativus pluralis: ancill\_\_ , serv\_\_ , pastor\_\_**
+**1. Accusativus singularis: ancillam, servum, pastorem. Accusativus pluralis: ancill\_\_ , serv\_\_ , pastor\_\_.**
 
 ```{r}
 check_question(answer=c("-as, -os, -es"), 

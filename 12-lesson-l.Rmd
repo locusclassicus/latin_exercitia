@@ -52,7 +52,7 @@ check_question(c("scutum", "gladium", "pilum"), options = c("scutum", "gladium",
 ```
 
 </br>
-**4. Hic gladius (1) est quam ille. Haec hasta (2) est quam illa. Hoc pilum (3) est quam illud.** 
+**4. Hic gladius ________(1) est quam ille. Haec hasta ________(2) est quam illa. Hoc pilum ________(3) est quam illud.** 
 
 ```{r}
 word1 <- check_question(answer = "brevior",
@@ -85,7 +85,7 @@ check_question(c("Gallia", "Hispania", "Aegyptus"), options = c("Gallia", "Hispa
 ```
 
 </br>
-**6. Romani contra Germanos (1). Barbari castra Romanorum (2), sed Romani fortes sunt; itaque Germani castra non (3).**
+**6. Romani contra Germanos ________(1). Barbari castra Romanorum ________(2), sed Romani fortes sunt; itaque Germani castra non ________(3).**
 
 ```{r}
 answer1 <- check_question(answer = "pugnant",
