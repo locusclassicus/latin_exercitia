@@ -21,7 +21,7 @@ check_question(answer = c("decem", "octo", "quinque", "quattuor", "septem", "nov
 **3. Iulius bonum servum Davum  ________ . Iulius ________ : veni, ________ ! Davus ________ et venit.**
  
 ```{r}
-check_question("habet, imperat, serve, paret", options = c("habet, imperat, serve, paret", "paret, habet, serve, imperat", "habet, paret, servus, imperat", "habet, imperat, servus, paret"), right = "probe 👌 ", wrong = "non ita ☹️ ", button_label = "Rectene dico?", type = "select")
+check_question("habet, imperat, serve, paret", options = c("habet, imperat, serve, paret", "paret, habet, serve, imperat", "habet, paret, servus, imperat", "habet, imperat, servus, paret"), right = "probe 👌 ", wrong = "non ita ☹️ ", button_label = "Rectene dico?", type = "select", random_answer_order = T)
 ```
  
 </br>
@@ -51,7 +51,7 @@ check_question(answer=c("vacuus"),
   
 
 ```{r}
-check_question("pone, tacē, imperā, dormī", option = c("pone, tacē, imperē, dormē", "pone, taci, impere, dormī", "pone, tacē, imperā, dormī", "poni, tacē, imperā, dormī"), right = "sic est  🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+check_question("pone, tace, impera, dormi", option = c("pone, tace, impere, dorme", "pone, taci, impere, dormi", "pone, tace, impera, dormi", "poni, tace, impera, dormi"), right = "sic est  🤩", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
  
 
@@ -72,7 +72,7 @@ check_question(c("venire", "ponere"), options = c("venire", "accusare", "habere"
  
 
 </br>
-**10. Iulius: ‘Davus, voc\_\_ Marcum!’. Davus: ‘Marce, ven\_\_ !’. Marcus: ‘Davus, tac\_\_ !’ Iulius: ‘Marce, disced\_\_ ! Puer improbus es!’.**
+**10. Iulius: ‘Davus, voc\_\_ Marcum!’. Davus: ‘Marce, ven\_\_ !’. Marcus: ‘Dave, tac\_\_ !’ Iulius: ‘Marce, disced\_\_ ! Puer improbus es!’.**
 ```{r}
 check_question(answer=c("-a, -i, -e, -e"), 
                options = c("-a, -i, -e, -e", "-e, -a, -e, -i", "-e, -i, -e, -i", "-e, -e, -i, -i"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")

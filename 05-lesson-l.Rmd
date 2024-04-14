@@ -12,7 +12,10 @@ check_question(answer=c("accusativus pluralis"),
 
 ```{r}
 check_question(answer="id, ea, ii, eae",
-options = c("id, eae, ii, ea", "is, ea, ei, eae", "id, ea, ii, eae", "id, ea, ei, ea"),
+options = c("id, eae, ii, ea", 
+            "is, ea, ei, eae", 
+            "id, ea, ii, eae", 
+            "id, ea, ei, ea"),
 button_label = "Rectene dico?",
 right = "Optime!😉",
 wrong = "Minime😢",
@@ -40,13 +43,16 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**5. Aemilia cum liber\_\_ in horto est. Aemilia liber\_\_ laudat. Iulius ab oppid\_\_ venit. Iulia ex peristyl\_\_ discedit et patrem salutat.**
+**5. Aemilia cum liber\_\_ in horto est. Aemilia liber\_\_ vocat. Iulius ab oppid\_\_ venit. Iulia ex peristyl\_\_ discedit et Iulium salutat.**
 ```{r}
 check_question(answer=c("-is, -os, -o, -o"), 
                options = c("-os, -is, -o, -um", 
                            "-is, -os, -o, -o", 
                            "-os, -os, -o, -o", 
-                           "-is, -os, -um, -o"), right = "optime 👍", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
+                           "-is, -os, -um, -o"), 
+               right = "optime 👍", wrong = "minime 😔", 
+               button_label = "Rectene dico?", type = "radio",
+               random_answer_order = T)
 ```
 </br>
 
@@ -74,11 +80,14 @@ random_answer_order = TRUE)
 ```
 </br>
 
-**8. Ecce villa. Ex ________ Medus discedit. Ecce servi. Dominus ________ est Iulius. Iulius cum ________ Medum quaerit. Ecce cubiculum. In ________ Iulia plorat.**
+**8. Ecce villa. Ex ________ Medus discedit. Ecce servi. Dominus ________ est Iulius. Iulius cum ________ venit. Ecce cubiculum. In ________ Iulia plorat.**
 
 ```{r}
 check_question(answer="ea, eorum, iis, eo",
-options = c("ea, eorum, iis, eo", "eo, iis, eorum, ea", "ea, iis, eorum, eo", "eo, eorum, iis, ea"),
+options = c("ea, eorum, iis, eo", 
+            "eo, iis, eorum, ea", 
+            "ea, iis, eorum, eo", 
+            "eo, eorum, iis, ea"),
 type = "radio",
 button_label = "Rectene dico?",
 right = "Optime!😏",

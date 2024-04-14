@@ -92,7 +92,7 @@ check_question("-e, -iter, -ius, -issime", options = c("-e, -iter, -ius, -issime
 
 
 ```{r}
-check_question(answer = c("merces est pecunia quae magistro datur", "magister anulo in ceram imprimente epistulam signat"), options = c("magister anulo in ceram imprimente epistulam signat", "magister Sextum laudans epistulam ad Cornelium scribit", "Titus mercedem ad diem non affert", "merces est pecunia quae magistro datur"), type = "checkbox", right = "optime 👍",
+check_question(answer = c("merces est pecunia quae magistro datur", "magister anulum suum in ceram imprimens epistulam signat"), options = c("magister anulum suum in ceram imprimens epistulam signat", "magister Sextum laudans epistulam ad Cornelium scribit", "Titus mercedem ad diem non affert", "merces est pecunia quae magistro datur"), type = "checkbox", right = "optime 👍",
         wrong = "quid ais? 🤨", button_label = "Rectene dico?")
 ```    
 </br>

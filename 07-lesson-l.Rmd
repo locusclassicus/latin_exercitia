@@ -6,7 +6,7 @@ check_question(answer=c("ablativus, dativus"),
                options = c("dativus, dativus", "dativus, ablativus", "ablativus, dativus", "ablativus, ablativus"), right = "ita, ut dicis 👏", wrong = "minime 😔", button_label = "Rectene dico?", type = "radio")
 ```
 </br>
-**2. Iulius, qui ante ________ ostium videt, ostario imperat: "Aper\_\_ ostium!" Ostiarius ostium aperit. Iulius, qui per ostium intrat, ostiario imperat: "Claud\_\_ ostium post me!" Ostiarius paret, post ________ ostium claudit.**
+**2. Iulius, qui ante ________ ostium videt, ostiario imperat: "Aper\_\_ ostium!" Ostiarius ostium aperit. Iulius, qui per ostium intrat, ostiario imperat: "Claud\_\_ ostium post me!" Ostiarius paret, post ________ ostium claudit.**
 
 ```{r}
 check_question(answer = "se, -i, -e, eum", 
@@ -36,8 +36,7 @@ check_question(answer = "-um, -o, -um, -o",
 
 ```{r}
 check_question(answer = "hic, illic", 
-               options = c("huc, illuc", "illuc, huc", "hic, illic", "illic, hic"), 
-               type = "radio",
+               placeholder = "____, ____",
                random_answer_order = TRUE,
                button_label = "Rectene dico?",
                right = "quam recte dixisti omnia! 👍", 

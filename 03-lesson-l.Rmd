@@ -3,14 +3,14 @@
 **1. Iulia ________ est et ________: Lalla! Marcus ________ non est et Iuliam ________ .**
 
 ```{r}
-check_question("laeta, cantat, laetus, pulsat", options=c("laeta, cantat, iratus, pulsat","laeta, cantat, laetus, pulsat","irata, plorat, laetus, pulsat","laeta, vocat, iratus, pulsat"),type="radio", button_label="Rectene dico?",right="Optime! 👍",wrong="Minime 😔")
+check_question("laeta, cantat, laetus, pulsat", options=c("laeta, cantat, iratus, pulsat","laeta, cantat, laetus, pulsat","irata, plorat, laetus, pulsat","laeta, vocat, iratus, pulsat"),type="radio", button_label="Rectene dico?",right="Optime! 👍",wrong="Minime 😔", random_answer_order = T)
 ```
 
 </br>
 **2. Quintus vocat, sed Iulius eum non audit ________ venit: pater non ________ est. Sed ecce Marcus plorat! ________ non dormit Iulius.**
 
 ```{r}
-check_question("neque, hic, iam",options=c("neque, iam, cur","neque, hic, iam","neque, hic, cur","neque, iam, hic"),type="radio",button_label="Rectene dico?",right="Recte sane 🙂",wrong="Non ita 😿️")
+check_question("neque, hic, iam",options=c("neque, iam, cur","neque, hic, iam","neque, hic, cur","neque, iam, hic"),type="radio",button_label="Rectene dico?",right="Recte sane 🙂",wrong="Non ita 😿️", random_answer_order = T)
 ```
 
 </br>
@@ -52,7 +52,7 @@ check_question(c("Quintus videt Marcum, qui Iuliam pulsat","Quintus videt Iuliam
 **8. ________ vocat Quintus? Iulium vocat, sed Iulius ________ non audit. ________ vocat Iulia? Aemiliam vocat. Aemilia ________ audit et venit.** 
 
 ```{r}
-check_question("Quem, eum, Quam, eam",options=c("Quem, eum, Quam, eam","Quem, eum, Eam, quam","Quem, eam, Quam, eum","Quam, eum, Quem, eam"),type="radio",button_label="Rectene dico?",right="Probe👌",wrong="Non hercle vero!😕", random_answer_order = T)
+check_question("Quem, eum, Quem, eam",options=c("Quem, eum, Quis, eam","Quem, eum, Eam, quam","Quem, eam, Quem, eum","Quam, eum, Quem, eam"), type="radio", button_label="Rectene dico?", right="Probe👌", wrong="Non hercle vero!😕", random_answer_order = T)
 ```
 
 </br>

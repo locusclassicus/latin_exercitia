@@ -54,7 +54,7 @@ check_question(answer= ("-a, -um, -i, -ae "), right = "ita 😸", wrong = "minim
 </br>
 
 
-**9. Iulius in oppido Tusculo est = Iulius Tuscul\_\_ est. Iulius Romam it = Iulius ________ oppidum Romam it. Iulius Tusculo venit = Iulius ________ oppido venit.**
+**9. Iulius in oppido Tusculo est = Iulius Tuscul\_\_ est. Iulius Romam it = Iulius ________ oppidum Romam it. Iulius Tusculo venit = Iulius ________ oppido Tusculo venit.**
 
 ```{r}
 check_question(answer=c("-i, ad, ab"), 

@@ -14,7 +14,7 @@ check_question(answer=c("-os, -o, -am, -arum"),
 
 </br>
 
-**2. lulius: "Delia et Syra, ascpic\_\_ anulum!" Delia et Syra anulum aspic\_\_. "Aemilia, accip\_\_ eum!" Aemilia laeta anulum accip\_\_.**
+**2. lulius: "Delia et Syra, aspic\_\_ anulum!" Delia et Syra anulum aspic\_\_. "Aemilia, accip\_\_ eum!" Aemilia laeta anulum accip\_\_.**
 
 ```{r}
 check_question(answer=c("-ite, -iunt, -e, -it"),
@@ -59,8 +59,8 @@ check_question(answer=c("nonaginta, viginti, octoginta"),
 **5. Medus: "Quot numm\_\_ constat ille anulus, Albine?"**
 
 ```{r}
-check_question(answer=c("-īs"),
-               options = c("-īs", "-ī", "-os", "-as"),
+check_question(answer=c("-is"),
+               options = c("-is", "-i", "-os", "-as"),
                type = "radio",
                button_label = "Rectene dico?",
                right = "**Sic est** 👏",
@@ -73,8 +73,8 @@ check_question(answer=c("-īs"),
 **6. Albinus: "Pretium huius anuli est C sesterti\_\_."**
 
 ```{r}
-check_question(answer=c("-ī"),
-               options = c("-īs", "-ī", "-os", "-as"),
+check_question(answer=c("-i"),
+               options = c("-is", "-i", "-os", "-as"),
                type = "radio",
                button_label = "Rectene dico?",
                right = "**Probe** 🤩",
@@ -87,8 +87,8 @@ check_question(answer=c("-ī"),
 **7. Medus: "Sed anuli sine gemmis XX sesterti\_\_ emuntur. ________ pretio eum vende!"**
 
 ```{r}
-check_question(answer=c("-īs, hōc"),
-               options = c("-īs, hōc", "-īs, hi", "-īs, hic", "-ī, hi"),
+check_question(answer=c("-is, hoc"),
+               options = c("-is, hoc", "-is, hi", "-is, hic", "-i, hi"),
                type = "radio",
                button_label = "Rectene dico?",
                right = "**Ita!** 🙂",
