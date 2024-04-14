@@ -52,7 +52,7 @@ check_question(c("Quintus videt Marcum, qui Iuliam pulsat","Quintus videt Iuliam
 **8. ________ vocat Quintus? Iulium vocat, sed Iulius ________ non audit. ________ vocat Iulia? Aemiliam vocat. Aemilia ________ audit et venit.** 
 
 ```{r}
-check_question("Quem, eum, Quem, eam",options=c("Quem, eum, Quis, eam","Quem, eum, Eam, quam","Quem, eam, Quem, eum","Quam, eum, Quem, eam"), type="radio", button_label="Rectene dico?", right="Probe👌", wrong="Non hercle vero!😕", random_answer_order = T)
+check_question("Quem, eum, Quem, eam",options=c("Quem, eum, Quis, eam","Quem, eum, Eam, quam","Quem, eam, Quem, eum","Quem, eum, Quem, eam"), type="radio", button_label="Rectene dico?", right="Probe👌", wrong="Non hercle vero!😕", random_answer_order = T)
 ```
 
 </br>

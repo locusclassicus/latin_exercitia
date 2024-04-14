@@ -35,7 +35,7 @@ check_question(answer = "-um, -o, -um, -o",
 **4. _Iulius_: "O, Leander! ________ apud me pone sacculum, non ________ procul a me!"** 
 
 ```{r}
-check_question(answer = "hic, illic", 
+check_question(answer = c("hic, illic", "Hic, illic"), 
                placeholder = "____, ____",
                random_answer_order = TRUE,
                button_label = "Rectene dico?",
