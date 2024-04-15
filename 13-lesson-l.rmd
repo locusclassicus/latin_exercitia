@@ -6,7 +6,7 @@
 check_question(answer=c("dies in duodecim horas dividitur", "mensis anni undecimus est November"),  right="recte dicis! 🙂", wrong="сogitandum est 🤔", button_label = "Rectene dico?", options = c("totus annus trecentos sexaginta dies habet", "dies in duodecim horas dividitur", "saeculum est ducenti anni", "mensis anni undecimus est November"), type = "checkbox")
 ```
 </br>
-**2.Quam longus est mensis December? December unum et \_\_\_\_\_\_\_\_\ longus est. Quando sunt idus Decembres? Idus Decembres \_\_\_\_\_\_\_\_\ decimo \_\_\_\_\_\_\_\_\ sunt.**
+**2.Quam longus est mensis December? December unum et \_\_\_\_\_\_\_\_\ \_\_\_\_\_\_\_\_\ longus est. Quando sunt idus Decembres? Idus Decembres \_\_\_\_\_\_\_\_\ decimo \_\_\_\_\_\_\_\_\ sunt.**
 ```{r}
 check_question(answer= ("triginta, dies, tertio, die"), right = "ita 😸", wrong = "minime 😕", button_label = "Rectene dico?", options = c("triginta, dies, tertio, die", "triginta, die, tertio, dies", "tertio, die, triginta, dies", "tertio, dies, triginta, die"), type = "radio")
 ```
